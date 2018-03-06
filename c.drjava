@@ -1,0 +1,33 @@
+#DrJava configuration file
+#Fri Feb 09 15:08:57 EST 2018
+definitions.normal.color = #ffffff
+definitions.keyword.color = #66ccff
+definitions.type.color = #ff9933
+definitions.comment.color = #cccccc
+definitions.double.quoted.color = #ff66ff
+definitions.number.color = #ccffcc
+system.out.color = #cccccc
+definitions.background.color = #666666
+definitions.line.number.background.color = #999999
+definitions.line.number.color = #ffffff
+definitions.match.color = #009999
+compiler.error.color = #990000
+font.main = Microsoft JhengHei-17
+font.line.numbers = Arial-14
+font.doclist = Arial-10
+font.toolbar = Arial-10
+toolbar.icons.enabled = false
+look.and.feel = com.jgoodies.looks.plastic.PlasticXPLookAndFeel
+plastic.theme = DarkStar
+key.delete.next = [shift DELETE]
+key.delete.previous = [shift BACK_SPACE]
+save.before.compile = true
+window.height = 954
+window.width = 1040
+window.x = 513
+window.y = 22
+last.dir = H:\\Documents\\Computer Studies 2018\\Richmond Hill High School - Feb 2018\\ICS3U6 - Pre AP\\Unit 1 - Introduction to Programming\\Day 4 - 5 (input and scanner)
+last.interactions.dir = H:\\Documents\\Computer Studies 2018\\Richmond Hill High School - Feb 2018\\ICS3U6 - Pre AP\\Unit 1 - Introduction to Programming\\Day 4 - 5 (input and scanner)
+tabbedpanes.state = 512 384 700 400
+new.version.notification.last = 1518118225306
+file.ext.registration = never

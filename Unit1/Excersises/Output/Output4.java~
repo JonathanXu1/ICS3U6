@@ -1,0 +1,12 @@
+/*
+ * Output 4
+ * Multiplies 3 and 4 and outputs results
+ * Jonathan Xu
+ * Feb 7, 2018
+*/
+
+class Output4{
+  public static void main(String[]args){
+    System.out.println(3*4);
+  }
+}
