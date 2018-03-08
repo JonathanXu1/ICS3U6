@@ -1,1 +1,269 @@
 6 Mar 2018 20:25:04 GMT: Log 'EclipseCompiler.txt' opened: 6 Mar 2018 20:25:04 GMT with name C:\Users\Jonathan\Documents\Coding\Gr11 CompSci\EclipseCompiler.txt
+8 Mar 2018 0:56:15 GMT: Log 'EclipseCompiler.txt' opened: 8 Mar 2018 0:56:15 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+8 Mar 2018 1:35:59 GMT: diagnostics = javax.tools.DiagnosticCollector@f8cbfc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19c3b5d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:35:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18dd0bb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:36:00 GMT: Compiler call returned
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2274a4
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 68 ColNo = 18 Msg = 'The method checkWin(java.lang.String[][], int, int) in the type Tictactoe is not applicable for the arguments (java.lang.String[][])'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18dc99c
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 85 ColNo = 9 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17165d
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 85 ColNo = 35 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c6a7ae
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 85 ColNo = 61 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19a3367
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 88 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@54c521
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 88 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@358188
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 88 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@147aa77
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 91 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@160b6b3
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 91 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1431433
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 91 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1eaf5d2
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 94 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@176f80a
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 94 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1351939
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 94 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@27fe0
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 97 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4c4c97
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 97 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9841bc
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 97 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18f7387
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 100 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f7f3a9
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 100 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@213dd4
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 100 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@88040d
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 103 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f55690
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 103 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b0801c
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 103 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18d023
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 106 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a21ac1
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 106 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@758153
+8 Mar 2018 1:36:00 GMT:  Kind = ERROR
+8 Mar 2018 1:36:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 106 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: diagnostics = javax.tools.DiagnosticCollector@73fca3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1436c75
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:36:25 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@10eab54' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:36:25 GMT: Compiler call returned
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@27c0b8
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 85 ColNo = 9 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@141bdec
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 85 ColNo = 35 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fc92cc
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 85 ColNo = 61 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9d3888
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 88 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7904e3
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 88 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e171dd
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 88 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7fe93f
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 91 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@139d680
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 91 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19f89d8
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 91 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fd7d2f
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 94 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c6591e
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 94 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6800f0
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 94 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1509eac
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 97 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b7946c
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 97 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19e364d
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 97 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@187d84e
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 100 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@798cac
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 100 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fd68fb
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 100 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2b0c37
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 103 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12de854
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 103 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1db19f1
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 103 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3c0f01
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 106 ColNo = 14 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@62e685
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 106 ColNo = 40 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:36:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6dd415
+8 Mar 2018 1:36:25 GMT:  Kind = ERROR
+8 Mar 2018 1:36:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 106 ColNo = 66 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:38:21 GMT: diagnostics = javax.tools.DiagnosticCollector@1a96684
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16cd477
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:38:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@190254b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:38:21 GMT: Compiler call returned
+8 Mar 2018 1:39:00 GMT: diagnostics = javax.tools.DiagnosticCollector@17a834c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1689db5
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:39:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18deefc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:39:00 GMT: Compiler call returned
+8 Mar 2018 1:39:38 GMT: diagnostics = javax.tools.DiagnosticCollector@2a6fc0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1155b8
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:39:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@146557c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:39:38 GMT: Compiler call returned
+8 Mar 2018 1:46:37 GMT: diagnostics = javax.tools.DiagnosticCollector@1012980
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@108f869
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:46:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f125dd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:46:37 GMT: Compiler call returned
+8 Mar 2018 1:46:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@296348
+8 Mar 2018 1:46:37 GMT:  Kind = ERROR
+8 Mar 2018 1:46:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 84 ColNo = 21 Msg = 'Syntax error on token "false", delete this token'
+8 Mar 2018 1:46:41 GMT: diagnostics = javax.tools.DiagnosticCollector@bf93d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a6456c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:46:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@132fd3c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:46:41 GMT: Compiler call returned
+8 Mar 2018 1:47:18 GMT: diagnostics = javax.tools.DiagnosticCollector@8cb68
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a735ae
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:47:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@35158f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:47:18 GMT: Compiler call returned
+8 Mar 2018 1:48:18 GMT: diagnostics = javax.tools.DiagnosticCollector@19549be
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d432a1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:48:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ceeb9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:48:18 GMT: Compiler call returned
+8 Mar 2018 1:49:29 GMT: diagnostics = javax.tools.DiagnosticCollector@1ecfd6b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1483378
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:49:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a194ef' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:49:30 GMT: Compiler call returned
+8 Mar 2018 1:50:31 GMT: diagnostics = javax.tools.DiagnosticCollector@1bdcc40
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@107f137
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:50:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@697084' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:50:31 GMT: Compiler call returned
+8 Mar 2018 1:50:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f0c471
+8 Mar 2018 1:50:31 GMT:  Kind = ERROR
+8 Mar 2018 1:50:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 20 ColNo = 15 Msg = 'Array constants can only be used in initializers'
+8 Mar 2018 1:50:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4fb92
+8 Mar 2018 1:50:31 GMT:  Kind = ERROR
+8 Mar 2018 1:50:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 16 ColNo = 24 Msg = 'String cannot be resolved to a variable'
+8 Mar 2018 1:50:55 GMT: diagnostics = javax.tools.DiagnosticCollector@15e295f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@82d54b
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:50:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e19735' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:50:55 GMT: Compiler call returned
+8 Mar 2018 1:50:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@159734c
+8 Mar 2018 1:50:55 GMT:  Kind = ERROR
+8 Mar 2018 1:50:55 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 20 ColNo = 15 Msg = 'Array constants can only be used in initializers'
+8 Mar 2018 1:51:44 GMT: diagnostics = javax.tools.DiagnosticCollector@175f7a1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c5f73d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:51:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19b0732' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:51:44 GMT: Compiler call returned
+8 Mar 2018 1:51:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@131f29d
+8 Mar 2018 1:51:44 GMT:  Kind = ERROR
+8 Mar 2018 1:51:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 20 ColNo = 18 Msg = 'Array constants can only be used in initializers'
+8 Mar 2018 1:51:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9c2bee
+8 Mar 2018 1:51:44 GMT:  Kind = ERROR
+8 Mar 2018 1:51:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 21 ColNo = 18 Msg = 'Array constants can only be used in initializers'
+8 Mar 2018 1:51:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1878830
+8 Mar 2018 1:51:44 GMT:  Kind = ERROR
+8 Mar 2018 1:51:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 22 ColNo = 18 Msg = 'Array constants can only be used in initializers'
+8 Mar 2018 1:52:53 GMT: diagnostics = javax.tools.DiagnosticCollector@17cdb32
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ea0d4b
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:52:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@958aae' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:52:53 GMT: Compiler call returned
+8 Mar 2018 1:52:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1822997
+8 Mar 2018 1:52:53 GMT:  Kind = ERROR
+8 Mar 2018 1:52:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 20 ColNo = 30 Msg = 'Syntax error on token "++", Expression expected after this token'
+8 Mar 2018 1:52:58 GMT: diagnostics = javax.tools.DiagnosticCollector@1e1bdaa
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16666fa
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:52:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a4e9f8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:52:58 GMT: Compiler call returned
+8 Mar 2018 1:55:20 GMT: diagnostics = javax.tools.DiagnosticCollector@1f353a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10a6703
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:55:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9563bb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:55:20 GMT: Compiler call returned
+8 Mar 2018 1:55:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dcd81b
+8 Mar 2018 1:55:20 GMT:  Kind = ERROR
+8 Mar 2018 1:55:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 76 ColNo = 18 Msg = 'Type mismatch: cannot convert from int to boolean'
+8 Mar 2018 1:55:31 GMT: diagnostics = javax.tools.DiagnosticCollector@187ff
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c9726a
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:55:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b7fad6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:55:31 GMT: Compiler call returned
+8 Mar 2018 1:55:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fed0a4
+8 Mar 2018 1:55:31 GMT:  Kind = ERROR
+8 Mar 2018 1:55:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java LineNo = 48 ColNo = 9 Msg = 'The local variable count may not have been initialized'
+8 Mar 2018 1:55:54 GMT: diagnostics = javax.tools.DiagnosticCollector@138f279
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@104f656
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
+8 Mar 2018 1:55:54 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1dab91e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+8 Mar 2018 1:55:54 GMT: Compiler call returned
