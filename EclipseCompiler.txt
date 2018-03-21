@@ -267,3 +267,76 @@ fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@104f656
 fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe\Tictactoe.java]
 8 Mar 2018 1:55:54 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1dab91e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\TicTacToe;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
 8 Mar 2018 1:55:54 GMT: Compiler call returned
+21 Mar 2018 21:39:34 GMT: Log 'EclipseCompiler.txt' opened: 21 Mar 2018 21:39:34 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+21 Mar 2018 21:42:33 GMT: diagnostics = javax.tools.DiagnosticCollector@17f7567
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1119790
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:42:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14efa7d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:42:34 GMT: Compiler call returned
+21 Mar 2018 21:42:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@199de3e
+21 Mar 2018 21:42:34 GMT:  Kind = ERROR
+21 Mar 2018 21:42:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java LineNo = 55 ColNo = 5 Msg = 'output cannot be resolved'
+21 Mar 2018 21:43:00 GMT: diagnostics = javax.tools.DiagnosticCollector@16f51bb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9a85cb
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:43:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@add58d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:43:00 GMT: Compiler call returned
+21 Mar 2018 21:43:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d77de5
+21 Mar 2018 21:43:00 GMT:  Kind = WARNING
+21 Mar 2018 21:43:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java LineNo = 17 ColNo = 9 Msg = 'The value of the local variable count is not used'
+21 Mar 2018 21:43:16 GMT: diagnostics = javax.tools.DiagnosticCollector@61e533
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f5128d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:43:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@bd6a62' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:43:16 GMT: Compiler call returned
+21 Mar 2018 21:48:15 GMT: diagnostics = javax.tools.DiagnosticCollector@a5efe6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1703d3f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:48:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ec0682' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:48:15 GMT: Compiler call returned
+21 Mar 2018 21:52:22 GMT: diagnostics = javax.tools.DiagnosticCollector@b203d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@20f2ac
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:52:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6e4704' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:52:22 GMT: Compiler call returned
+21 Mar 2018 21:52:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@de9afd
+21 Mar 2018 21:52:22 GMT:  Kind = ERROR
+21 Mar 2018 21:52:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java LineNo = 73 ColNo = 17 Msg = 'Cannot cast from java.lang.String to char'
+21 Mar 2018 21:53:36 GMT: diagnostics = javax.tools.DiagnosticCollector@17728dc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d80cd
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:53:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@4e994' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:53:36 GMT: Compiler call returned
+21 Mar 2018 21:53:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11c58
+21 Mar 2018 21:53:36 GMT:  Kind = ERROR
+21 Mar 2018 21:53:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java LineNo = 72 ColNo = 16 Msg = 'Type mismatch: cannot convert from java.lang.String to int'
+21 Mar 2018 21:55:18 GMT: diagnostics = javax.tools.DiagnosticCollector@1254049
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e9ce14
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 21:55:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e6465e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 21:55:18 GMT: Compiler call returned
+21 Mar 2018 22:05:22 GMT: diagnostics = javax.tools.DiagnosticCollector@1ecbb61
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4fc164
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 22:05:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@840d1b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:05:22 GMT: Compiler call returned
+21 Mar 2018 22:08:26 GMT: diagnostics = javax.tools.DiagnosticCollector@5c230e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@116b449
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 22:08:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b4fd6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:08:26 GMT: Compiler call returned
+21 Mar 2018 22:16:19 GMT: diagnostics = javax.tools.DiagnosticCollector@18e365d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@820dcc
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 22:16:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c4852e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:16:19 GMT: Compiler call returned
+21 Mar 2018 22:19:02 GMT: diagnostics = javax.tools.DiagnosticCollector@1800f34
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@12108a1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 22:19:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@946215' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:19:02 GMT: Compiler call returned
+21 Mar 2018 22:21:12 GMT: diagnostics = javax.tools.DiagnosticCollector@98a6e4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b47115
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
+21 Mar 2018 22:21:12 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e8d1d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:21:12 GMT: Compiler call returned

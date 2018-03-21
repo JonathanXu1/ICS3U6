@@ -12,18 +12,18 @@ import java.util.Scanner;
 public class File4 {
   public static void main (String[] args) throws Exception{
     File encoded = new File ("file4.coded");
+    File decoded = new File ("file4.txt");
     Scanner input1 = new Scanner(System.in);
-    int count = 0;
     String line;
 
     System.out.println("Would you like to:");
     System.out.println("A: Encode a file");
     System.out.println("B: Decode a file");
     String choice = input1.next().toLowerCase();
-    System.out.println("Enter filename (must be in root directory, and include extension):");
-    String content = input1.next();
     
-    File file = new File(content);
+    System.out.println("Enter filename (must be in root directory, and include extension):");
+    String name = input1.next();
+    File file = new File(name);
     Scanner input2 = new Scanner(file);
     
     if (choice.equals("a")){
@@ -31,51 +31,53 @@ public class File4 {
       PrintWriter output = new PrintWriter(encoded);
       while(input2.hasNext()){
         line = input2.nextLine();
-        for (int i =0; i < line.length(); i++){
-          output.print(encode(line)[i] + " ");
-        }
-        output.println();
+        output.println(encode(line));
       }
       output.close();
       System.out.println("Encoding complete!");
+      System.out.println("File saved to file4.coded.");
     }
     else if (choice.equals("b")){
       System.out.println("Decoding file...");
+      PrintWriter output = new PrintWriter(decoded);
       while (input2.hasNext()){
         line = input2.nextLine();
-        for (int i =0; i < line.length(); i++){
-          output.print(decode(line));
-        }
-        output.println();
+        output.println(decode(line));
       }
+      output.close();
       System.out.println("Decoding complete!");
+      System.out.println("File saved to file4.txt.");
     }
     
-
     input1.close();
     input2.close();
   }
   
-  public static int[] encode (String content){
-    int[] output = new int [content.length()];
+  public static String encode (String content){
+    String output = "";
+    int number;
     for (int i = 0; i< content.length(); i++){
-      if (!content.substring(i, i+1).equals(" ")){
-        output[i] = content.charAt(i);
-      }
+      number = content.charAt(i);
+      output += Integer.toString(number) + " ";
     }
     return output;
   }
   
-  public static String decode (String content){
+  public static String decode (String content) throws Exception{
     String output = "";
-    String number;
+    int number;
     while (content.length() > 0){
-      number = content.substring(0, content.indexOf(" "));
-      for (int i = 0; i < number.length(); i++){
-        output += (char) number.charAt(i);
+      if (content.indexOf(" ") == -1){     //If the line doesn't contain strings anymore
+        number = Integer.parseInt(content);
+        output += (char) number;
+        content = "";
+      } 
+      else {
+        number = Integer.parseInt(content.substring(0, content.indexOf(" ")));
+        output += (char) number;
+        content = content.substring(content.indexOf(" ")+1);
       }
-      output += " ";
-      content = content.substring(content.indexOf(" "));
+
     }
     return output;
   }
