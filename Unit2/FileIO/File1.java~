@@ -1,0 +1,11 @@
+/**
+ * File1
+ * Asks a user for their address info and saves it to a file
+ * Jonathan Xu
+ * March 20, 2018
+*/
+
+class File1{
+  public static void main (String[] args){
+  }
+}

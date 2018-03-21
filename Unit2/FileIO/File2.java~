@@ -1,0 +1,14 @@
+/**
+ * File2
+ * Opens a .txt document and counts the number of words it contains
+ * Jonathan Xu
+ * March 20, 2018
+*/
+
+import java.io.File;
+
+public class File2{
+  public static void main(String[] args) throws Exception{
+    File file = new File ("file2.txt");
+  }
+}
