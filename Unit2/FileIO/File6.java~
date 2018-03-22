@@ -1,0 +1,13 @@
+/**
+ * File6
+ * Creates an empty java file
+ * Jonathan Xu
+ * March 21, 2018
+*/
+
+import java.util.Scanner;
+import java.io.PrintWriter;
+import java.io.File;
+
+public class File6 {
+}

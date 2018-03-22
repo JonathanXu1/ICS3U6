@@ -340,3 +340,153 @@ fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b47115
 fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java]
 21 Mar 2018 22:21:12 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e8d1d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
 21 Mar 2018 22:21:12 GMT: Compiler call returned
+21 Mar 2018 22:54:18 GMT: diagnostics = javax.tools.DiagnosticCollector@15efaf4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1caa374
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\file5.java]
+21 Mar 2018 22:54:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6c6d4b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:54:18 GMT: Compiler call returned
+21 Mar 2018 22:54:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8db85f
+21 Mar 2018 22:54:18 GMT:  Kind = WARNING
+21 Mar 2018 22:54:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\file5.java LineNo = 25 ColNo = 17 Msg = 'Resource leak: 'output' is never closed'
+21 Mar 2018 22:54:27 GMT: diagnostics = javax.tools.DiagnosticCollector@fe1cfc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1e0b4f4
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\file5.java]
+21 Mar 2018 22:54:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1272aef' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 22:54:28 GMT: Compiler call returned
+21 Mar 2018 23:21:37 GMT: diagnostics = javax.tools.DiagnosticCollector@39645f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@101fa7d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+21 Mar 2018 23:21:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fe4fb5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 23:21:37 GMT: Compiler call returned
+21 Mar 2018 23:21:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11c95fd
+21 Mar 2018 23:21:37 GMT:  Kind = ERROR
+21 Mar 2018 23:21:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 21 ColNo = 22 Msg = 'toLowerCase cannot be resolved or is not a field'
+21 Mar 2018 23:21:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1277736
+21 Mar 2018 23:21:37 GMT:  Kind = ERROR
+21 Mar 2018 23:21:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 37 ColNo = 44 Msg = 'messagse cannot be resolved to a variable'
+21 Mar 2018 23:22:04 GMT: diagnostics = javax.tools.DiagnosticCollector@190fe5c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1fdf46b
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+21 Mar 2018 23:22:04 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@4b9760' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+21 Mar 2018 23:22:04 GMT: Compiler call returned
+21 Mar 2018 23:22:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1161a2f
+21 Mar 2018 23:22:04 GMT:  Kind = ERROR
+21 Mar 2018 23:22:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 22 ColNo = 18 Msg = 'toLowerCase cannot be resolved or is not a field'
+21 Mar 2018 23:22:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d684b9
+21 Mar 2018 23:22:04 GMT:  Kind = ERROR
+21 Mar 2018 23:22:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 38 ColNo = 44 Msg = 'messagse cannot be resolved to a variable'
+22 Mar 2018 1:28:11 GMT: diagnostics = javax.tools.DiagnosticCollector@1cf204a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@724c29
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:28:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f5f0c2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:28:11 GMT: Compiler call returned
+22 Mar 2018 1:28:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2269ed
+22 Mar 2018 1:28:11 GMT:  Kind = ERROR
+22 Mar 2018 1:28:11 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 22 ColNo = 18 Msg = 'toLowerCase cannot be resolved or is not a field'
+22 Mar 2018 1:28:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cb900b
+22 Mar 2018 1:28:11 GMT:  Kind = ERROR
+22 Mar 2018 1:28:11 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 38 ColNo = 44 Msg = 'messagse cannot be resolved to a variable'
+22 Mar 2018 1:28:58 GMT: diagnostics = javax.tools.DiagnosticCollector@25bafb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b5bf11
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:28:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@ff3bfb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:28:58 GMT: Compiler call returned
+22 Mar 2018 1:28:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a5bcb6
+22 Mar 2018 1:28:58 GMT:  Kind = ERROR
+22 Mar 2018 1:28:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 22 ColNo = 18 Msg = 'toLowerCase cannot be resolved or is not a field'
+22 Mar 2018 1:28:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12a53ac
+22 Mar 2018 1:28:58 GMT:  Kind = ERROR
+22 Mar 2018 1:28:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 38 ColNo = 44 Msg = 'messagse cannot be resolved to a variable'
+22 Mar 2018 1:29:04 GMT: diagnostics = javax.tools.DiagnosticCollector@caf4cd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4e1bb1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:29:04 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1754776' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:29:04 GMT: Compiler call returned
+22 Mar 2018 1:29:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18fc8a6
+22 Mar 2018 1:29:04 GMT:  Kind = ERROR
+22 Mar 2018 1:29:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 22 ColNo = 18 Msg = 'toLowerCase cannot be resolved or is not a field'
+22 Mar 2018 1:29:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17aa62c
+22 Mar 2018 1:29:04 GMT:  Kind = ERROR
+22 Mar 2018 1:29:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 38 ColNo = 44 Msg = 'messagse cannot be resolved to a variable'
+22 Mar 2018 1:29:55 GMT: diagnostics = javax.tools.DiagnosticCollector@16ef849
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15616e1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:29:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e78743' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:29:55 GMT: Compiler call returned
+22 Mar 2018 1:29:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bc983
+22 Mar 2018 1:29:55 GMT:  Kind = ERROR
+22 Mar 2018 1:29:55 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 38 ColNo = 44 Msg = 'messagse cannot be resolved to a variable'
+22 Mar 2018 1:30:02 GMT: diagnostics = javax.tools.DiagnosticCollector@150cd91
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1915784
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:30:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@166f455' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:30:02 GMT: Compiler call returned
+22 Mar 2018 1:30:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e97828
+22 Mar 2018 1:30:02 GMT:  Kind = WARNING
+22 Mar 2018 1:30:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java LineNo = 31 ColNo = 17 Msg = 'Resource leak: 'output' is never closed'
+22 Mar 2018 1:30:15 GMT: diagnostics = javax.tools.DiagnosticCollector@1117e05
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1915188
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:30:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@657282' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:30:15 GMT: Compiler call returned
+22 Mar 2018 1:31:06 GMT: diagnostics = javax.tools.DiagnosticCollector@132256a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@72cbd
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:31:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@196a00' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:31:06 GMT: Compiler call returned
+22 Mar 2018 1:31:48 GMT: diagnostics = javax.tools.DiagnosticCollector@1e00a9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f9f048
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java]
+22 Mar 2018 1:31:48 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@198ffd2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:31:48 GMT: Compiler call returned
+22 Mar 2018 1:31:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@30f174
+22 Mar 2018 1:31:48 GMT:  Kind = ERROR
+22 Mar 2018 1:31:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 20 Msg = 'Syntax error, insert ")" to complete MethodInvocation'
+22 Mar 2018 1:31:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1be5c8a
+22 Mar 2018 1:31:48 GMT:  Kind = ERROR
+22 Mar 2018 1:31:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 20 Msg = 'Syntax error, insert ";" to complete Statement'
+22 Mar 2018 1:31:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b255eb
+22 Mar 2018 1:31:48 GMT:  Kind = ERROR
+22 Mar 2018 1:31:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 27 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+22 Mar 2018 1:31:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8107df
+22 Mar 2018 1:31:48 GMT:  Kind = ERROR
+22 Mar 2018 1:31:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 36 Msg = 'Syntax error on token "works", = expected after this token'
+22 Mar 2018 1:31:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@123f8aa
+22 Mar 2018 1:31:48 GMT:  Kind = ERROR
+22 Mar 2018 1:31:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 43 Msg = 'Syntax error on token ")", invalid Expression'
+22 Mar 2018 1:32:45 GMT: diagnostics = javax.tools.DiagnosticCollector@58c2a2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13a3a15
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:32:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1507955' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:32:45 GMT: Compiler call returned
+22 Mar 2018 1:32:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b7d551
+22 Mar 2018 1:32:45 GMT:  Kind = ERROR
+22 Mar 2018 1:32:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 20 Msg = 'Syntax error, insert ")" to complete MethodInvocation'
+22 Mar 2018 1:32:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1867366
+22 Mar 2018 1:32:45 GMT:  Kind = ERROR
+22 Mar 2018 1:32:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 20 Msg = 'Syntax error, insert ";" to complete Statement'
+22 Mar 2018 1:32:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18902e8
+22 Mar 2018 1:32:45 GMT:  Kind = ERROR
+22 Mar 2018 1:32:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 27 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+22 Mar 2018 1:32:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@102402a
+22 Mar 2018 1:32:45 GMT:  Kind = ERROR
+22 Mar 2018 1:32:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 36 Msg = 'Syntax error on token "works", = expected after this token'
+22 Mar 2018 1:32:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@241606
+22 Mar 2018 1:32:45 GMT:  Kind = ERROR
+22 Mar 2018 1:32:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 5 ColNo = 43 Msg = 'Syntax error on token ")", invalid Expression'
+22 Mar 2018 1:32:51 GMT: diagnostics = javax.tools.DiagnosticCollector@121add7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1208ef6
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java]
+22 Mar 2018 1:32:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d02ca' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:32:51 GMT: Compiler call returned
+22 Mar 2018 1:33:06 GMT: diagnostics = javax.tools.DiagnosticCollector@16053ac
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13e0809
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File4.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File5.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\File6.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java]
+22 Mar 2018 1:33:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@d5e1ba' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:33:06 GMT: Compiler call returned
+22 Mar 2018 1:33:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8ce5a1
+22 Mar 2018 1:33:06 GMT:  Kind = WARNING
+22 Mar 2018 1:33:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 4 ColNo = 9 Msg = 'Resource leak: 'input' is never closed'
+22 Mar 2018 1:33:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b174a
+22 Mar 2018 1:33:06 GMT:  Kind = WARNING
+22 Mar 2018 1:33:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 4 ColNo = 9 Msg = 'The value of the local variable input is not used'
