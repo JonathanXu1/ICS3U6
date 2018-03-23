@@ -490,3 +490,15 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\F
 22 Mar 2018 1:33:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b174a
 22 Mar 2018 1:33:06 GMT:  Kind = WARNING
 22 Mar 2018 1:33:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\FileIO\test.java LineNo = 4 ColNo = 9 Msg = 'The value of the local variable input is not used'
+22 Mar 2018 1:40:15 GMT: Log 'EclipseCompiler.txt' opened: 22 Mar 2018 1:40:15 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+22 Mar 2018 1:41:36 GMT: diagnostics = javax.tools.DiagnosticCollector@14ea93a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@24ea7c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Contests\JEC-Reach\encrypt\Encrypt.java]
+22 Mar 2018 1:41:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@eb3cfe' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Contests\JEC-Reach\encrypt;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+22 Mar 2018 1:41:37 GMT: Compiler call returned
+22 Mar 2018 1:41:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a19b69
+22 Mar 2018 1:41:37 GMT:  Kind = WARNING
+22 Mar 2018 1:41:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Contests\JEC-Reach\encrypt\Encrypt.java LineNo = 25 ColNo = 7 Msg = 'The serializable class Encrypt does not declare a static final serialVersionUID field of type long'
+22 Mar 2018 1:41:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15aa275
+22 Mar 2018 1:41:37 GMT:  Kind = WARNING
+22 Mar 2018 1:41:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Contests\JEC-Reach\encrypt\Encrypt.java LineNo = 10 ColNo = 8 Msg = 'The import javax.swing.SwingUtilities is never used'
