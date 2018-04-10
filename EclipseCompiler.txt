@@ -502,3 +502,150 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Contests\JEC-Reach\encrypt\Enc
 22 Mar 2018 1:41:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15aa275
 22 Mar 2018 1:41:37 GMT:  Kind = WARNING
 22 Mar 2018 1:41:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Contests\JEC-Reach\encrypt\Encrypt.java LineNo = 10 ColNo = 8 Msg = 'The import javax.swing.SwingUtilities is never used'
+23 Mar 2018 19:20:49 GMT: Log 'EclipseCompiler.txt' opened: 23 Mar 2018 19:20:49 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+9 Apr 2018 19:02:25 GMT: Log 'EclipseCompiler.txt' opened: 9 Apr 2018 19:02:25 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+9 Apr 2018 19:15:14 GMT: diagnostics = javax.tools.DiagnosticCollector@1b31e3e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1169644
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:15:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@81e792' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:15:15 GMT: Compiler call returned
+9 Apr 2018 19:15:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fc2d4d
+9 Apr 2018 19:15:15 GMT:  Kind = ERROR
+9 Apr 2018 19:15:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:15:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fabeae
+9 Apr 2018 19:15:15 GMT:  Kind = ERROR
+9 Apr 2018 19:15:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 96 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+9 Apr 2018 19:15:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f36239
+9 Apr 2018 19:15:15 GMT:  Kind = ERROR
+9 Apr 2018 19:15:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 40 ColNo = 11 Msg = 'The type of the expression must be an array type but it resolved to java.lang.String'
+9 Apr 2018 19:15:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13f1e6f
+9 Apr 2018 19:15:15 GMT:  Kind = ERROR
+9 Apr 2018 19:15:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 44 ColNo = 26 Msg = 'The type of the expression must be an array type but it resolved to java.lang.String'
+9 Apr 2018 19:15:34 GMT: diagnostics = javax.tools.DiagnosticCollector@1e6dc7c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f04e32
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:15:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f40304' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:15:34 GMT: Compiler call returned
+9 Apr 2018 19:15:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1254348
+9 Apr 2018 19:15:34 GMT:  Kind = ERROR
+9 Apr 2018 19:15:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:15:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6c883a
+9 Apr 2018 19:15:34 GMT:  Kind = ERROR
+9 Apr 2018 19:15:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 96 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+9 Apr 2018 19:15:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13af90b
+9 Apr 2018 19:15:34 GMT:  Kind = ERROR
+9 Apr 2018 19:15:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 44 ColNo = 26 Msg = 'The type of the expression must be an array type but it resolved to java.lang.String'
+9 Apr 2018 19:15:49 GMT: diagnostics = javax.tools.DiagnosticCollector@380da4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1480dea
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:15:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@75c5b3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:15:49 GMT: Compiler call returned
+9 Apr 2018 19:15:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1335db7
+9 Apr 2018 19:15:49 GMT:  Kind = ERROR
+9 Apr 2018 19:15:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:15:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@126ad8f
+9 Apr 2018 19:15:49 GMT:  Kind = ERROR
+9 Apr 2018 19:15:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 44 ColNo = 49 Msg = 'Syntax error on token ")", delete this token'
+9 Apr 2018 19:15:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@108192d
+9 Apr 2018 19:15:49 GMT:  Kind = ERROR
+9 Apr 2018 19:15:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 96 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+9 Apr 2018 19:15:56 GMT: diagnostics = javax.tools.DiagnosticCollector@1002610
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1217552
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:15:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19ad0ab' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:15:56 GMT: Compiler call returned
+9 Apr 2018 19:15:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@168ab7
+9 Apr 2018 19:15:56 GMT:  Kind = ERROR
+9 Apr 2018 19:15:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:15:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d01edb
+9 Apr 2018 19:15:56 GMT:  Kind = ERROR
+9 Apr 2018 19:15:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 96 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+9 Apr 2018 19:16:03 GMT: diagnostics = javax.tools.DiagnosticCollector@151355c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1459320
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:16:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18a4bb6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:16:03 GMT: Compiler call returned
+9 Apr 2018 19:16:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ba1607
+9 Apr 2018 19:16:03 GMT:  Kind = ERROR
+9 Apr 2018 19:16:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:16:03 GMT: diagnostics = javax.tools.DiagnosticCollector@ccf726
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c6aa09
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:16:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a2ca62' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:16:03 GMT: Compiler call returned
+9 Apr 2018 19:16:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b61e77
+9 Apr 2018 19:16:03 GMT:  Kind = ERROR
+9 Apr 2018 19:16:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:16:43 GMT: diagnostics = javax.tools.DiagnosticCollector@91524
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@5ac4c4
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:16:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@161f2e5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:16:43 GMT: Compiler call returned
+9 Apr 2018 19:16:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1810c2c
+9 Apr 2018 19:16:43 GMT:  Kind = ERROR
+9 Apr 2018 19:16:43 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:20:02 GMT: diagnostics = javax.tools.DiagnosticCollector@be922b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@92b97a
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:20:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@128d8ab' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:20:02 GMT: Compiler call returned
+9 Apr 2018 19:20:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1932ec0
+9 Apr 2018 19:20:02 GMT:  Kind = ERROR
+9 Apr 2018 19:20:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 3 Msg = 'Syntax error on token "return", byte expected'
+9 Apr 2018 19:21:32 GMT: diagnostics = javax.tools.DiagnosticCollector@152e367
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4e5d84
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:21:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17480e1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:21:32 GMT: Compiler call returned
+9 Apr 2018 19:21:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12ce806
+9 Apr 2018 19:21:32 GMT:  Kind = ERROR
+9 Apr 2018 19:21:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 118 ColNo = 3 Msg = 'Syntax error on token "}", { expected after this token'
+9 Apr 2018 19:21:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@104b28f
+9 Apr 2018 19:21:32 GMT:  Kind = ERROR
+9 Apr 2018 19:21:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 121 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+9 Apr 2018 19:21:57 GMT: diagnostics = javax.tools.DiagnosticCollector@1a7fd89
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16ab2fa
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:21:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@222312' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:21:57 GMT: Compiler call returned
+9 Apr 2018 19:21:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a150dd
+9 Apr 2018 19:21:57 GMT:  Kind = ERROR
+9 Apr 2018 19:21:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 120 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+9 Apr 2018 19:22:05 GMT: diagnostics = javax.tools.DiagnosticCollector@146cf07
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@efa925
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:22:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a88254' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:22:05 GMT: Compiler call returned
+9 Apr 2018 19:22:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1676f70
+9 Apr 2018 19:22:05 GMT:  Kind = WARNING
+9 Apr 2018 19:22:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+9 Apr 2018 19:22:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1801c8d
+9 Apr 2018 19:22:05 GMT:  Kind = WARNING
+9 Apr 2018 19:22:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+9 Apr 2018 19:25:53 GMT: diagnostics = javax.tools.DiagnosticCollector@1ac86ad
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10742f6
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:25:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@121bc43' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:25:53 GMT: Compiler call returned
+9 Apr 2018 19:25:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fd67e6
+9 Apr 2018 19:25:53 GMT:  Kind = ERROR
+9 Apr 2018 19:25:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 38 ColNo = 20 Msg = 'Type mismatch: cannot convert from java.lang.String[] to java.lang.String'
+9 Apr 2018 19:25:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13a68e6
+9 Apr 2018 19:25:53 GMT:  Kind = ERROR
+9 Apr 2018 19:25:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 98 ColNo = 14 Msg = 'Type mismatch: cannot convert from java.lang.String to java.lang.String[]'
+9 Apr 2018 19:26:45 GMT: diagnostics = javax.tools.DiagnosticCollector@1eb57e2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1440c14
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:26:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@131646c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:26:45 GMT: Compiler call returned
+9 Apr 2018 19:26:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e23df5
+9 Apr 2018 19:26:45 GMT:  Kind = ERROR
+9 Apr 2018 19:26:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 93 ColNo = 14 Msg = 'Type mismatch: cannot convert from java.lang.String to java.lang.String[]'
+9 Apr 2018 19:30:07 GMT: diagnostics = javax.tools.DiagnosticCollector@1d20183
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b1eedf
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+9 Apr 2018 19:30:07 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@2b1e59' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+9 Apr 2018 19:30:07 GMT: Compiler call returned
+9 Apr 2018 19:30:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16228fe
+9 Apr 2018 19:30:07 GMT:  Kind = WARNING
+9 Apr 2018 19:30:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'

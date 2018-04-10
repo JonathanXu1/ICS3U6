@@ -3,16 +3,19 @@
  * The monster hunter assignment
  * Jonathan Xu
  * March 27, 2018
-*/
+ */
 
 import java.util.Scanner;
+import java.util.ArrayList;
 import java.io.File;
 import java.io.PrintWriter;
 
 public class Summative {
+  public static ArrayList<String> path = new ArrayList<String>();
   public static void main(String[] args) throws Exception{
     Scanner input1 = new Scanner(System.in);
     String response;
+    
     
     // Welcome
     System.out.println("Welcome to the monster hunter mini world!");
@@ -28,22 +31,23 @@ public class Summative {
     for (int i = 0; i < world.length; i++){
       for(int j = 0; j < world.length; j++){
         System.out.print(world[i][j]);
-        if(world[i][j] = 2){ //Find starting position
-          int[] start = [j, i];
-        }
-        System.out.println();
+      }
+      System.out.println();
     }
     
     System.out.println("All possible paths:");
-    System.out.println(findpath(1, 1, 1, world));
-      
+    findpath(1, 1, 1, world, "");
+    for(String s:path){
+      System.out.println(s);
+    }
+    
     input1.close();   
     input2.close();
   }
   
   /**
    * keypoints
-  */
+   */
   public static int[][] loadMap(Scanner in) throws Exception{
     String symbol;
     String line = in.nextLine();
@@ -60,7 +64,7 @@ public class Summative {
           map[i][j] = 1;
         }
         else if (symbol.equals("N")){
-          map[i][j] = 2;
+          map[i][j] = 1;
         }
         else if (symbol.equals("F")){
           map[i][j] = 3;
@@ -80,29 +84,31 @@ public class Summative {
   
   /**
    * keypoints
-  */
-  public static int findpath(int x, inty, int step, int[][] map) throws Exception {
-    map[x][y] = 5; //Traveled places
+   */
+  public static void findpath(int x, int y, int step, int[][] map, String line) throws Exception {
+    int prevNumber = map[y][x];
+    map[y][x] = 1; //Traveled places
     step ++;
     
     if (x == map.length-1 && y == map.length-2){ //If met destinatinon
-      return steps;
+      path.add(line);
+    }
+    else if (map[y-1][x] == 1 && map[y][x+1] == 1 && map[y+1][x] == 1 && map[y][x-1] == 1){
     }
     else {
-      if (map[x][y-1] != 1 || map[x+1][y] != 1 || map[x][y+1] != 1 || map[x-1][y] != 1){ //Not dead end
-        if(map[x][y-1] != 1){
-          return findpath(x, y-1, step, map) + "f";
-        }
-        if(map[x+1][y] != 1){
-          return findpath(map[x+1][y] + "r";
-        }
-        if(map[x][y+1] != 1){
-        }
-        if(map[x-1][y] != 1){
-        }
+      if(map[y-1][x] != 1){
+        findpath(x, y-1, step, map, line + "U");
       }
-      else {
+      if(map[y][x+1] != 1){
+        findpath(x+1, y, step, map, line + "R");
       }
+      if(map[y+1][x] != 1){
+        findpath(x, y+1, step, map, line + "D");
+      }
+      if(map[y][x-1] != 1){
+        findpath(x-1, y, step, map, line + "L");
+      } 
     }
+    map[y][x]=prevNumber;
   }
 }
