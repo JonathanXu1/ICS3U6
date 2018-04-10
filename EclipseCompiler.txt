@@ -649,3 +649,218 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summativ
 9 Apr 2018 19:30:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16228fe
 9 Apr 2018 19:30:07 GMT:  Kind = WARNING
 9 Apr 2018 19:30:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 15:54:10 GMT: Log 'EclipseCompiler.txt' opened: 10 Apr 2018 15:54:10 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+10 Apr 2018 15:55:05 GMT: diagnostics = javax.tools.DiagnosticCollector@11bf06c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@183058a
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 15:55:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ba836f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 15:55:05 GMT: Compiler call returned
+10 Apr 2018 15:55:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@edc3f5
+10 Apr 2018 15:55:05 GMT:  Kind = WARNING
+10 Apr 2018 15:55:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:07:37 GMT: diagnostics = javax.tools.DiagnosticCollector@1663e2f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6e0458
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:07:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@bc6bab' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:07:37 GMT: Compiler call returned
+10 Apr 2018 16:07:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1be580a
+10 Apr 2018 16:07:37 GMT:  Kind = ERROR
+10 Apr 2018 16:07:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 98 ColNo = 14 Msg = 'Syntax error on token "(", Expression expected after this token'
+10 Apr 2018 16:07:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1451321
+10 Apr 2018 16:07:37 GMT:  Kind = ERROR
+10 Apr 2018 16:07:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 102 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b396db
+10 Apr 2018 16:07:37 GMT:  Kind = ERROR
+10 Apr 2018 16:07:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 105 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e875a
+10 Apr 2018 16:07:37 GMT:  Kind = ERROR
+10 Apr 2018 16:07:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 108 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@191f299
+10 Apr 2018 16:07:37 GMT:  Kind = ERROR
+10 Apr 2018 16:07:37 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 111 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:45 GMT: diagnostics = javax.tools.DiagnosticCollector@1f6ef0e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bb0c3b
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:07:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@11e6585' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:07:46 GMT: Compiler call returned
+10 Apr 2018 16:07:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bf317e
+10 Apr 2018 16:07:46 GMT:  Kind = ERROR
+10 Apr 2018 16:07:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 102 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1259f45
+10 Apr 2018 16:07:46 GMT:  Kind = ERROR
+10 Apr 2018 16:07:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 105 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9abe4c
+10 Apr 2018 16:07:46 GMT:  Kind = ERROR
+10 Apr 2018 16:07:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 108 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7516c2
+10 Apr 2018 16:07:46 GMT:  Kind = ERROR
+10 Apr 2018 16:07:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 111 ColNo = 16 Msg = 'Syntax error on token "+", invalid AssignmentOperator'
+10 Apr 2018 16:07:58 GMT: diagnostics = javax.tools.DiagnosticCollector@15868f7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c14d9f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:07:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@10684c6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:07:58 GMT: Compiler call returned
+10 Apr 2018 16:07:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15c6619
+10 Apr 2018 16:07:58 GMT:  Kind = ERROR
+10 Apr 2018 16:07:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 95 ColNo = 7 Msg = 'Void methods cannot return a value'
+10 Apr 2018 16:07:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15b1943
+10 Apr 2018 16:07:58 GMT:  Kind = ERROR
+10 Apr 2018 16:07:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 102 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:07:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9bb70e
+10 Apr 2018 16:07:58 GMT:  Kind = ERROR
+10 Apr 2018 16:07:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 105 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:07:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@965615
+10 Apr 2018 16:07:58 GMT:  Kind = ERROR
+10 Apr 2018 16:07:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 108 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:07:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ac8330
+10 Apr 2018 16:07:58 GMT:  Kind = ERROR
+10 Apr 2018 16:07:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 111 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:07:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ae0e27
+10 Apr 2018 16:07:58 GMT:  Kind = ERROR
+10 Apr 2018 16:07:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 115 ColNo = 5 Msg = 'Void methods cannot return a value'
+10 Apr 2018 16:08:04 GMT: diagnostics = javax.tools.DiagnosticCollector@b8752e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1672e04
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:08:04 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18547e7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:08:04 GMT: Compiler call returned
+10 Apr 2018 16:08:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ca208b
+10 Apr 2018 16:08:04 GMT:  Kind = ERROR
+10 Apr 2018 16:08:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 95 ColNo = 7 Msg = 'Void methods cannot return a value'
+10 Apr 2018 16:08:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ccfa7
+10 Apr 2018 16:08:04 GMT:  Kind = ERROR
+10 Apr 2018 16:08:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 102 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:08:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@49987f
+10 Apr 2018 16:08:04 GMT:  Kind = ERROR
+10 Apr 2018 16:08:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 105 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:08:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f0acee
+10 Apr 2018 16:08:04 GMT:  Kind = ERROR
+10 Apr 2018 16:08:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 108 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:08:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1df0783
+10 Apr 2018 16:08:04 GMT:  Kind = ERROR
+10 Apr 2018 16:08:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 111 ColNo = 9 Msg = 'The operator += is undefined for the argument type(s) java.lang.String, void'
+10 Apr 2018 16:08:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18a8068
+10 Apr 2018 16:08:04 GMT:  Kind = ERROR
+10 Apr 2018 16:08:04 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 115 ColNo = 5 Msg = 'Void methods cannot return a value'
+10 Apr 2018 16:08:11 GMT: diagnostics = javax.tools.DiagnosticCollector@fdb4cd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@abc836
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:08:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fc99d3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:08:11 GMT: Compiler call returned
+10 Apr 2018 16:08:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f0a1f7
+10 Apr 2018 16:08:11 GMT:  Kind = ERROR
+10 Apr 2018 16:08:11 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 98 ColNo = 7 Msg = 'This method must return a result of type java.lang.String'
+10 Apr 2018 16:08:17 GMT: diagnostics = javax.tools.DiagnosticCollector@4be635
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@883b43
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:08:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@26ee46' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:08:17 GMT: Compiler call returned
+10 Apr 2018 16:08:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7d1b91
+10 Apr 2018 16:08:17 GMT:  Kind = ERROR
+10 Apr 2018 16:08:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 98 ColNo = 14 Msg = 'Syntax error on token "(", Expression expected after this token'
+10 Apr 2018 16:08:20 GMT: diagnostics = javax.tools.DiagnosticCollector@fe31b9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@24d78f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:08:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ad4c10' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:08:21 GMT: Compiler call returned
+10 Apr 2018 16:08:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3a6d03
+10 Apr 2018 16:08:21 GMT:  Kind = WARNING
+10 Apr 2018 16:08:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:09:12 GMT: diagnostics = javax.tools.DiagnosticCollector@17db85c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@77250a
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:09:12 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@13198d0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:09:12 GMT: Compiler call returned
+10 Apr 2018 16:09:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10ee5a6
+10 Apr 2018 16:09:12 GMT:  Kind = WARNING
+10 Apr 2018 16:09:12 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 16:09:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e683a0
+10 Apr 2018 16:09:12 GMT:  Kind = WARNING
+10 Apr 2018 16:09:12 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:09:21 GMT: diagnostics = javax.tools.DiagnosticCollector@dc821f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13921d5
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:09:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fa96d8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:09:21 GMT: Compiler call returned
+10 Apr 2018 16:09:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5b424
+10 Apr 2018 16:09:21 GMT:  Kind = WARNING
+10 Apr 2018 16:09:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 16:09:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9bf718
+10 Apr 2018 16:09:21 GMT:  Kind = WARNING
+10 Apr 2018 16:09:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:09:59 GMT: diagnostics = javax.tools.DiagnosticCollector@bac54
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1bb4c6c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:09:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@15296e0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:10:00 GMT: Compiler call returned
+10 Apr 2018 16:10:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d8dc4b
+10 Apr 2018 16:10:00 GMT:  Kind = WARNING
+10 Apr 2018 16:10:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 16:10:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6f215a
+10 Apr 2018 16:10:00 GMT:  Kind = WARNING
+10 Apr 2018 16:10:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:14:17 GMT: diagnostics = javax.tools.DiagnosticCollector@1335790
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11c8135
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:14:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16154a9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:14:17 GMT: Compiler call returned
+10 Apr 2018 16:14:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@29ec21
+10 Apr 2018 16:14:17 GMT:  Kind = WARNING
+10 Apr 2018 16:14:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 16:14:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bdf7da
+10 Apr 2018 16:14:17 GMT:  Kind = WARNING
+10 Apr 2018 16:14:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:15:01 GMT: diagnostics = javax.tools.DiagnosticCollector@2298c2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16f6ed7
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:15:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b37936' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:15:01 GMT: Compiler call returned
+10 Apr 2018 16:15:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@155bd3
+10 Apr 2018 16:15:01 GMT:  Kind = WARNING
+10 Apr 2018 16:15:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 16:15:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@33ac03
+10 Apr 2018 16:15:01 GMT:  Kind = WARNING
+10 Apr 2018 16:15:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 16:17:31 GMT: diagnostics = javax.tools.DiagnosticCollector@1109a5e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@111b11c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:17:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cfea5d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:17:31 GMT: Compiler call returned
+10 Apr 2018 16:17:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@20bb81
+10 Apr 2018 16:17:31 GMT:  Kind = ERROR
+10 Apr 2018 16:17:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 40 ColNo = 32 Msg = 'Syntax error on token "!", Expression expected after this token'
+10 Apr 2018 16:17:35 GMT: diagnostics = javax.tools.DiagnosticCollector@b54f34
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@34d78c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 16:17:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@43ed06' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 16:17:35 GMT: Compiler call returned
+10 Apr 2018 16:17:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ab44a0
+10 Apr 2018 16:17:35 GMT:  Kind = WARNING
+10 Apr 2018 16:17:35 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 16:17:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@190d71d
+10 Apr 2018 16:17:35 GMT:  Kind = WARNING
+10 Apr 2018 16:17:35 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 17:26:32 GMT: diagnostics = javax.tools.DiagnosticCollector@b0cda0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b681b6
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 17:26:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@781fa8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 17:26:32 GMT: Compiler call returned
+10 Apr 2018 17:26:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@67580e
+10 Apr 2018 17:26:32 GMT:  Kind = WARNING
+10 Apr 2018 17:26:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 17:26:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@34345c
+10 Apr 2018 17:26:32 GMT:  Kind = WARNING
+10 Apr 2018 17:26:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
+10 Apr 2018 17:26:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ff64f
+10 Apr 2018 17:26:32 GMT:  Kind = WARNING
+10 Apr 2018 17:26:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 59 ColNo = 9 Msg = 'The value of the local variable count is not used'
+10 Apr 2018 17:26:58 GMT: diagnostics = javax.tools.DiagnosticCollector@1dbf4c2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ff1647
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+10 Apr 2018 17:26:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f8737e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+10 Apr 2018 17:26:58 GMT: Compiler call returned
+10 Apr 2018 17:26:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b49356
+10 Apr 2018 17:26:58 GMT:  Kind = WARNING
+10 Apr 2018 17:26:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 9 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+10 Apr 2018 17:26:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6919f4
+10 Apr 2018 17:26:58 GMT:  Kind = WARNING
+10 Apr 2018 17:26:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 11 ColNo = 8 Msg = 'The import java.io.PrintWriter is never used'
