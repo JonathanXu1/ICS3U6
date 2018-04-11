@@ -1,0 +1,21 @@
+class SportsCar {
+  String manufacturer;
+  String model;
+  double fuelTankSize;
+  double topSpeed;
+  double cost;
+  double mpg;
+  
+  SportsCar(String maker; String m; double tank, double speed; double c; double efficiency){
+    manufacturer = maker;
+    model = m;
+    fuelTankSize = tank;
+    topSpeed = speed;
+    cost = c;
+    mpg = efficiency;
+  }
+  
+  public double range(){
+    return mpg*fuelTankSize;
+  }
+}
