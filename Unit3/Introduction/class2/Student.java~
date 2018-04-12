@@ -1,0 +1,14 @@
+class Student {
+  String name;
+  double[] mark;
+  Static String school;
+  
+  Student(String n){
+    name = n;
+  }
+  
+  Student(String n, double mark1, double mark2, double mark3, double mark4){
+    name = n;
+    mark[1] = 
+  }
+}

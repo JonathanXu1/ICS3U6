@@ -1,0 +1,9 @@
+public class class2{
+  public static void main(String[] args){
+    Student a = new Student ("Jonathan", 58.5, 23.8, 46.5);
+    Student b = new Student ("Bill", 88, 67.66, 90, 100);
+    Student c = new Student ("Nick");
+    
+    System.out.println("Name of student a:" + a.getName());
+  }
+}
