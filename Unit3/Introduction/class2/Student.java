@@ -1,45 +1,41 @@
- class Student {
-  String name;
-  double[] mark = new double[4];
-  static String school = "Richmond Hill High School";
-  double average = 0.00;
-  
-  Student(String n){
-    name = n;
-  }
-  
-  Student(String n, double mark1, double mark2, double mark3, double mark4){
-    name = n;
-    mark[0] = mark1;
-    mark[1] = mark2;
-    mark[2] = mark3;
-    mark[3] = mark4;
-  }
-  
-  public String getName(){
-    return name;
-  }
-  
-  public void setName(String n){
-    name = n;
-  }
-  
-  public String getSchool(){
-    return school;
-  }
-  
-  public double getMark(int period){
-    return mark[period-1];
-  }
-  
-  public void setMark(int period, double m){
-    mark[period-1] = m;
-  }
-  
-  public double getAverage(){
-    for(int i = 0; i < 4; i++){
-      average += mark[i];
+ /**
+ * Class2
+ * Sets up an array of student objects and outputs them
+ * Jonathan Xu
+ * April 11, 2018
+*/
+
+import java.util.Scanner;
+
+public class class2{
+  public static void main(String[] args){
+    Student[] students = new Student[4];
+    Scanner input = new Scanner(System.in);
+    String name;
+    double mark;
+    
+    System.out.println("Welcome to teach a cyst!"); //Welcome
+    //Input
+    for(int i = 1; i < 5; i++){
+      System.out.println("Enter student " + i + "'s name:");
+      input.next();
+      name = input.nextLine();
+      students[i-1] = new Student(name);
+      for (int j = 1; j < 5; j++){
+        System.out.println("Enter mark " + j);
+        students[i-1].setMark(j, input.nextDouble());
+      }
     }
-    return average/4;
+    
+    //Output
+    System.out.println("Output:");
+    for(int i = 0; i < 4; i++){
+      System.out.println(students[i].getName());
+      for(int j = 1; j < 5; j++){
+        System.out.println("Mark " + j + ": " + students[i].getMark(j));
+      }
+      System.out.println("Average :" + students[i].getAverage());
+      System.out.println();
+    }
   }
 }
