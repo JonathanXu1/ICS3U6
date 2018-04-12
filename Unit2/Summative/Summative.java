@@ -23,7 +23,8 @@ public class Summative {
     //Initialize
     File file = new File(response);
     Scanner input2 = new Scanner(file);
-    int[][] world = loadMap(input2);
+    int[][] world = loadMap(input2); //Converts map into numbers
+    int[][] traps = trapMap(world); //Logs traps in a new map
     
     //Prints map
     for (int i = 0; i < world.length; i++){
@@ -32,7 +33,7 @@ public class Summative {
       }
       System.out.println();
     }
-    
+        
     //Finds paths
     System.out.println("All possible paths:");
     String paths = findpath(1, 1, 1, world, "");
@@ -57,7 +58,10 @@ public class Summative {
     input2.close();
   }
   
-  //Convert map to ints
+  /*
+   * Load Map
+   * Converts the chars in the txt file to a 2 dimentional int array
+  */
   public static int[][] loadMap(Scanner in) throws Exception{
     String symbol;
     String line = in.nextLine();
@@ -90,7 +94,6 @@ public class Summative {
     
     return map;
   }
-  
   
   /**
    * Finds all paths
@@ -126,9 +129,29 @@ public class Summative {
   }
   
   /*
+   * Trap Map
+   * Creates a two dimentional int array logging the traps in the map
+  */
+  public static int[][] trapMap(int[][] map) throw Exception{
+    int [][] output = new int[map.length][map.length];
+    
+    for (int i = 0; i < map.length; i++){
+      for (int j = 0; j < map.length; j++){
+        if(map[i][j] == 4){
+          output[i][j] = 1;
+        }
+        else{
+          output[i][j] = 0;
+        }
+      }
+    }
+    return output;
+  }
+  
+  /*
    *Place traps
   */
-  public static String[][] placeTrap(int[][] map, String dir){
+  public static String[][] placeTrap(int[][] map, int[][] trap, String dir){
     int count = 0;
     for(int i = 0; i<dir.length(); i++){ //Seperates the single line of paths into an array
       if(dir.substring(i, i+1).equals("*")){
