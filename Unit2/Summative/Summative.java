@@ -168,11 +168,11 @@ public class Summative {
    *Place traps
   */
   public static String[][] trapMap(int[][] map, String[] traps, String dir){
-    int count = 0;
+    int count, bincount = 0;
     int x, y = 1;
     int trapx, trapy;
     flag trapped;
-    String binary;
+    String binary, loc;
     for(int i = 0; i<dir.length(); i++){ //Seperates the single line of paths into an array
       if(dir.charAt(i) == "*"){
         count++;
@@ -184,15 +184,23 @@ public class Summative {
       dir = dir.substring(dir.indexOf("*") + 1);
     }
     
-    int[][] empty = new int[map.length][map.length] 
-    count = 0 //Resets counter for use in binary traps
+    int[][] empty = new int[map.length][map.length] ;
+    bincount = 0; //Resets counter for use in binary traps
+    
+    //Iterates through all possible combinations of traps
     while(!works){
       works = true;
-      count++;
-      binary = Integer.toBinaryString(count);
+      bincount++;
+      binary = Integer.toBinaryString(bincount);
       for(int i = binary.length()-1; i >=0; i--){
+        loc = traps[binary.length()-i-1];
+        trapx = Integer.parseInt(loc.substring(0, loc.indexOf(" ")));
+        trapy = Integer.parseInt(loc.substring(loc.indexOf(" ")+1));
         if(binary.charAt(i) == "1"){
-          trapx = traps[]
+          empty[trapy][trapx] = 1;
+        }
+        else{
+          empty[trapy][trapx] = 0;
         }
       }
       
