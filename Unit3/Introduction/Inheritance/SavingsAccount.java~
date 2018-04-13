@@ -1,7 +1,0 @@
-class SavingsAccount extends BankAccount{
-  static interest = 0.025;
-  
-  void addInterest(double i){
-    
-  }
-}

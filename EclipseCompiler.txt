@@ -1382,3 +1382,4 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Introduc
 12 Apr 2018 2:44:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d0f690
 12 Apr 2018 2:44:39 GMT:  Kind = WARNING
 12 Apr 2018 2:44:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Introduction\class2\class2.java LineNo = 15 ColNo = 12 Msg = 'The value of the local variable mark is not used'
+13 Apr 2018 0:34:49 GMT: Log 'EclipseCompiler.txt' opened: 13 Apr 2018 0:34:49 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
