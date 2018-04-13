@@ -14,6 +14,7 @@ public class Summative {
   public static void main(String[] args) throws Exception{
     Scanner input1 = new Scanner(System.in);
     String response;
+    int count = 0;
     
     // Welcome
     System.out.println("Welcome to the monster hunter mini world!");
@@ -26,37 +27,46 @@ public class Summative {
     int[][] world = loadMap(input2); //Converts map into numbers
     
     //Prints map
+    /*
     for (int i = 0; i < world.length; i++){
       for(int j = 0; j < world.length; j++){
         System.out.print(world[i][j]);
       }
       System.out.println();
     }
+    */
         
     //Finds paths
     System.out.println("All possible paths:");
     String paths = findpath(1, 1, 1, world, "");
+    for(int i = 0 ; i < paths.length(); i++){
+      if (paths.charAt(i) == '*'){
+        count++;
+      }
+    }
+    String[] path = new String[count];
+    for(int i = 0; i < count; i++){
+      path[i] = paths.substring(0, paths.indexOf("*"));
+      paths = paths.substring(paths.indexOf("*") + 1);
+    }
     //Prints paths
-    for (int i = 0; i < paths.length(); i++){
-      if (paths.substring(i, i+1).equals("*")){
-        System.out.println();
-      }
-      else{
-        System.out.print(paths.substring(i,i+1));
-      }
+    for (int i = 0; i < path.length; i++){
+      System.out.println(path[i]);
     }
     
     //Finds all used traps
     System.out.println("Used trap co-ordinates:");
-    System.out.println(findTrap(world, paths));
+    String traps = findTrap(world, path);
+    System.out.println(traps.substring(traps.indexOf(" ")+1));
+    
+    //Finds min number of traps
+    System.out.println("Minimum trap co-ordinates:");
+    System.out.println(placeTrap(traps, path));
     
     //Lays down traps
     //int[][] traps = trapMap(world, alltraps, paths); //Logs traps in a new map
     
     //Outputs solution
-    /*
-    String[][] solution = 
-    */
     File solution = new File("solution.txt");
     PrintWriter output = new PrintWriter(solution);
     
@@ -136,113 +146,113 @@ public class Summative {
   }
   
   /*
-   * Trap Map
-   * Creates a string array logging the trap co-ordinates
+   * Find Trap
+   * Creates a string logging the trap co-ordinates
   */
-  public static String findTrap(int[][] map, String dir) throws Exception{
+  public static String findTrap(int[][] map, String[] dir) throws Exception{
     int count = 0;
-    String path, traps = "";
-    int x, y;
-    
-    for(int i = 0; i < dir.length(); i++){
-      if(dir.charAt(i) == '*'){
-        count++;
-      }
-    }
-    
-    for(int i = 0; i < count; i++){
+    int x,y;
+    String path;
+    String traps = "";
+    for(int i = 0; i < dir.length; i++){
       x = 1;
       y = 1;
-      path = dir.substring(0, dir.indexOf("*"));
-      dir = dir.substring(dir.indexOf("*")+1);
-      for(int j = 0; i < path.length(); i++){
+      path = dir[i];
+      for(int j = 0; j < path.length(); j++){
         if(path.charAt(j) == 'U'){
-          y -=1;
+          y --;
         }
         else if(path.charAt(j) == 'D'){
-          y += 1;
+          y ++;
         }
         else if(path.charAt(j) == 'L'){
-          x -= 1;
+          x --;
         }
         else if(path.charAt(j) == 'R'){
-          x += 1;
+          x ++;
         }
-        System.out.println("Diagnostics: " +Integer.toString(x) + "," + Integer.toString(y));
-        if(map[y][x] == 4 && traps.contains(Integer.toString(x) + "," + Integer.toString(y))){
+        if(map[y][x] == 4 && !traps.contains(Integer.toString(x) + "," + Integer.toString(y))){
           traps += Integer.toString(x) + "," + Integer.toString(y) + " ";
+          count++;
         }
       }
     }
-    
-    return traps;
+    return count + " " + traps;
   }
   
   /*
    *Place traps
   */
-  /*
-  public static String[][] trapMap(int[][] map, String[] traps, String dir){
-    int count, bincount = 0;
-    int x, y = 1;
-    int trapx, trapy;
-    flag trapped;
-    String binary, loc;
-    for(int i = 0; i<dir.length(); i++){ //Seperates the single line of paths into an array
-      if(dir.charAt(i) == "*"){
-        count++;
-      }
-    }
-    String[] paths = new String[count];
-    for (int i = 0; i < count; i ++){
-      paths[i] = dir.substring(0, dir.indexOf("*"));
-      dir = dir.substring(dir.indexOf("*") + 1);
+  public static String placeTrap(String traps, String[] dir){
+    int trapCount = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
+    traps = traps.substring(traps.indexOf(" ")+1);
+    String binStr, actiTrap, path = "";
+    int x, y, actiCount;
+    boolean trapped, works;
+    String minTrap = "";
+    int min = Integer.MAX_VALUE;
+    
+    //Copies trap co-ordinates from string data to 2 arrays
+    int[] trapx = new int[trapCount];
+    int[] trapy = new int[trapCount];
+    for(int i = 0; i < trapCount; i++){
+      trapx[i] = Integer.parseInt(traps.substring(0, traps.indexOf(",")));
+      traps = traps.substring(traps.indexOf(",") + 1);
+      trapy[i] = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
+      traps = traps.substring(traps.indexOf(" ") + 1);
     }
     
-    int[][] empty = new int[map.length][map.length] ;
-    bincount = 0; //Resets counter for use in binary traps
-    
-    //Iterates through all possible combinations of traps
-    while(!works){
-      works = true;
-      bincount++;
-      binary = Integer.toBinaryString(bincount);
-      for(int i = binary.length()-1; i >=0; i--){
-        loc = traps[binary.length()-i-1];
-        trapx = Integer.parseInt(loc.substring(0, loc.indexOf(" ")));
-        trapy = Integer.parseInt(loc.substring(loc.indexOf(" ")+1));
-        if(binary.charAt(i) == "1"){
-          empty[trapy][trapx] = 1;
-        }
-        else{
-          empty[trapy][trapx] = 0;
+    //Iterates through all traps in binary
+    for(int i = 1; i <= trapCount; i++){
+      binStr = Integer.toBinaryString(i);
+      actiTrap = "";
+      
+      for(int j = binStr.length()-1; j >= 0; j--){ //Activates corresponding traps
+        if(binStr.charAt(j) == '1'){
+          actiTrap += trapx[binStr.length()-j-1] + "," + trapy[binStr.length()-j-1] + " ";
         }
       }
       
-      for (int i = 0; i < count, i++){
+      //Logs # of traps activated
+      actiCount = 0;
+      for(int j = 0; j < actiTrap.length(); j++){
+        if(actiTrap.charAt(j) == ' '){
+          actiCount ++;
+        }
+      }
+      
+      //Navigates through each working path to see if the monster gets trapped
+      works = true;
+      for(int j = 0; j < dir.length; j++){
+        x = 1;
+        y = 1;
         trapped = false;
-        for (int j = 0; j < paths[i].length; j++){
-          if(paths[i].substring(j, j+1).equals("U")){
-            y -= 1;
+        for(int k = 0; k < dir[j].length(); k++){
+          if(dir[j].charAt(k) == 'U'){
+            y --;
           }
-          else if(paths[i].substring(j, j+1).equals("D")){
-            y += 1;
+          else if(dir[j].charAt(k) == 'D'){
+            y ++;
           }
-          else if(paths[i].substring(j, j+1).equals("L")){
-            x -= 1;
+          else if(dir[j].charAt(k) == 'L'){
+            x --;
           }
-          else if(paths[i].substring(j, j+1).equals("R")){
-            x += 1;
+          else if(dir[j].charAt(k) == 'R'){
+            x ++;
           }
-          if (empty[y][x] == 1){
+          if(actiTrap.contains(Integer.toString(x) + "," + Integer.toString(y))){ //Lands on an activated trap
             trapped = true;
           }
         }
-        if (!trapped){
+        if(!trapped){
           works = false;
         }
       }
+      if (works && actiCount < min){
+        min = actiCount;
+        minTrap = actiTrap;
+      }
     }
+    return minTrap;
   }
-  */
 }
