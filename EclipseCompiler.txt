@@ -1383,3 +1383,159 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Introduc
 12 Apr 2018 2:44:39 GMT:  Kind = WARNING
 12 Apr 2018 2:44:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Introduction\class2\class2.java LineNo = 15 ColNo = 12 Msg = 'The value of the local variable mark is not used'
 13 Apr 2018 0:34:49 GMT: Log 'EclipseCompiler.txt' opened: 13 Apr 2018 0:34:49 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+13 Apr 2018 1:51:45 GMT: diagnostics = javax.tools.DiagnosticCollector@ea5db5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@664ff7
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java, C:\Users\Jonathan\Desktop\Test.java]
+13 Apr 2018 1:51:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fcee8f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Desktop;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 Apr 2018 1:51:46 GMT: Compiler call returned
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@439fcc
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 48 Msg = 'Syntax error on token "throw", throws expected'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a9b9f8
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Desktop\Test.java LineNo = 4 ColNo = 13 Msg = 'Syntax error on token(s), misplaced construct(s)'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@136e1fe
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Desktop\Test.java LineNo = 4 ColNo = 22 Msg = 'Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c84c3e
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e79f8
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b47c70
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 188 ColNo = 13 Msg = 'Syntax error, insert ";" to complete Statement'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c95d09
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ". class" to complete Expression'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1994992
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bb6fe0
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 199 ColNo = 32 Msg = 'Syntax error on token ",", ; expected'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@103ce3b
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 53 ColNo = 21 Msg = 'Type mismatch: cannot convert from java.lang.String[][] to int[][]'
+13 Apr 2018 1:51:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@160ed87
+13 Apr 2018 1:51:46 GMT:  Kind = ERROR
+13 Apr 2018 1:51:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 60 ColNo = 17 Msg = 'Duplicate local variable output'
+13 Apr 2018 1:52:03 GMT: diagnostics = javax.tools.DiagnosticCollector@19d2f19
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d8cef0
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java, C:\Users\Jonathan\Desktop\Test.java]
+13 Apr 2018 1:52:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a478ba' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Desktop;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 Apr 2018 1:52:03 GMT: Compiler call returned
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d27150
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 48 Msg = 'Syntax error on token "throw", throws expected'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4bae6
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Desktop\Test.java LineNo = 4 ColNo = 13 Msg = 'Syntax error on token(s), misplaced construct(s)'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a8e7b8
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Desktop\Test.java LineNo = 4 ColNo = 22 Msg = 'Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@28440
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17128e1
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3171e3
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 188 ColNo = 13 Msg = 'Syntax error, insert ";" to complete Statement'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16dd17a
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ". class" to complete Expression'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1717e93
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cd64fc
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 199 ColNo = 32 Msg = 'Syntax error on token ",", ; expected'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@68ae8f
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 53 ColNo = 21 Msg = 'Type mismatch: cannot convert from java.lang.String[][] to int[][]'
+13 Apr 2018 1:52:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b95779
+13 Apr 2018 1:52:03 GMT:  Kind = ERROR
+13 Apr 2018 1:52:03 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 60 ColNo = 17 Msg = 'Duplicate local variable output'
+13 Apr 2018 1:52:07 GMT: diagnostics = javax.tools.DiagnosticCollector@14662ff
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19ebf48
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java, C:\Users\Jonathan\Desktop\Test.java]
+13 Apr 2018 1:52:07 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@122fd3f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Desktop;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 Apr 2018 1:52:07 GMT: Compiler call returned
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@35b126
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 48 Msg = 'Syntax error on token "throw", throws expected'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b4b9d7
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Desktop\Test.java LineNo = 4 ColNo = 13 Msg = 'Syntax error on token(s), misplaced construct(s)'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8fe1a3
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Desktop\Test.java LineNo = 4 ColNo = 22 Msg = 'Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ccab01
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17845f
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d4e18b
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 188 ColNo = 13 Msg = 'Syntax error, insert ";" to complete Statement'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1993eb
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ". class" to complete Expression'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7fa48a
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6f326
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 199 ColNo = 32 Msg = 'Syntax error on token ",", ; expected'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@308514
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 53 ColNo = 21 Msg = 'Type mismatch: cannot convert from java.lang.String[][] to int[][]'
+13 Apr 2018 1:52:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7cc2f2
+13 Apr 2018 1:52:07 GMT:  Kind = ERROR
+13 Apr 2018 1:52:07 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 60 ColNo = 17 Msg = 'Duplicate local variable output'
+13 Apr 2018 1:52:46 GMT: diagnostics = javax.tools.DiagnosticCollector@20e11
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1392804
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java, C:\Users\Jonathan\Desktop\Test.java]
+13 Apr 2018 1:52:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@93f78f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Desktop;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 Apr 2018 1:52:46 GMT: Compiler call returned
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1870042
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 48 Msg = 'Syntax error on token "throw", throws expected'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13fdd89
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7ba17b
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 187 ColNo = 51 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8594f4
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 188 ColNo = 13 Msg = 'Syntax error, insert ";" to complete Statement'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19d1c76
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ". class" to complete Expression'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9b5419
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 195 ColNo = 25 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19c49c8
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 199 ColNo = 32 Msg = 'Syntax error on token ",", ; expected'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17c453b
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 53 ColNo = 21 Msg = 'Type mismatch: cannot convert from java.lang.String[][] to int[][]'
+13 Apr 2018 1:52:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@99958e
+13 Apr 2018 1:52:46 GMT:  Kind = ERROR
+13 Apr 2018 1:52:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 60 ColNo = 17 Msg = 'Duplicate local variable output'
+13 Apr 2018 1:52:53 GMT: diagnostics = javax.tools.DiagnosticCollector@1b7cb1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@114d010
+fileObjects = [C:\Users\Jonathan\Desktop\Test.java]
+13 Apr 2018 1:52:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d3f9c8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Desktop;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 Apr 2018 1:52:53 GMT: Compiler call returned
+13 Apr 2018 1:53:02 GMT: diagnostics = javax.tools.DiagnosticCollector@d8794
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@eabe11
+fileObjects = [C:\Users\Jonathan\Desktop\Test.java]
+13 Apr 2018 1:53:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fe6f2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Desktop;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 Apr 2018 1:53:02 GMT: Compiler call returned

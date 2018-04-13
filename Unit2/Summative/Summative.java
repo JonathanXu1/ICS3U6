@@ -24,7 +24,6 @@ public class Summative {
     File file = new File(response);
     Scanner input2 = new Scanner(file);
     int[][] world = loadMap(input2); //Converts map into numbers
-    int[][] traps = trapMap(world); //Logs traps in a new map
     
     //Prints map
     for (int i = 0; i < world.length; i++){
@@ -37,6 +36,7 @@ public class Summative {
     //Finds paths
     System.out.println("All possible paths:");
     String paths = findpath(1, 1, 1, world, "");
+    //Prints paths
     for (int i = 0; i < paths.length(); i++){
       if (paths.substring(i, i+1).equals("*")){
         System.out.println();
@@ -45,6 +45,12 @@ public class Summative {
         System.out.print(paths.substring(i,i+1));
       }
     }
+    
+    //Finds all traps
+    String[] alltraps = findTrap(world);
+    
+    //Lays down traps
+    int[][] traps = trapMap(world, alltraps, paths); //Logs traps in a new map
     
     //Outputs solution
     /*
@@ -130,31 +136,45 @@ public class Summative {
   
   /*
    * Trap Map
-   * Creates a two dimentional int array logging the traps in the map
+   * Creates a string array logging the trap co-ordinates
   */
-  public static int[][] trapMap(int[][] map) throw Exception{
-    int [][] output = new int[map.length][map.length];
+  public static String[] findTrap(int[][] map) throw Exception{
+    int count = 0;
     
     for (int i = 0; i < map.length; i++){
       for (int j = 0; j < map.length; j++){
         if(map[i][j] == 4){
-          output[i][j] = 1;
-        }
-        else{
-          output[i][j] = 0;
+          count ++;
         }
       }
     }
-    return output;
+    
+    String[] traps = new String[count + 1]; //Initializes a string array
+    traps[0] = Integer.toString(count); //First index is # of traps
+    count = 1;
+    for (int i = 0; i < map.length; i++){
+      for (int j = 0; j < map.length; j++){
+        if(map[i][j] == 4){
+          traps[count] = Integer.toString(j) + "," + Integer.toString(i); //xy co-ordinates of trap saved as string
+          count ++;
+        }
+      }
+    }
+    
+    return traps;
   }
   
   /*
    *Place traps
   */
-  public static String[][] placeTrap(int[][] map, int[][] trap, String dir){
+  public static String[][] trapMap(int[][] map, String[] traps, String dir){
     int count = 0;
+    int x, y = 1;
+    int trapx, trapy;
+    flag trapped;
+    String binary;
     for(int i = 0; i<dir.length(); i++){ //Seperates the single line of paths into an array
-      if(dir.substring(i, i+1).equals("*")){
+      if(dir.charAt(i) == "*"){
         count++;
       }
     }
@@ -164,6 +184,42 @@ public class Summative {
       dir = dir.substring(dir.indexOf("*") + 1);
     }
     
-    
+    int[][] empty = new int[map.length][map.length] 
+    count = 0 //Resets counter for use in binary traps
+    while(!works){
+      works = true;
+      count++;
+      binary = Integer.toBinaryString(count);
+      for(int i = binary.length()-1; i >=0; i--){
+        if(binary.charAt(i) == "1"){
+          trapx = traps[]
+        }
+      }
+      
+      for (int i = 0; i < count, i++){
+        trapped = false;
+        for (int j = 0; j < paths[i].length; j++){
+          if(paths[i].substring(j, j+1).equals("U")){
+            y -= 1;
+          }
+          else if(paths[i].substring(j, j+1).equals("D")){
+            y += 1;
+          }
+          else if(paths[i].substring(j, j+1).equals("L")){
+            x -= 1;
+          }
+          else if(paths[i].substring(j, j+1).equals("R")){
+            x += 1;
+          }
+          if (empty[y][x] == 1){
+            trapped = true;
+          }
+        }
+        if (!trapped){
+          works = false;
+        }
+      }
+    }
   }
+  
 }
