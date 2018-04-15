@@ -6,7 +6,6 @@
  */
 
 import java.util.Scanner;
-import java.util.ArrayList;
 import java.io.File;
 import java.io.PrintWriter;
 
@@ -50,10 +49,11 @@ public class Summative {
       paths = paths.substring(paths.indexOf("*") + 1);
     }
     //Prints paths
+    /*
     for (int i = 0; i < path.length; i++){
       System.out.println(path[i]);
     }
-    
+    */
     //Finds all used traps
     System.out.println("Used trap co-ordinates:");
     String traps = findTrap(world, path);
@@ -69,7 +69,7 @@ public class Summative {
     //Outputs solution
     File solution = new File("solution.txt");
     PrintWriter output = new PrintWriter(solution);
-    
+    output.close();
     
     input1.close();   
     input2.close();
@@ -186,7 +186,7 @@ public class Summative {
   public static String placeTrap(String traps, String[] dir){
     int trapCount = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
     traps = traps.substring(traps.indexOf(" ")+1);
-    String binStr, actiTrap, path = "";
+    String binStr, actiTrap;
     int x, y, actiCount;
     boolean trapped, works;
     String minTrap = "";
@@ -197,35 +197,29 @@ public class Summative {
     int[] trapy = new int[trapCount];
     for(int i = 0; i < trapCount; i++){
       trapx[i] = Integer.parseInt(traps.substring(0, traps.indexOf(",")));
-      traps = traps.substring(traps.indexOf(",") + 1);
-      trapy[i] = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
+      trapy[i] = Integer.parseInt(traps.substring(traps.indexOf(",") + 1, traps.indexOf(" ")));
       traps = traps.substring(traps.indexOf(" ") + 1);
     }
     
     //Iterates through all traps in binary
-    for(int i = 1; i <= trapCount; i++){
+    for(int i = 1; i <= Math.pow(2, trapCount)-1; i++){
       binStr = Integer.toBinaryString(i);
       actiTrap = "";
+      actiCount = 0;
       
       for(int j = binStr.length()-1; j >= 0; j--){ //Activates corresponding traps
         if(binStr.charAt(j) == '1'){
           actiTrap += trapx[binStr.length()-j-1] + "," + trapy[binStr.length()-j-1] + " ";
-        }
-      }
-      
-      //Logs # of traps activated
-      actiCount = 0;
-      for(int j = 0; j < actiTrap.length(); j++){
-        if(actiTrap.charAt(j) == ' '){
           actiCount ++;
         }
       }
       
+      //System.out.println("ActiTrap: " + actiTrap);
+      
       //Navigates through each working path to see if the monster gets trapped
       works = true;
       for(int j = 0; j < dir.length; j++){
-        x = 1;
-        y = 1;
+        x = y = 1;
         trapped = false;
         for(int k = 0; k < dir[j].length(); k++){
           if(dir[j].charAt(k) == 'U'){
@@ -247,6 +241,9 @@ public class Summative {
         if(!trapped){
           works = false;
         }
+      }
+      if(works){
+        System.out.println(actiTrap);
       }
       if (works && actiCount < min){
         min = actiCount;

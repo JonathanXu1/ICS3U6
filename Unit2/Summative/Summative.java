@@ -12,8 +12,9 @@ import java.io.PrintWriter;
 public class Summative {
   public static void main(String[] args) throws Exception{
     Scanner input1 = new Scanner(System.in);
-    String response;
+    String response, traps, minTraps;
     int count = 0;
+    String[] trapMap;
     
     // Welcome
     System.out.println("Welcome to the monster hunter mini world!");
@@ -56,19 +57,22 @@ public class Summative {
     */
     //Finds all used traps
     System.out.println("Used trap co-ordinates:");
-    String traps = findTrap(world, path);
+    traps = findTrap(world, path);
     System.out.println(traps.substring(traps.indexOf(" ")+1));
     
     //Finds min number of traps
     System.out.println("Minimum trap co-ordinates:");
-    System.out.println(placeTrap(traps, path));
-    
-    //Lays down traps
-    //int[][] traps = trapMap(world, alltraps, paths); //Logs traps in a new map
+    minTraps = placeTrap(traps, path);
+    System.out.println(minTraps);
     
     //Outputs solution
     File solution = new File("solution.txt");
     PrintWriter output = new PrintWriter(solution);
+    input2 = new Scanner(file);
+    trapMap = drawMap(input2, minTraps);
+    for(int i = 0; i < trapMap.length; i++){
+      output.println(trapMap[i]);
+    }
     output.close();
     
     input1.close();   
@@ -149,7 +153,7 @@ public class Summative {
    * Find Trap
    * Creates a string logging the trap co-ordinates
   */
-  public static String findTrap(int[][] map, String[] dir) throws Exception{
+  public static String findTrap(int[][] map, String[] dir){
     int count = 0;
     int x,y;
     String path;
@@ -186,7 +190,7 @@ public class Summative {
   public static String placeTrap(String traps, String[] dir){
     int trapCount = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
     traps = traps.substring(traps.indexOf(" ")+1);
-    String binStr, actiTrap = "";
+    String binStr, actiTrap;
     int x, y, actiCount;
     boolean trapped, works;
     String minTrap = "";
@@ -204,7 +208,7 @@ public class Summative {
     //Iterates through all traps in binary
     for(int i = 1; i <= Math.pow(2, trapCount)-1; i++){
       binStr = Integer.toBinaryString(i);
-      actiTrap = "";
+      actiTrap = " ";
       actiCount = 0;
       
       for(int j = binStr.length()-1; j >= 0; j--){ //Activates corresponding traps
@@ -234,7 +238,7 @@ public class Summative {
           else if(dir[j].charAt(k) == 'R'){
             x ++;
           }
-          if(actiTrap.contains(Integer.toString(x) + "," + Integer.toString(y))){ //Lands on an activated trap
+          if(actiTrap.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ")){ //Lands on an activated trap
             trapped = true;
           }
         }
@@ -248,5 +252,38 @@ public class Summative {
       }
     }
     return minTrap;
+  }
+  
+  /*
+   * Draw Map
+  */
+  public static String[] drawMap(Scanner in, String traps) throws Exception{
+    String symbol;
+    String line = in.nextLine();
+    int len = line.length();
+    int count = 1;
+    
+    String[] finalMap = new String[len];
+    for(int i = 0; i < len; i++){
+      finalMap[i] = "";
+    }
+    
+    for (int y = 0; y < len; y++){
+      for (int x = 0; x < len; x++){
+        symbol = line.substring(x, x+1);
+        if (traps.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ")){
+          finalMap[y] += "T";
+        }
+        else{
+          finalMap[y] += symbol;
+        }
+      }
+      count ++;
+      if (count <= len){
+        line = in.nextLine();
+      }
+    }
+    
+    return finalMap;
   }
 }
