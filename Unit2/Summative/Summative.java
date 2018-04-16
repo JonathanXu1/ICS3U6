@@ -55,6 +55,7 @@ public class Summative {
       System.out.println(path[i]);
     }
     */
+    
     //Finds all used traps
     System.out.println("Used trap co-ordinates:");
     traps = findTrap(world, path);
@@ -74,6 +75,10 @@ public class Summative {
       output.println(trapMap[i]);
     }
     output.close();
+    
+    //Finds max steps
+    System.out.println("Max steps:");
+    System.out.println(countSteps(path, minTraps));
     
     input1.close();   
     input2.close();
@@ -285,5 +290,44 @@ public class Summative {
     }
     
     return finalMap;
+  }
+  
+  /*
+   *Count Steps
+   * Worst case scenario
+  */
+  public static int countSteps(String[] p, String traps){
+    int max = 0;
+    int x, y;
+    int count;
+    boolean trapped ;
+    for(int i = 0; i < p.length; i++){
+      x = y = 1;
+      count = 1;
+      trapped = false;
+      for(int j = 0; j < p[i].length(); j++){
+        if(p[i].charAt(j) == 'U'){
+          y --;
+        }
+        else if(p[i].charAt(j) == 'D'){
+          y ++;
+        }
+        else if(p[i].charAt(j) == 'L'){
+          x --;
+        }
+        else if(p[i].charAt(j) == 'R'){
+          x ++;
+        }
+        count++;
+        if(traps.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ") && !trapped){
+          trapped = true;
+          if(count > max){
+            max = count;
+            System.out.println(max + " " + p[i]);
+          }
+        }
+      }
+    }
+    return max;
   }
 }
