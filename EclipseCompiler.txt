@@ -2141,3 +2141,5 @@ fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1504e48
 fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
 16 Apr 2018 0:12:54 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@580063' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
 16 Apr 2018 0:12:54 GMT: Compiler call returned
+16 Apr 2018 13:34:23 GMT: Log 'EclipseCompiler.txt' opened: 16 Apr 2018 13:34:23 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+17 Apr 2018 2:51:44 GMT: Log 'EclipseCompiler.txt' opened: 17 Apr 2018 2:51:44 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
