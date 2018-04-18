@@ -3228,3 +3228,13 @@ fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1cd2d2f
 fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
 18 Apr 2018 5:14:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1104150' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
 18 Apr 2018 5:14:42 GMT: Compiler call returned
+18 Apr 2018 5:27:13 GMT: diagnostics = javax.tools.DiagnosticCollector@13859ba
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1483009
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 5:27:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c75fc5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 5:27:14 GMT: Compiler call returned
+18 Apr 2018 5:36:51 GMT: diagnostics = javax.tools.DiagnosticCollector@b46531
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@141e7b3
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 5:36:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@194f92b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 5:36:51 GMT: Compiler call returned

@@ -17,18 +17,18 @@ public class Summative {
     int maxSteps;
     String[] trapMap;
     
-    // Welcome
+    // Welcome Message
     System.out.println("Welcome to the monster hunter mini world!");
     System.out.print("Enter your filename (including .txt extension");
     response = input1.nextLine();
     input1.close();
     
-    //Initialize
+    //Initializes files
     File file = new File(response);
     Scanner input2 = new Scanner(file);
     int[][] world = loadMap(input2); //Converts map into numbers
         
-    //Finds paths
+    //Finds all possible paths to the food source
     String paths = findPath(1, 1, 1, world, "", world.length-1, world.length-2);
     for(int i = 0 ; i < paths.length(); i++){
       if (paths.charAt(i) == '*'){
@@ -41,17 +41,17 @@ public class Summative {
       paths = paths.substring(paths.indexOf("*") + 1);
     }
     
-    //Finds all used traps
+    //Determines all used traps
     System.out.println("Used trap co-ordinates:");
     traps = findTrap(world, path);
     System.out.println(traps.substring(traps.indexOf(" ")+1));
     
-    //Finds min number of traps
+    //Finds min number of traps needed for capture
     System.out.println("Minimum trap co-ordinates:");
     minTraps = placeTrap(traps, path);
     System.out.println(minTraps.substring(minTraps.indexOf(" ")+1));
     
-    //Outputs solution
+    //Writes a map with corresponding traps placed in solutions.txt
     File solution = new File("solution.txt");
     PrintWriter output = new PrintWriter(solution);
     input2 = new Scanner(file);
@@ -61,7 +61,7 @@ public class Summative {
     }
     input2.close();
     
-    //Finds max steps
+    //Finds max steps (Answer also found in solutions.txt)
     maxSteps = countSteps(path, minTraps);
     System.out.println("Maximum steps it will take for the monster to get trapped: " + maxSteps);
     output.println("Maximum steps it will take for the monster to get trapped: " + maxSteps);
@@ -87,21 +87,22 @@ public class Summative {
     int len = line.length();
     int count = 1;
     
-    int[][] map = new int[len][len];
+    int[][] map = new int[len][len]; //Declares a 2D int array with the same dimensions as the one in the file
     
+    //Scans the file, character by character, and converts specific symbols to numbers
     for (int i = 0; i < len; i++){
       for (int j = 0; j < len; j++){
         symbol = line.substring(j, j+1);
-        if ("+-|".contains(symbol)){
+        if ("+-|".contains(symbol)){ //If wall
           map[i][j] = 1;
         }
-        else if (symbol.equals("N")){
-          map[i][j] = 1;
+        else if (symbol.equals("N")){ //If starting point
+          map[i][j] = 1; //The starting point is set as a wall so the marker doesn't accidentally move out of the maze
         }
-        else if (symbol.equals("F")){
+        else if (symbol.equals("F")){ //If food source
           map[i][j] = 3;
         }
-        else if (symbol.equals("P")){
+        else if (symbol.equals("P")){ //If possible trap site
           map[i][j] = 4;
         }
       }
@@ -134,16 +135,16 @@ public class Summative {
       output = "";
     }
     else {
-      if(map[y-1][x] != 1){
+      if(map[y-1][x] != 1){ //If there's a space above, move up
         output += findPath(x, y-1, step, map, line + "U", endX, endY);
       }
-      if(map[y][x+1] != 1){
+      if(map[y][x+1] != 1){ //If there's a space to the right, move right
         output += findPath(x+1, y, step, map, line + "R", endX, endY);
       }
-      if(map[y+1][x] != 1){
+      if(map[y+1][x] != 1){ //If there's a space below, move down
         output += findPath(x, y+1, step, map, line + "D", endX, endY);
       }
-      if(map[y][x-1] != 1){
+      if(map[y][x-1] != 1){ //If there's a space left, move left
         output += findPath(x-1, y, step, map, line + "L", endX, endY);
       } 
     }
@@ -167,18 +168,19 @@ public class Summative {
       y = 1;
       path = dir[i];
       for(int j = 0; j < path.length(); j++){
-        if(path.charAt(j) == 'U'){
+        if(path.charAt(j) == 'U'){ //Move marker up
           y --;
         }
-        else if(path.charAt(j) == 'D'){
+        else if(path.charAt(j) == 'D'){ //Move marker down
           y ++;
         }
-        else if(path.charAt(j) == 'L'){
+        else if(path.charAt(j) == 'L'){ //Move marker left
           x --;
         }
-        else if(path.charAt(j) == 'R'){
+        else if(path.charAt(j) == 'R'){ //Move marker right
           x ++;
         }
+        //If the hits a trap site while travelling, and the co-ordinates are not included in the min trap string, the xy co-ordinates are added
         if(map[y][x] == 4 && !traps.contains(Integer.toString(x) + "," + Integer.toString(y))){
           traps += Integer.toString(x) + "," + Integer.toString(y) + " ";
           count++;
@@ -232,16 +234,16 @@ public class Summative {
         x = y = 1;
         trapped = false;
         for(int k = 0; k < dir[j].length(); k++){
-          if(dir[j].charAt(k) == 'U'){
+          if(dir[j].charAt(k) == 'U'){ //Move marker up
             y --;
           }
-          else if(dir[j].charAt(k) == 'D'){
+          else if(dir[j].charAt(k) == 'D'){ //Move marker down
             y ++;
           }
-          else if(dir[j].charAt(k) == 'L'){
+          else if(dir[j].charAt(k) == 'L'){ //Move marker left
             x --;
           }
-          else if(dir[j].charAt(k) == 'R'){
+          else if(dir[j].charAt(k) == 'R'){ //Move marker right
             x ++;
           }
           if(actiTrap.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ")){ //Lands on an activated trap
@@ -274,13 +276,13 @@ public class Summative {
     
     String[] finalMap = new String[len];
     for(int i = 0; i < len; i++){
-      finalMap[i] = "";
+      finalMap[i] = ""; //Each index of the final map string array is initialized so character could be appended later
     }
     
     for (int y = 0; y < len; y++){
       for (int x = 0; x < len; x++){
         symbol = line.substring(x, x+1);
-        if (traps.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ")){
+        if (traps.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ")){ //If the co-ordinates match the min trap co-ordinates
           finalMap[y] += "T";
         }
         else{
@@ -312,23 +314,23 @@ public class Summative {
       count = 1;
       trapped = false;
       for(int j = 0; j < p[i].length(); j++){
-        if(p[i].charAt(j) == 'U'){
+        if(p[i].charAt(j) == 'U'){ //Move marker up
           y --;
         }
-        else if(p[i].charAt(j) == 'D'){
+        else if(p[i].charAt(j) == 'D'){ //Move marker down
           y ++;
         }
-        else if(p[i].charAt(j) == 'L'){
+        else if(p[i].charAt(j) == 'L'){ //Move marker left
           x --;
         }
-        else if(p[i].charAt(j) == 'R'){
+        else if(p[i].charAt(j) == 'R'){ //Move marker right
           x ++;
         }
         count++;
-        if(traps.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ") && !trapped){
+        if(traps.contains(" " + Integer.toString(x) + "," + Integer.toString(y) + " ") && !trapped){ //If the trap string contains the co-ordinate pair of the marker
           trapped = true;
-          if(count > max){
-            max = count;
+          if(count > max){ 
+            max = count; //The max value is updated if the new path is higher than the others
           }
         }
       }
