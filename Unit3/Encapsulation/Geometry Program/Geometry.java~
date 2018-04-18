@@ -1,0 +1,21 @@
+/**
+ * Geometry Program
+ * Can create triangles, set lines, and co-ordinates
+ * Jonathan Xu
+ * April 18, 2018
+*/
+
+import java.util.Scanner;
+
+public class Geometry{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Welcome to the triangle creator!");
+    for(int i = 0; i < 3; i++){
+      System.out.print("Enter x value of point " + i+1);
+      int 
+      System.out.print("Enter y value of point " + i+1);
+    }
+  }
+}

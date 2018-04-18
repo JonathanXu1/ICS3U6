@@ -1,0 +1,17 @@
+/**
+ * GeoLine
+ * Returns the length of a line
+*/
+
+public class GeoLine{
+  private double x, y;
+  
+  GeoLine(GeoCoordinate xy){
+    x = xy[0];
+    y = xy[1];
+  }
+  
+  int lineLength (){
+    return Math.sqrt(x*x + y*y);
+  }
+}

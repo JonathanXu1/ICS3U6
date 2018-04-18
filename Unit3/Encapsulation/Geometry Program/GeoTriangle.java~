@@ -1,0 +1,11 @@
+/**
+ * GeoTriangle
+ * Contains three lines and outputs the area
+ * Jonathan Xu
+ * April 18, 2018
+*/
+
+public class GeoTriangle{
+  GeoTriangle(){
+  }
+}
