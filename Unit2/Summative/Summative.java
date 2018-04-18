@@ -12,55 +12,34 @@ import java.io.PrintWriter;
 public class Summative {
   public static void main(String[] args) throws Exception{
     Scanner input1 = new Scanner(System.in);
-    String response, traps, minTraps, permutations, placeholder;
+    String response, traps, minTraps;
     int count = 0;
-    int min = Integer.MAX_VALUE;
-    int minTrapCount, startX, startY;
+    int maxSteps;
     String[] trapMap;
     
     // Welcome
     System.out.println("Welcome to the monster hunter mini world!");
     System.out.print("Enter your filename (including .txt extension");
     response = input1.nextLine();
-    input1.close();  
+    input1.close();
     
     //Initialize
     File file = new File(response);
     Scanner input2 = new Scanner(file);
     int[][] world = loadMap(input2); //Converts map into numbers
-    
-    //Prints map
-    /*
-    for (int i = 0; i < world.length; i++){
-      for(int j = 0; j < world.length; j++){
-        System.out.print(world[i][j]);
-      }
-      System.out.println();
-    }
-    */
         
     //Finds paths
-    System.out.println("All possible paths:");
-    startX = startY = 1;
-    String paths = findpath(startX, startY, 1, world, "", world.length-1, world.length-2);
-    paths = paths.substring(paths.indexOf(" ") + 1);
-    for(int i = 0; i < paths.length(); i++){
-      if(paths.charAt(i) == '*'){
+    String paths = findPath(1, 1, 1, world, "");
+    for(int i = 0 ; i < paths.length(); i++){
+      if (paths.charAt(i) == '*'){
         count++;
       }
     }
-      
     String[] path = new String[count];
     for(int i = 0; i < count; i++){
       path[i] = paths.substring(0, paths.indexOf("*"));
       paths = paths.substring(paths.indexOf("*") + 1);
     }
-    //Prints paths
-    /*
-    for (int i = 0; i < path.length; i++){
-      System.out.println(path[i]);
-    }
-    */
     
     //Finds all used traps
     System.out.println("Used trap co-ordinates:");
@@ -70,8 +49,6 @@ public class Summative {
     //Finds min number of traps
     System.out.println("Minimum trap co-ordinates:");
     minTraps = placeTrap(traps, path);
-    minTrapCount = Integer.parseInt(minTraps.substring(0, minTraps.indexOf(" ")));
-    minTraps = minTraps.substring(minTraps.indexOf(" ")+1);
     System.out.println(minTraps);
     
     //Outputs solution
@@ -86,22 +63,18 @@ public class Summative {
     
     //Finds max steps
     System.out.println("Max steps:");
-    System.out.println(countSteps(path, minTraps));
-    
-    //Finds min number of steps to place traps
-    System.out.println("Minimum steps to lay down traps:");
-    permutations = " ";
-    for(int i = 0; i < minTrapCount; i++){
-      
-    }
-    
+    maxSteps = countSteps(path, minTraps);
+    System.out.println(maxSteps);
+    output.println("Maximum steps it will take for the monster to get trapped:" + maxSteps);
     output.close();
   }
   
-  /*
-   * Load Map
-   * Converts the chars in the txt file to a 2 dimentional int array
-  */
+  /**
+   * loadMap
+   * This method reads a map.txt file and converts it to an easier to understand 2D array.
+   * @param The scanner for the text file that visually represents the maze.
+   * @return A 2D array, in which walls, possible trap positions, starting and ending points are represented with integers.
+   */
   public static int[][] loadMap(Scanner in) throws Exception{
     String symbol;
     String line = in.nextLine();
@@ -136,42 +109,48 @@ public class Summative {
   }
   
   /**
-   * Finds all paths
+   *findPath
+   * This method takes an the xy co-ordinates of a marker, looks at the map, and moves the marker recursively to all open paths.
+   * @param Two ints representing the xy co-ordinates of the marker, an int for step count, a 2D int array representing the map,
+   * and a string of previous turns taken.
+   * @return A string representing all the paths that can be taken from the start to the finish point
    */
-  public static String findpath(int x, int y, int step, int[][] map, String line, int finishX, int finishY) throws Exception {
+  public static String findPath(int x, int y, int step, int[][] map, String line) throws Exception {
     int prevNumber = map[y][x];
     map[y][x] = 1; //Traveled places
     step ++;
     String output = "";
     
-    if (x == finishX && y == finishY){ //If met destinatinon
-      output = step + " " + line + "*";
+    if (x == map.length-1 && y == map.length-2){ //If met destinatinon
+      output = line + "*";
     }
     else if (map[y-1][x] == 1 && map[y][x+1] == 1 && map[y+1][x] == 1 && map[y][x-1] == 1){ //If deadend
       output = "";
     }
     else {
       if(map[y-1][x] != 1){
-        output += findpath(x, y-1, step, map, line + "U", finishX, finishY);
+        output += findPath(x, y-1, step, map, line + "U");
       }
       if(map[y][x+1] != 1){
-        output += findpath(x+1, y, step, map, line + "R", finishX, finishY);
+        output += findPath(x+1, y, step, map, line + "R");
       }
       if(map[y+1][x] != 1){
-        output += findpath(x, y+1, step, map, line + "D", finishX, finishY);
+        output += findPath(x, y+1, step, map, line + "D");
       }
       if(map[y][x-1] != 1){
-        output += findpath(x-1, y, step, map, line + "L", finishX, finishY);
+        output += findPath(x-1, y, step, map, line + "L");
       } 
     }
     map[y][x]=prevNumber;
     return output;
   }
   
-  /*
-   * Find Trap
-   * Creates a string logging the trap co-ordinates
-  */
+  /**
+   *findTrap
+   * This method accepts a map and a set of paths. It finds the number of possible trap locations and the location of them.
+   * @param A 2D int array representing the map, and a string array of paths
+   * @return A string that represents the xy co-ordinates of the possible trap locations
+   */
   public static String findTrap(int[][] map, String[] dir){
     int count = 0;
     int x,y;
@@ -203,8 +182,12 @@ public class Summative {
     return count + " " + traps;
   }
   
-  /*
-   *Place traps
+  /**
+   *placeTrap
+   * This method accepts a set of possible trap locations and a set of paths.
+   * It activates each possible combination of traps and determines if all paths can travel through it
+   * @param A string that represents the xy co-ordinates of the set of traps and a string array which contains individual paths
+   * @return A string that represents the xy co-ordinates of the minimum number of traps required
   */
   public static String placeTrap(String traps, String[] dir){
     int trapCount = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
@@ -268,12 +251,15 @@ public class Summative {
         minTrap = actiTrap;
       }
     }
-    return min + " " + minTrap;
+    return minTrap;
   }
   
-  /*
-   * Draw Map
-  */
+  /**
+   *drawMap
+   * This method accepts the map file and replaces the activated traps with the letter "T"
+   * @param A scanner of the map file, and a string of the traps to activate.
+   * @return A string array of the modified map, one line per row of the map.
+   */
   public static String[] drawMap(Scanner in, String traps) throws Exception{
     String symbol;
     String line = in.nextLine();
@@ -304,10 +290,12 @@ public class Summative {
     return finalMap;
   }
   
-  /*
-   *Count Steps
-   * Worst case scenario
-  */
+ /**
+   *countSteps
+   * This method takes a path and outputs the minimum number of steps the monster can take before it gets trapped.
+   * @param A string array of all paths to the food source, and a string representing the xy co-ordinates of all activated traps.
+   * @return An integer, representing the max number of steps the monster can take before getting trapped.
+   */
   public static int countSteps(String[] p, String traps){
     int max = 0;
     int x, y;

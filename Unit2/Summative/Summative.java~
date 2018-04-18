@@ -12,14 +12,17 @@ import java.io.PrintWriter;
 public class Summative {
   public static void main(String[] args) throws Exception{
     Scanner input1 = new Scanner(System.in);
-    String response, traps, minTraps;
+    String response, traps, minTraps, permutations, placeholder;
     int count = 0;
+    int min = Integer.MAX_VALUE;
+    int minTrapCount, startX, startY;
     String[] trapMap;
     
     // Welcome
     System.out.println("Welcome to the monster hunter mini world!");
     System.out.print("Enter your filename (including .txt extension");
     response = input1.nextLine();
+    input1.close();  
     
     //Initialize
     File file = new File(response);
@@ -38,12 +41,15 @@ public class Summative {
         
     //Finds paths
     System.out.println("All possible paths:");
-    String paths = findpath(1, 1, 1, world, "");
-    for(int i = 0 ; i < paths.length(); i++){
-      if (paths.charAt(i) == '*'){
+    startX = startY = 1;
+    String paths = findpath(startX, startY, 1, world, "", world.length-1, world.length-2);
+    paths = paths.substring(paths.indexOf(" ") + 1);
+    for(int i = 0; i < paths.length(); i++){
+      if(paths.charAt(i) == '*'){
         count++;
       }
     }
+      
     String[] path = new String[count];
     for(int i = 0; i < count; i++){
       path[i] = paths.substring(0, paths.indexOf("*"));
@@ -64,6 +70,8 @@ public class Summative {
     //Finds min number of traps
     System.out.println("Minimum trap co-ordinates:");
     minTraps = placeTrap(traps, path);
+    minTrapCount = Integer.parseInt(minTraps.substring(0, minTraps.indexOf(" ")));
+    minTraps = minTraps.substring(minTraps.indexOf(" ")+1);
     System.out.println(minTraps);
     
     //Outputs solution
@@ -74,14 +82,20 @@ public class Summative {
     for(int i = 0; i < trapMap.length; i++){
       output.println(trapMap[i]);
     }
-    output.close();
+    input2.close();
     
     //Finds max steps
     System.out.println("Max steps:");
     System.out.println(countSteps(path, minTraps));
     
-    input1.close();   
-    input2.close();
+    //Finds min number of steps to place traps
+    System.out.println("Minimum steps to lay down traps:");
+    permutations = " ";
+    for(int i = 0; i < minTrapCount; i++){
+      
+    }
+    
+    output.close();
   }
   
   /*
@@ -124,30 +138,30 @@ public class Summative {
   /**
    * Finds all paths
    */
-  public static String findpath(int x, int y, int step, int[][] map, String line) throws Exception {
+  public static String findpath(int x, int y, int step, int[][] map, String line, int finishX, int finishY) throws Exception {
     int prevNumber = map[y][x];
     map[y][x] = 1; //Traveled places
     step ++;
     String output = "";
     
-    if (x == map.length-1 && y == map.length-2){ //If met destinatinon
-      output = line + "*";
+    if (x == finishX && y == finishY){ //If met destinatinon
+      output = step + " " + line + "*";
     }
     else if (map[y-1][x] == 1 && map[y][x+1] == 1 && map[y+1][x] == 1 && map[y][x-1] == 1){ //If deadend
       output = "";
     }
     else {
       if(map[y-1][x] != 1){
-        output += findpath(x, y-1, step, map, line + "U");
+        output += findpath(x, y-1, step, map, line + "U", finishX, finishY);
       }
       if(map[y][x+1] != 1){
-        output += findpath(x+1, y, step, map, line + "R");
+        output += findpath(x+1, y, step, map, line + "R", finishX, finishY);
       }
       if(map[y+1][x] != 1){
-        output += findpath(x, y+1, step, map, line + "D");
+        output += findpath(x, y+1, step, map, line + "D", finishX, finishY);
       }
       if(map[y][x-1] != 1){
-        output += findpath(x-1, y, step, map, line + "L");
+        output += findpath(x-1, y, step, map, line + "L", finishX, finishY);
       } 
     }
     map[y][x]=prevNumber;
@@ -223,8 +237,6 @@ public class Summative {
         }
       }
       
-      //System.out.println("ActiTrap: " + actiTrap);
-      
       //Navigates through each working path to see if the monster gets trapped
       works = true;
       for(int j = 0; j < dir.length; j++){
@@ -256,7 +268,7 @@ public class Summative {
         minTrap = actiTrap;
       }
     }
-    return minTrap;
+    return min + " " + minTrap;
   }
   
   /*
@@ -323,7 +335,6 @@ public class Summative {
           trapped = true;
           if(count > max){
             max = count;
-            System.out.println(max + " " + p[i]);
           }
         }
       }
