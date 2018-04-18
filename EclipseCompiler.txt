@@ -2518,3 +2518,713 @@ fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10afc3b
 fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
 18 Apr 2018 3:05:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@73a147' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
 18 Apr 2018 3:05:02 GMT: Compiler call returned
+18 Apr 2018 3:21:39 GMT: diagnostics = javax.tools.DiagnosticCollector@9ddc3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@301082
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:21:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@11ec86b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:21:39 GMT: Compiler call returned
+18 Apr 2018 3:21:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1001830
+18 Apr 2018 3:21:39 GMT:  Kind = ERROR
+18 Apr 2018 3:21:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 338 ColNo = 21 Msg = 'This method must return a result of type int'
+18 Apr 2018 3:21:47 GMT: diagnostics = javax.tools.DiagnosticCollector@177e3c5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ebb25f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:21:47 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@89b446' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:21:48 GMT: Compiler call returned
+18 Apr 2018 3:21:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18f7274
+18 Apr 2018 3:21:48 GMT:  Kind = ERROR
+18 Apr 2018 3:21:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 339 ColNo = 5 Msg = 'This method must return a result of type int'
+18 Apr 2018 3:21:51 GMT: diagnostics = javax.tools.DiagnosticCollector@1e524f8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4d40ce
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:21:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@96476d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:21:51 GMT: Compiler call returned
+18 Apr 2018 3:22:37 GMT: diagnostics = javax.tools.DiagnosticCollector@6ece81
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4cdfa9
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:22:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14427ff' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:22:37 GMT: Compiler call returned
+18 Apr 2018 3:40:02 GMT: diagnostics = javax.tools.DiagnosticCollector@242517
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@14e770d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:40:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1afc841' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:40:02 GMT: Compiler call returned
+18 Apr 2018 3:40:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c4a930
+18 Apr 2018 3:40:02 GMT:  Kind = ERROR
+18 Apr 2018 3:40:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 342 ColNo = 72 Msg = 'Syntax error, insert ")" to complete Expression'
+18 Apr 2018 3:40:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b44a11
+18 Apr 2018 3:40:02 GMT:  Kind = ERROR
+18 Apr 2018 3:40:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 343 ColNo = 16 Msg = 'Syntax error on token ")", delete this token'
+18 Apr 2018 3:40:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@259819
+18 Apr 2018 3:40:02 GMT:  Kind = ERROR
+18 Apr 2018 3:40:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 350 ColNo = 28 Msg = 'Syntax error on token ",", Expression expected after this token'
+18 Apr 2018 3:40:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6d2cbe
+18 Apr 2018 3:40:02 GMT:  Kind = ERROR
+18 Apr 2018 3:40:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 52 ColNo = 52 Msg = 'The method charAt(int) in the type java.lang.String is not applicable for the arguments (java.lang.String)'
+18 Apr 2018 3:40:14 GMT: diagnostics = javax.tools.DiagnosticCollector@c14b30
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1555687
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:40:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1659f8b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:40:15 GMT: Compiler call returned
+18 Apr 2018 3:40:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@95b526
+18 Apr 2018 3:40:15 GMT:  Kind = ERROR
+18 Apr 2018 3:40:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 342 ColNo = 72 Msg = 'Syntax error, insert ")" to complete Expression'
+18 Apr 2018 3:40:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b14751
+18 Apr 2018 3:40:15 GMT:  Kind = ERROR
+18 Apr 2018 3:40:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 343 ColNo = 16 Msg = 'Syntax error on token ")", delete this token'
+18 Apr 2018 3:40:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@190f3bf
+18 Apr 2018 3:40:15 GMT:  Kind = ERROR
+18 Apr 2018 3:40:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 350 ColNo = 28 Msg = 'Syntax error on token ",", Expression expected after this token'
+18 Apr 2018 3:40:31 GMT: diagnostics = javax.tools.DiagnosticCollector@15b046b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d31ae6
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:40:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17a3c4a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:40:31 GMT: Compiler call returned
+18 Apr 2018 3:40:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d8ba04
+18 Apr 2018 3:40:31 GMT:  Kind = ERROR
+18 Apr 2018 3:40:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 343 ColNo = 16 Msg = 'Syntax error on token ")", delete this token'
+18 Apr 2018 3:40:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e97e0c
+18 Apr 2018 3:40:31 GMT:  Kind = ERROR
+18 Apr 2018 3:40:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 350 ColNo = 28 Msg = 'Syntax error on token ",", Expression expected after this token'
+18 Apr 2018 3:40:35 GMT: diagnostics = javax.tools.DiagnosticCollector@17b8209
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d587ee
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:40:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ee5ce1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:40:35 GMT: Compiler call returned
+18 Apr 2018 3:40:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9e750c
+18 Apr 2018 3:40:35 GMT:  Kind = ERROR
+18 Apr 2018 3:40:35 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 350 ColNo = 28 Msg = 'Syntax error on token ",", Expression expected after this token'
+18 Apr 2018 3:41:20 GMT: diagnostics = javax.tools.DiagnosticCollector@b7e849
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17d4cf1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:41:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b20862' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:41:20 GMT: Compiler call returned
+18 Apr 2018 3:41:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e7dd45
+18 Apr 2018 3:41:20 GMT:  Kind = ERROR
+18 Apr 2018 3:41:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 350 ColNo = 14 Msg = 'Type mismatch: cannot convert from java.lang.String to int'
+18 Apr 2018 3:41:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dd9653
+18 Apr 2018 3:41:20 GMT:  Kind = ERROR
+18 Apr 2018 3:41:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 351 ColNo = 14 Msg = 'Type mismatch: cannot convert from java.lang.String to int'
+18 Apr 2018 3:41:42 GMT: diagnostics = javax.tools.DiagnosticCollector@cee63
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@fb3bda
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:41:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e2c33' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:41:42 GMT: Compiler call returned
+18 Apr 2018 3:41:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1be5869
+18 Apr 2018 3:41:42 GMT:  Kind = WARNING
+18 Apr 2018 3:41:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 12 Msg = 'The value of the local variable remaining is not used'
+18 Apr 2018 3:42:02 GMT: diagnostics = javax.tools.DiagnosticCollector@150ca50
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7016e1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:42:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@471429' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:42:02 GMT: Compiler call returned
+18 Apr 2018 3:42:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1097b9a
+18 Apr 2018 3:42:02 GMT:  Kind = WARNING
+18 Apr 2018 3:42:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 12 Msg = 'The value of the local variable remaining is not used'
+18 Apr 2018 3:42:44 GMT: diagnostics = javax.tools.DiagnosticCollector@14b73b4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@180bc7c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:42:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1487914' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:42:45 GMT: Compiler call returned
+18 Apr 2018 3:42:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ae2692
+18 Apr 2018 3:42:45 GMT:  Kind = WARNING
+18 Apr 2018 3:42:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 12 Msg = 'The value of the local variable remaining is not used'
+18 Apr 2018 3:43:18 GMT: diagnostics = javax.tools.DiagnosticCollector@183ab05
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@62b1f1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:43:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@30f7ce' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:43:18 GMT: Compiler call returned
+18 Apr 2018 3:43:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1244f10
+18 Apr 2018 3:43:18 GMT:  Kind = WARNING
+18 Apr 2018 3:43:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 12 Msg = 'The value of the local variable remaining is not used'
+18 Apr 2018 3:43:29 GMT: diagnostics = javax.tools.DiagnosticCollector@8b0333
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@dcfbae
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:43:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d19681' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:43:30 GMT: Compiler call returned
+18 Apr 2018 3:43:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f772b1
+18 Apr 2018 3:43:30 GMT:  Kind = WARNING
+18 Apr 2018 3:43:30 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 12 Msg = 'The value of the local variable remaining is not used'
+18 Apr 2018 3:44:10 GMT: diagnostics = javax.tools.DiagnosticCollector@9a079e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e7afa4
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:44:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1691b0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:44:10 GMT: Compiler call returned
+18 Apr 2018 3:44:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3794f4
+18 Apr 2018 3:44:10 GMT:  Kind = WARNING
+18 Apr 2018 3:44:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 12 Msg = 'The value of the local variable remaining is not used'
+18 Apr 2018 3:45:06 GMT: diagnostics = javax.tools.DiagnosticCollector@1be844c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19e3996
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:45:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1c29c70' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:45:06 GMT: Compiler call returned
+18 Apr 2018 3:47:01 GMT: diagnostics = javax.tools.DiagnosticCollector@128bff7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@121ca59
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:47:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@8140a2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:47:01 GMT: Compiler call returned
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fe535e
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 122 ColNo = 97 Msg = 'Syntax error on token ",", delete this token'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5fa55e
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 32 ColNo = 20 Msg = 'The method findPath(int, int, int, int[][], java.lang.String) in the type Summative is not applicable for the arguments (int, int, int, int[][], java.lang.String, int, int)'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ccad7d
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 123 ColNo = 26 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9300fc
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 123 ColNo = 29 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@99c913
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 124 ColNo = 9 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15beacb
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 124 ColNo = 12 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10c1dd8
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 128 ColNo = 9 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17062e5
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 128 ColNo = 14 Msg = 'endX cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@171f489
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 128 ColNo = 22 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10a47de
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 128 ColNo = 27 Msg = 'endY cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d17a3a
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 18 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@84524f
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 23 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bf38ea
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 38 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cea5d4
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 41 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6b19bd
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 58 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@432795
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 63 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@130329f
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 78 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@112d3a8
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 81 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fe9846
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 135 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b47da3
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 135 ColNo = 19 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b600a0
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 136 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a1b0d
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 136 ColNo = 31 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2d860a
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 136 ColNo = 59 Msg = 'endX cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14db849
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 136 ColNo = 65 Msg = 'endY cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1720e40
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 138 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fffb10
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 138 ColNo = 17 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9a2713
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 139 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@554079
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 139 ColNo = 33 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1645efd
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 139 ColNo = 59 Msg = 'endX cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2147a
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 139 ColNo = 65 Msg = 'endY cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b71716
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cdd5d1
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 19 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cbe923
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 142 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8c8784
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 142 ColNo = 31 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1da38e4
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 142 ColNo = 59 Msg = 'endX cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a1a93
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 142 ColNo = 65 Msg = 'endY cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19f61c2
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 144 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f57e92
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 144 ColNo = 17 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1de6850
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 145 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18431ba
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 145 ColNo = 33 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1add679
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 145 ColNo = 59 Msg = 'endX cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19e2970
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 145 ColNo = 65 Msg = 'endY cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15e4bfb
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 148 ColNo = 9 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14dbe0b
+18 Apr 2018 3:47:01 GMT:  Kind = ERROR
+18 Apr 2018 3:47:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 148 ColNo = 12 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: diagnostics = javax.tools.DiagnosticCollector@1d0354
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@14e3c43
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:47:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fc0e64' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:47:38 GMT: Compiler call returned
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@167da1
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 123 ColNo = 26 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1224a20
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 123 ColNo = 29 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d1d2c6
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 124 ColNo = 9 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@118dc06
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 124 ColNo = 12 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2454f1
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 128 ColNo = 9 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fc735f
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 128 ColNo = 22 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@caddc4
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 18 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c5ccb7
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 23 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19288e2
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 38 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a64c4
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 41 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114abd4
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 58 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@416675
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 63 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10f2cc7
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 78 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18110e6
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 131 ColNo = 81 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a559c9
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 135 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e2e046
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 135 ColNo = 19 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@579e09
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 136 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11ea0c5
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 136 ColNo = 31 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@76cbfe
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 138 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19deae6
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 138 ColNo = 17 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1468bca
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 139 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12404ef
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 139 ColNo = 33 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@137060e
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1950154
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 141 ColNo = 19 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@42d837
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 142 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e0a42c
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 142 ColNo = 31 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e4c2e8
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 144 ColNo = 14 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@100ebc1
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 144 ColNo = 17 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1891036
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 145 ColNo = 28 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f00c2f
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 145 ColNo = 33 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19b73bb
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 148 ColNo = 9 Msg = 'y cannot be resolved to a variable'
+18 Apr 2018 3:47:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@107d36a
+18 Apr 2018 3:47:38 GMT:  Kind = ERROR
+18 Apr 2018 3:47:38 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 148 ColNo = 12 Msg = 'x cannot be resolved to a variable'
+18 Apr 2018 3:47:49 GMT: diagnostics = javax.tools.DiagnosticCollector@17baf71
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f3c1f7
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:47:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@61b04b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:47:49 GMT: Compiler call returned
+18 Apr 2018 3:51:40 GMT: diagnostics = javax.tools.DiagnosticCollector@764d29
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a754a0
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 3:51:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f0ee53' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 3:51:40 GMT: Compiler call returned
+18 Apr 2018 3:51:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@616a93
+18 Apr 2018 3:51:40 GMT:  Kind = WARNING
+18 Apr 2018 3:51:40 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 341 ColNo = 9 Msg = 'The value of the local variable min is not used'
+18 Apr 2018 3:51:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12c8911
+18 Apr 2018 3:51:40 GMT:  Kind = WARNING
+18 Apr 2018 3:51:40 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 344 ColNo = 9 Msg = 'The value of the local variable steps is not used'
+18 Apr 2018 3:51:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@157963e
+18 Apr 2018 3:51:40 GMT:  Kind = WARNING
+18 Apr 2018 3:51:40 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 347 ColNo = 12 Msg = 'The value of the local variable remainTraps is not used'
+18 Apr 2018 4:34:18 GMT: diagnostics = javax.tools.DiagnosticCollector@8c4965
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@73ba11
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:34:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e5a41c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:34:18 GMT: Compiler call returned
+18 Apr 2018 4:34:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13ae19e
+18 Apr 2018 4:34:18 GMT:  Kind = ERROR
+18 Apr 2018 4:34:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 75 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+18 Apr 2018 4:34:23 GMT: diagnostics = javax.tools.DiagnosticCollector@15ab0aa
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ac4e60
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:34:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@156b86c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:34:23 GMT: Compiler call returned
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19dd806
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 347 ColNo = 27 Msg = 'The constructor java.lang.Boolean(int) is undefined'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@169ced2
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 349 ColNo = 22 Msg = 'False cannot be resolved to a variable'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d3e165
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 362 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e82081
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1609a32
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f6ce52
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@163db20
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 374 ColNo = 15 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:34:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b412e5
+18 Apr 2018 4:34:23 GMT:  Kind = ERROR
+18 Apr 2018 4:34:23 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 380 ColNo = 9 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:34:33 GMT: diagnostics = javax.tools.DiagnosticCollector@c2e4d8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e1336f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:34:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@565c42' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:34:33 GMT: Compiler call returned
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@928654
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 347 ColNo = 27 Msg = 'Type mismatch: cannot convert from java.lang.Boolean[] to java.lang.Boolean'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@236a9c
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 349 ColNo = 22 Msg = 'False cannot be resolved to a variable'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@178fb24
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 362 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a349e2
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@117d4a4
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b33010
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@644939
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 374 ColNo = 15 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:34:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14bf18e
+18 Apr 2018 4:34:33 GMT:  Kind = ERROR
+18 Apr 2018 4:34:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 380 ColNo = 9 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:34:45 GMT: diagnostics = javax.tools.DiagnosticCollector@123ba6d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a3dc60
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:34:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@67a774' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:34:46 GMT: Compiler call returned
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a8a10d
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 349 ColNo = 22 Msg = 'False cannot be resolved to a variable'
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@185fcfb
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 362 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b32ac
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2dc86b
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fbb12a
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d1e9aa
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 374 ColNo = 15 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:34:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@160320e
+18 Apr 2018 4:34:46 GMT:  Kind = ERROR
+18 Apr 2018 4:34:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 380 ColNo = 9 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:40:41 GMT: diagnostics = javax.tools.DiagnosticCollector@cd75a8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1059a73
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:40:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1671da7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:40:41 GMT: Compiler call returned
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fac060
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 349 ColNo = 22 Msg = 'False cannot be resolved to a variable'
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19fa8e1
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 362 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19fb33e
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14c5430
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15f6779
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 369 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cf0893
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 374 ColNo = 17 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:40:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13d5357
+18 Apr 2018 4:40:41 GMT:  Kind = ERROR
+18 Apr 2018 4:40:41 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 380 ColNo = 11 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:40:49 GMT: diagnostics = javax.tools.DiagnosticCollector@8dc9cc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d5b442
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:40:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f1c71' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:40:49 GMT: Compiler call returned
+18 Apr 2018 4:40:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@77d3a8
+18 Apr 2018 4:40:49 GMT:  Kind = ERROR
+18 Apr 2018 4:40:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 361 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:40:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f0c587
+18 Apr 2018 4:40:49 GMT:  Kind = ERROR
+18 Apr 2018 4:40:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:40:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2cbe65
+18 Apr 2018 4:40:49 GMT:  Kind = ERROR
+18 Apr 2018 4:40:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:40:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@180f0d1
+18 Apr 2018 4:40:49 GMT:  Kind = ERROR
+18 Apr 2018 4:40:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:40:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d89bda
+18 Apr 2018 4:40:49 GMT:  Kind = ERROR
+18 Apr 2018 4:40:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 373 ColNo = 17 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:40:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@182bedb
+18 Apr 2018 4:40:49 GMT:  Kind = ERROR
+18 Apr 2018 4:40:49 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 379 ColNo = 11 Msg = 'The left-hand side of an assignment must be a variable'
+18 Apr 2018 4:41:36 GMT: diagnostics = javax.tools.DiagnosticCollector@19ff083
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6fbdd0
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:41:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@8b99bd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:41:36 GMT: Compiler call returned
+18 Apr 2018 4:41:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f6722d
+18 Apr 2018 4:41:36 GMT:  Kind = ERROR
+18 Apr 2018 4:41:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 361 ColNo = 22 Msg = 'True cannot be resolved to a variable'
+18 Apr 2018 4:41:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@181f52e
+18 Apr 2018 4:41:36 GMT:  Kind = ERROR
+18 Apr 2018 4:41:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:41:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@eba640
+18 Apr 2018 4:41:36 GMT:  Kind = ERROR
+18 Apr 2018 4:41:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:41:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1768fc9
+18 Apr 2018 4:41:36 GMT:  Kind = ERROR
+18 Apr 2018 4:41:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:41:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dde250
+18 Apr 2018 4:41:36 GMT:  Kind = ERROR
+18 Apr 2018 4:41:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 373 ColNo = 17 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:41:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e146c0
+18 Apr 2018 4:41:36 GMT:  Kind = ERROR
+18 Apr 2018 4:41:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 379 ColNo = 34 Msg = 'True cannot be resolved to a variable'
+18 Apr 2018 4:42:01 GMT: diagnostics = javax.tools.DiagnosticCollector@c3b173
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@679865
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:42:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16e633' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:42:01 GMT: Compiler call returned
+18 Apr 2018 4:42:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f691df
+18 Apr 2018 4:42:01 GMT:  Kind = ERROR
+18 Apr 2018 4:42:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:42:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d0bcc0
+18 Apr 2018 4:42:01 GMT:  Kind = ERROR
+18 Apr 2018 4:42:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:42:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@be140c
+18 Apr 2018 4:42:01 GMT:  Kind = ERROR
+18 Apr 2018 4:42:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:42:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@49dcce
+18 Apr 2018 4:42:01 GMT:  Kind = ERROR
+18 Apr 2018 4:42:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 373 ColNo = 17 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:42:10 GMT: diagnostics = javax.tools.DiagnosticCollector@11dab4a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f7c902
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:42:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17e84ae' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:42:10 GMT: Compiler call returned
+18 Apr 2018 4:42:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1afe405
+18 Apr 2018 4:42:10 GMT:  Kind = ERROR
+18 Apr 2018 4:42:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Array cannot be resolved'
+18 Apr 2018 4:42:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f618d6
+18 Apr 2018 4:42:10 GMT:  Kind = ERROR
+18 Apr 2018 4:42:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:42:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e50efc
+18 Apr 2018 4:42:10 GMT:  Kind = ERROR
+18 Apr 2018 4:42:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:42:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@118a3d1
+18 Apr 2018 4:42:10 GMT:  Kind = ERROR
+18 Apr 2018 4:42:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 373 ColNo = 17 Msg = 'The operator != is undefined for the argument type(s) int, null'
+18 Apr 2018 4:43:05 GMT: diagnostics = javax.tools.DiagnosticCollector@93dde8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1406f94
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:43:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1828f95' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:43:05 GMT: Compiler call returned
+18 Apr 2018 4:43:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e30bcc
+18 Apr 2018 4:43:05 GMT:  Kind = ERROR
+18 Apr 2018 4:43:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 366 ColNo = 9 Msg = 'Arrays cannot be resolved'
+18 Apr 2018 4:43:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@150dd6c
+18 Apr 2018 4:43:05 GMT:  Kind = ERROR
+18 Apr 2018 4:43:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 367 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:43:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1286a09
+18 Apr 2018 4:43:05 GMT:  Kind = ERROR
+18 Apr 2018 4:43:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 368 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:45:40 GMT: diagnostics = javax.tools.DiagnosticCollector@18ace0d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7deec6
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:45:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d63154' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:45:40 GMT: Compiler call returned
+18 Apr 2018 4:45:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1197cb3
+18 Apr 2018 4:45:40 GMT:  Kind = ERROR
+18 Apr 2018 4:45:40 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 369 ColNo = 13 Msg = 'The method remainTraps(int) is undefined for the type Summative'
+18 Apr 2018 4:45:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e28292
+18 Apr 2018 4:45:40 GMT:  Kind = ERROR
+18 Apr 2018 4:45:40 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 370 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:45:48 GMT: diagnostics = javax.tools.DiagnosticCollector@2ffa2d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@70ec14
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:45:48 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1003677' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:45:48 GMT: Compiler call returned
+18 Apr 2018 4:45:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bfa835
+18 Apr 2018 4:45:48 GMT:  Kind = ERROR
+18 Apr 2018 4:45:48 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 370 ColNo = 54 Msg = 'world cannot be resolved to a variable'
+18 Apr 2018 4:45:57 GMT: diagnostics = javax.tools.DiagnosticCollector@175507b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@193cb93
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:45:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@139af9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:45:57 GMT: Compiler call returned
+18 Apr 2018 4:45:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@139fe85
+18 Apr 2018 4:45:57 GMT:  Kind = ERROR
+18 Apr 2018 4:45:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 363 ColNo = 11 Msg = 'The local variable solvedCount may not have been initialized'
+18 Apr 2018 4:45:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10dc8ce
+18 Apr 2018 4:45:57 GMT:  Kind = ERROR
+18 Apr 2018 4:45:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 370 ColNo = 18 Msg = 'Unhandled exception type java.lang.Exception'
+18 Apr 2018 4:46:25 GMT: diagnostics = javax.tools.DiagnosticCollector@1d5fd77
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3fda61
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:46:25 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@5db89c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:46:25 GMT: Compiler call returned
+18 Apr 2018 4:46:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fe185e
+18 Apr 2018 4:46:25 GMT:  Kind = ERROR
+18 Apr 2018 4:46:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 370 ColNo = 18 Msg = 'Unhandled exception type java.lang.Exception'
+18 Apr 2018 4:46:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d53d02
+18 Apr 2018 4:46:25 GMT:  Kind = ERROR
+18 Apr 2018 4:46:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 382 ColNo = 11 Msg = 'The local variable total may not have been initialized'
+18 Apr 2018 4:46:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11d2bed
+18 Apr 2018 4:46:25 GMT:  Kind = ERROR
+18 Apr 2018 4:46:25 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 389 ColNo = 12 Msg = 'The local variable total may not have been initialized'
+18 Apr 2018 4:47:18 GMT: diagnostics = javax.tools.DiagnosticCollector@185444b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1cf42e1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:47:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1122a0b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:47:18 GMT: Compiler call returned
+18 Apr 2018 4:47:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8f3d58
+18 Apr 2018 4:47:18 GMT:  Kind = ERROR
+18 Apr 2018 4:47:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 371 ColNo = 18 Msg = 'Unhandled exception type java.lang.Exception'
+18 Apr 2018 4:47:38 GMT: diagnostics = javax.tools.DiagnosticCollector@1a02bcd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@27dae3
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:47:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@81bfac' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:47:39 GMT: Compiler call returned
+18 Apr 2018 4:49:16 GMT: diagnostics = javax.tools.DiagnosticCollector@a3e8f4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1acf845
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:49:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@322059' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:49:16 GMT: Compiler call returned
+18 Apr 2018 4:50:24 GMT: diagnostics = javax.tools.DiagnosticCollector@641bfe
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ae3583
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:50:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@8089a2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:50:24 GMT: Compiler call returned
+18 Apr 2018 4:52:11 GMT: diagnostics = javax.tools.DiagnosticCollector@d3883
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17cffa0
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:52:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c97a58' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:52:11 GMT: Compiler call returned
+18 Apr 2018 4:52:42 GMT: diagnostics = javax.tools.DiagnosticCollector@1ecc8a1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@89d991
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 4:52:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a3e985' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 4:52:42 GMT: Compiler call returned
+18 Apr 2018 5:14:20 GMT: diagnostics = javax.tools.DiagnosticCollector@19e2337
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c3c17f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 5:14:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1497365' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 5:14:20 GMT: Compiler call returned
+18 Apr 2018 5:14:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15e1087
+18 Apr 2018 5:14:20 GMT:  Kind = WARNING
+18 Apr 2018 5:14:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 56 ColNo = 17 Msg = 'Resource leak: 'output' is never closed'
+18 Apr 2018 5:14:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a66952
+18 Apr 2018 5:14:20 GMT:  Kind = WARNING
+18 Apr 2018 5:14:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 17 ColNo = 19 Msg = 'The value of the local variable minSteps is not used'
+18 Apr 2018 5:14:32 GMT: diagnostics = javax.tools.DiagnosticCollector@d57820
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1fe9f73
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 5:14:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b25bc1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 5:14:32 GMT: Compiler call returned
+18 Apr 2018 5:14:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a3ba06
+18 Apr 2018 5:14:32 GMT:  Kind = WARNING
+18 Apr 2018 5:14:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java LineNo = 17 ColNo = 19 Msg = 'The value of the local variable minSteps is not used'
+18 Apr 2018 5:14:42 GMT: diagnostics = javax.tools.DiagnosticCollector@328926
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1cd2d2f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
+18 Apr 2018 5:14:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1104150' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+18 Apr 2018 5:14:42 GMT: Compiler call returned

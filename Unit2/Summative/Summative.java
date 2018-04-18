@@ -29,7 +29,7 @@ public class Summative {
     int[][] world = loadMap(input2); //Converts map into numbers
         
     //Finds paths
-    String paths = findPath(1, 1, 1, world, "");
+    String paths = findPath(1, 1, 1, world, "", world.length-1, world.length-2);
     for(int i = 0 ; i < paths.length(); i++){
       if (paths.charAt(i) == '*'){
         count++;
@@ -49,7 +49,7 @@ public class Summative {
     //Finds min number of traps
     System.out.println("Minimum trap co-ordinates:");
     minTraps = placeTrap(traps, path);
-    System.out.println(minTraps);
+    System.out.println(minTraps.substring(minTraps.indexOf(" ")+1));
     
     //Outputs solution
     File solution = new File("solution.txt");
@@ -62,11 +62,17 @@ public class Summative {
     input2.close();
     
     //Finds max steps
-    System.out.println("Max steps:");
     maxSteps = countSteps(path, minTraps);
-    System.out.println(maxSteps);
-    output.println("Maximum steps it will take for the monster to get trapped:" + maxSteps);
+    System.out.println("Maximum steps it will take for the monster to get trapped: " + maxSteps);
+    output.println("Maximum steps it will take for the monster to get trapped: " + maxSteps);
     output.close();
+    
+    /* As far as I got before I jumped down the rabbit hole
+    //Finds the minimum steps required to place all the traps
+    System.out.println("Minimum steps required to place all the traps:");
+    minSteps = trapSteps(minTraps, world);
+    System.out.println(minSteps);
+    */
   }
   
   /**
@@ -115,13 +121,13 @@ public class Summative {
    * and a string of previous turns taken.
    * @return A string representing all the paths that can be taken from the start to the finish point
    */
-  public static String findPath(int x, int y, int step, int[][] map, String line) throws Exception {
+  public static String findPath(int x, int y, int step, int[][] map, String line, int endX, int endY) throws Exception {
     int prevNumber = map[y][x];
     map[y][x] = 1; //Traveled places
     step ++;
     String output = "";
     
-    if (x == map.length-1 && y == map.length-2){ //If met destinatinon
+    if (x == endX && y == endY){ //If met destinatinon
       output = line + "*";
     }
     else if (map[y-1][x] == 1 && map[y][x+1] == 1 && map[y+1][x] == 1 && map[y][x-1] == 1){ //If deadend
@@ -129,16 +135,16 @@ public class Summative {
     }
     else {
       if(map[y-1][x] != 1){
-        output += findPath(x, y-1, step, map, line + "U");
+        output += findPath(x, y-1, step, map, line + "U", endX, endY);
       }
       if(map[y][x+1] != 1){
-        output += findPath(x+1, y, step, map, line + "R");
+        output += findPath(x+1, y, step, map, line + "R", endX, endY);
       }
       if(map[y+1][x] != 1){
-        output += findPath(x, y+1, step, map, line + "D");
+        output += findPath(x, y+1, step, map, line + "D", endX, endY);
       }
       if(map[y][x-1] != 1){
-        output += findPath(x-1, y, step, map, line + "L");
+        output += findPath(x-1, y, step, map, line + "L", endX, endY);
       } 
     }
     map[y][x]=prevNumber;
@@ -187,7 +193,7 @@ public class Summative {
    * This method accepts a set of possible trap locations and a set of paths.
    * It activates each possible combination of traps and determines if all paths can travel through it
    * @param A string that represents the xy co-ordinates of the set of traps and a string array which contains individual paths
-   * @return A string that represents the xy co-ordinates of the minimum number of traps required
+   * @return A string that represents the number of activated traps and the xy co-ordinates of the minimum number of traps required
   */
   public static String placeTrap(String traps, String[] dir){
     int trapCount = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
@@ -251,7 +257,7 @@ public class Summative {
         minTrap = actiTrap;
       }
     }
-    return minTrap;
+    return min + minTrap;
   }
   
   /**
@@ -329,4 +335,87 @@ public class Summative {
     }
     return max;
   }
+  
+  /* I attempted to do level 4++, it hasn't worked yet and maybe it never will but here it is :)
+  //minTrapStep
+  
+  public static int trapSteps(String traps, int[][]map) throws Exception{
+    int min, paths;
+    int trapCt = Integer.parseInt(traps.substring(0, traps.indexOf(" ")));
+    int[] x, y;
+    int current, count;
+    int total = 0;
+    int solvedCount = 0;
+    traps = traps.substring(traps.indexOf(" ")+1);
+    Boolean[] remainTraps = new Boolean[trapCt];
+    int[] steps = new int[trapCt];
+    String path;
+    String[] paths;
+    
+    x = new int[trapCt];
+    y = new int[trapCt];
+    
+    for(int i = 0; i < trapCt; i++){
+      x[i] = Integer.parseInt(traps.substring(0, traps.indexOf(",")));
+      y[i] = Integer.parseInt(traps.substring(traps.indexOf(",")+1, traps.indexOf(" ")));
+      traps = traps.substring(traps.indexOf(" ") + 1);
+    }
+    
+    for(int i = 0; i < trapCt; i++){ //Initializes remainTraps to be all false
+      remainTraps[i] = false;
+    }
+    
+    current = 0; //The marker is placed on arbitrary trap 0
+    remainTraps[0] = true;
+    
+    while(solvedCount != trapCt){
+      solvedCount = 0;
+      for(int i = 0; i < trapCt; i++){
+        for(int j = 0; j < steps.length; j++){ //Resets the steps array to empty (-1) so the program can tell which traps it hasn't referred to
+          steps[j] = -1;
+        }
+        if(!remainTraps[i]){ //If this trap hasn't been visited, the program will find the shortest path to all other traps
+          path = findPath(x[current], y[current], 1, map, "", x[i], y[i]);
+          pathCount = 0;
+          for(int j = 0; j < path.length(); j++){
+            if(path.charAt(j) = "*"){
+              pathCount ++;
+            }
+          }
+          paths = new String[pathCount];
+          
+          for(int j = 0; j<paths.length; j++){
+            paths[j] = path.substring(0,path.indexOf("*"));
+            path = path.substring(path.indexOf("*")+1);
+          }
+          
+          for(int j = 0; j < paths.length; j++){
+            count = 0;
+            for(int k = 0; k < paths[j].length(); k++){
+              count ++;
+            }
+            if(){
+              
+            }
+          }
+          
+          min =Integer.MAX_VALUE;
+          for(int j = 0; j < trapCt; j++){ //Compares and chooses the shortest path to another trap
+            if (steps[j] != -1 && steps[j] < min){
+              min = steps[j];
+              current = j;
+            }
+          }
+          
+          remainTraps[current] = true;
+          total += min;
+        }
+        else{
+          solvedCount ++;
+        }
+      }
+    }
+    return total;
+  }
+  */
 }
