@@ -1,0 +1,7 @@
+/**
+ * Pet
+ * A pet object
+*/
+
+public class Pet{
+}

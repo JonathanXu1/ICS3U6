@@ -1,0 +1,7 @@
+/**
+ * Cat
+ * Cat Object
+*/
+
+public class Cat extends Pet{
+}

@@ -1,0 +1,7 @@
+/**
+ * Dog
+ * A dog object
+*/
+
+public class Dog extends Pet{
+}

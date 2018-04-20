@@ -1,0 +1,7 @@
+/**
+ * BoardingHouse
+ * Contains an array of Pets
+*/
+
+public class BoardingHouse{
+}

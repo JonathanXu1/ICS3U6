@@ -3238,3 +3238,409 @@ fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@141e7b3
 fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative\Summative.java]
 18 Apr 2018 5:36:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@194f92b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit2\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
 18 Apr 2018 5:36:51 GMT: Compiler call returned
+20 Apr 2018 1:27:42 GMT: Log 'EclipseCompiler.txt' opened: 20 Apr 2018 1:27:42 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+20 Apr 2018 2:25:41 GMT: diagnostics = javax.tools.DiagnosticCollector@1ac4ed9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1439f2e
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java]
+20 Apr 2018 2:25:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c2d5bb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:25:42 GMT: Compiler call returned
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11a51b8
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a9c6a
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8e93ea
+20 Apr 2018 2:25:42 GMT:  Kind = WARNING
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1343dc4
+20 Apr 2018 2:25:42 GMT:  Kind = WARNING
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114401
+20 Apr 2018 2:25:42 GMT:  Kind = WARNING
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a13d65
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1daf0b8
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12825da
+20 Apr 2018 2:25:42 GMT:  Kind = WARNING
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1754f32
+20 Apr 2018 2:25:42 GMT:  Kind = WARNING
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c90a6c
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 25 Msg = 'Syntax error, insert "( )" to complete Expression'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d4611d
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 16 ColNo = 39 Msg = 'Syntax error, insert "( )" to complete Expression'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12e9e88
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:25:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@595e40
+20 Apr 2018 2:25:42 GMT:  Kind = ERROR
+20 Apr 2018 2:25:42 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 47 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:35:36 GMT: diagnostics = javax.tools.DiagnosticCollector@442039
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cd9114
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java]
+20 Apr 2018 2:35:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16c5d26' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:35:36 GMT: Compiler call returned
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22d136
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18fc128
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@826bc4
+20 Apr 2018 2:35:36 GMT:  Kind = WARNING
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ade59e
+20 Apr 2018 2:35:36 GMT:  Kind = WARNING
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15e2afc
+20 Apr 2018 2:35:36 GMT:  Kind = WARNING
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b237e
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@196a2b2
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1512a4b
+20 Apr 2018 2:35:36 GMT:  Kind = WARNING
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d8fdd7
+20 Apr 2018 2:35:36 GMT:  Kind = WARNING
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b32ac1
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@669297
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 47 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:35:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@49e0a2
+20 Apr 2018 2:35:36 GMT:  Kind = ERROR
+20 Apr 2018 2:35:36 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 16 ColNo = 39 Msg = 'Syntax error, insert "( )" to complete Expression'
+20 Apr 2018 2:35:46 GMT: diagnostics = javax.tools.DiagnosticCollector@1e9a24f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f5bb97
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java]
+20 Apr 2018 2:35:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@13b49a4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:35:46 GMT: Compiler call returned
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@173c764
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b04ccc
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7223a
+20 Apr 2018 2:35:46 GMT:  Kind = WARNING
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@88de04
+20 Apr 2018 2:35:46 GMT:  Kind = WARNING
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b578d6
+20 Apr 2018 2:35:46 GMT:  Kind = WARNING
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2c85c0
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1856f0d
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f1f007
+20 Apr 2018 2:35:46 GMT:  Kind = WARNING
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1165367
+20 Apr 2018 2:35:46 GMT:  Kind = WARNING
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@100dec0
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1192caa
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 47 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:35:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1248186
+20 Apr 2018 2:35:46 GMT:  Kind = ERROR
+20 Apr 2018 2:35:46 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:36:13 GMT: diagnostics = javax.tools.DiagnosticCollector@cd2b3f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cc0139
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java]
+20 Apr 2018 2:36:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@98ab4f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:36:13 GMT: Compiler call returned
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dff937
+20 Apr 2018 2:36:13 GMT:  Kind = WARNING
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f017a1
+20 Apr 2018 2:36:13 GMT:  Kind = ERROR
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bd9883
+20 Apr 2018 2:36:13 GMT:  Kind = ERROR
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@112965d
+20 Apr 2018 2:36:13 GMT:  Kind = WARNING
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b2d049
+20 Apr 2018 2:36:13 GMT:  Kind = WARNING
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b8541
+20 Apr 2018 2:36:13 GMT:  Kind = ERROR
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17a6b6d
+20 Apr 2018 2:36:13 GMT:  Kind = ERROR
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 47 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c5ad61
+20 Apr 2018 2:36:13 GMT:  Kind = ERROR
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15e1e68
+20 Apr 2018 2:36:13 GMT:  Kind = WARNING
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:36:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6acc0f
+20 Apr 2018 2:36:13 GMT:  Kind = WARNING
+20 Apr 2018 2:36:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:36:54 GMT: diagnostics = javax.tools.DiagnosticCollector@618a5b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b704e5
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java]
+20 Apr 2018 2:36:54 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c105a5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:36:54 GMT: Compiler call returned
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1919483
+20 Apr 2018 2:36:54 GMT:  Kind = WARNING
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1436fc2
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d56353
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 14 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@130576d
+20 Apr 2018 2:36:54 GMT:  Kind = WARNING
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a8e284
+20 Apr 2018 2:36:54 GMT:  Kind = WARNING
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@71b96c
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@96880a
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 47 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f83c8a
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c95eb3
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 22 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d030df
+20 Apr 2018 2:36:54 GMT:  Kind = ERROR
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 11 ColNo = 34 Msg = 'Cannot refer to 'this' nor 'super' while explicitly invoking a constructor'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b427b7
+20 Apr 2018 2:36:54 GMT:  Kind = WARNING
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:36:54 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18a58a7
+20 Apr 2018 2:36:54 GMT:  Kind = WARNING
+20 Apr 2018 2:36:54 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:37:22 GMT: diagnostics = javax.tools.DiagnosticCollector@25329f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c7eb32
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java]
+20 Apr 2018 2:37:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fcbb16' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:37:22 GMT: Compiler call returned
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@83f7f0
+20 Apr 2018 2:37:22 GMT:  Kind = WARNING
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f582ff
+20 Apr 2018 2:37:22 GMT:  Kind = ERROR
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@78c2f6
+20 Apr 2018 2:37:22 GMT:  Kind = ERROR
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 47 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@151cc0e
+20 Apr 2018 2:37:22 GMT:  Kind = ERROR
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e88fe3
+20 Apr 2018 2:37:22 GMT:  Kind = WARNING
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13b0fbb
+20 Apr 2018 2:37:22 GMT:  Kind = WARNING
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1200cd8
+20 Apr 2018 2:37:22 GMT:  Kind = WARNING
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:37:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dc910e
+20 Apr 2018 2:37:22 GMT:  Kind = WARNING
+20 Apr 2018 2:37:22 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:43:24 GMT: diagnostics = javax.tools.DiagnosticCollector@e07bc6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@260fd5
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java]
+20 Apr 2018 2:43:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1dea135' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:43:24 GMT: Compiler call returned
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b1b24c
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ed440a
+20 Apr 2018 2:43:24 GMT:  Kind = ERROR
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cd9798
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c62eab
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@179cb4d
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5b15bc
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1312978
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 40 ColNo = 28 Msg = 'Dead code'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@110f5c3
+20 Apr 2018 2:43:24 GMT:  Kind = ERROR
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c27e0f
+20 Apr 2018 2:43:24 GMT:  Kind = WARNING
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 51 ColNo = 28 Msg = 'Dead code'
+20 Apr 2018 2:43:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3c685e
+20 Apr 2018 2:43:24 GMT:  Kind = ERROR
+20 Apr 2018 2:43:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 50 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:45:33 GMT: diagnostics = javax.tools.DiagnosticCollector@9090ed
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16f550d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java]
+20 Apr 2018 2:45:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e227e8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:45:33 GMT: Compiler call returned
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1314b8e
+20 Apr 2018 2:45:33 GMT:  Kind = WARNING
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@137341a
+20 Apr 2018 2:45:33 GMT:  Kind = ERROR
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@111b1bb
+20 Apr 2018 2:45:33 GMT:  Kind = WARNING
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f38b75
+20 Apr 2018 2:45:33 GMT:  Kind = WARNING
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f7d55e
+20 Apr 2018 2:45:33 GMT:  Kind = WARNING
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13ca31e
+20 Apr 2018 2:45:33 GMT:  Kind = WARNING
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14258eb
+20 Apr 2018 2:45:33 GMT:  Kind = ERROR
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 44 ColNo = 9 Msg = 'Unreachable code'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@132c1d5
+20 Apr 2018 2:45:33 GMT:  Kind = ERROR
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 39 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fcb0c8
+20 Apr 2018 2:45:33 GMT:  Kind = ERROR
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 57 ColNo = 9 Msg = 'Unreachable code'
+20 Apr 2018 2:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4cdc9a
+20 Apr 2018 2:45:33 GMT:  Kind = ERROR
+20 Apr 2018 2:45:33 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java LineNo = 52 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+20 Apr 2018 2:46:39 GMT: diagnostics = javax.tools.DiagnosticCollector@11f401d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10e8832
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java]
+20 Apr 2018 2:46:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@992dcb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:46:39 GMT: Compiler call returned
+20 Apr 2018 2:46:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e3841d
+20 Apr 2018 2:46:39 GMT:  Kind = WARNING
+20 Apr 2018 2:46:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:46:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f6cb0e
+20 Apr 2018 2:46:39 GMT:  Kind = WARNING
+20 Apr 2018 2:46:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:46:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2453de
+20 Apr 2018 2:46:39 GMT:  Kind = WARNING
+20 Apr 2018 2:46:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:46:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@87806f
+20 Apr 2018 2:46:39 GMT:  Kind = WARNING
+20 Apr 2018 2:46:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:46:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a63ece
+20 Apr 2018 2:46:39 GMT:  Kind = WARNING
+20 Apr 2018 2:46:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:46:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7826ef
+20 Apr 2018 2:46:39 GMT:  Kind = ERROR
+20 Apr 2018 2:46:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 12 ColNo = 21 Msg = 'The constructor java.util.Scanner() is undefined'
+20 Apr 2018 2:46:52 GMT: diagnostics = javax.tools.DiagnosticCollector@ed4b4e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3cf1f0
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java]
+20 Apr 2018 2:46:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@774609' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:46:52 GMT: Compiler call returned
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7de02d
+20 Apr 2018 2:46:52 GMT:  Kind = WARNING
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@31a08b
+20 Apr 2018 2:46:52 GMT:  Kind = WARNING
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11672ee
+20 Apr 2018 2:46:52 GMT:  Kind = WARNING
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@198c51b
+20 Apr 2018 2:46:52 GMT:  Kind = WARNING
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@af350d
+20 Apr 2018 2:46:52 GMT:  Kind = WARNING
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dff5ab
+20 Apr 2018 2:46:52 GMT:  Kind = ERROR
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 38 ColNo = 11 Msg = 'The local variable boardingHouse may not have been initialized'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@112733c
+20 Apr 2018 2:46:52 GMT:  Kind = ERROR
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 41 ColNo = 11 Msg = 'The local variable boardingHouse may not have been initialized'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@41d2d8
+20 Apr 2018 2:46:52 GMT:  Kind = ERROR
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 46 ColNo = 9 Msg = 'The local variable boardingHouse may not have been initialized'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1519800
+20 Apr 2018 2:46:52 GMT:  Kind = ERROR
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 49 ColNo = 9 Msg = 'The local variable boardingHouse may not have been initialized'
+20 Apr 2018 2:46:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f7556c
+20 Apr 2018 2:46:52 GMT:  Kind = ERROR
+20 Apr 2018 2:46:52 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 52 ColNo = 9 Msg = 'The local variable boardingHouse may not have been initialized'
+20 Apr 2018 2:47:24 GMT: diagnostics = javax.tools.DiagnosticCollector@15bd8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1936962
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java]
+20 Apr 2018 2:47:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@176db71' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:47:24 GMT: Compiler call returned
+20 Apr 2018 2:47:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f0ed15
+20 Apr 2018 2:47:24 GMT:  Kind = WARNING
+20 Apr 2018 2:47:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:47:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@151de9
+20 Apr 2018 2:47:24 GMT:  Kind = WARNING
+20 Apr 2018 2:47:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:47:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16142da
+20 Apr 2018 2:47:24 GMT:  Kind = WARNING
+20 Apr 2018 2:47:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:47:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3c25fd
+20 Apr 2018 2:47:24 GMT:  Kind = WARNING
+20 Apr 2018 2:47:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:47:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@137e12a
+20 Apr 2018 2:47:24 GMT:  Kind = WARNING
+20 Apr 2018 2:47:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:47:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12b4570
+20 Apr 2018 2:47:24 GMT:  Kind = ERROR
+20 Apr 2018 2:47:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 16 ColNo = 33 Msg = 'Syntax error on token "BoardingHouse", delete this token'
+20 Apr 2018 2:47:29 GMT: diagnostics = javax.tools.DiagnosticCollector@698b62
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b5a4dc
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouse.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java]
+20 Apr 2018 2:47:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6d453' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 Apr 2018 2:47:29 GMT: Compiler call returned
+20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@117d1c4
+20 Apr 2018 2:47:29 GMT:  Kind = WARNING
+20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Pet.java LineNo = 8 ColNo = 15 Msg = 'The value of the field Pet.age is not used'
+20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@126a386
+20 Apr 2018 2:47:29 GMT:  Kind = WARNING
+20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Cat.speak is not used'
+20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1681e15
+20 Apr 2018 2:47:29 GMT:  Kind = WARNING
+20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Cat.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Cat.action is not used'
+20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15cde95
+20 Apr 2018 2:47:29 GMT:  Kind = WARNING
+20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 7 ColNo = 18 Msg = 'The value of the field Dog.speak is not used'
+20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3eba0b
+20 Apr 2018 2:47:29 GMT:  Kind = WARNING
+20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\Dog.java LineNo = 8 ColNo = 18 Msg = 'The value of the field Dog.action is not used'
+20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4200d9
+20 Apr 2018 2:47:29 GMT:  Kind = ERROR
+20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 16 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
