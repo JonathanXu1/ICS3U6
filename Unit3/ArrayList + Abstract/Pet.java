@@ -3,7 +3,7 @@
  * A pet object
 */
 
-public class Pet{
+abstract public class Pet{
   private String name, s, a;
   private int age;
   //Constructor
@@ -15,13 +15,9 @@ public class Pet{
   }
   
   //Methods
-  String name(){
+  public String name(){
     return this.name;
   }
-  String speak(){
-    return this.s;
-  }
-  String action(){
-    return this.a;
-  }
+  public abstract String speak();
+  public abstract String action();
 }

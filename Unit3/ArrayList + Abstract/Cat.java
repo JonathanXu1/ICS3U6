@@ -11,10 +11,10 @@ public class Cat extends Pet{
     super(name, age);
   }
   
-  String speak(){
+  public String speak(){
     return this.speak;
   }
-  String action(){
+  public String action(){
     return this.action;
   }
 }
