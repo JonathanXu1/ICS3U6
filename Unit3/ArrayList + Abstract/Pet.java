@@ -15,8 +15,11 @@ abstract public class Pet{
   }
   
   //Methods
-  public String name(){
+  public String getName(){
     return this.name;
+  }
+  public int getAge(){
+    return this.age;
   }
   public abstract String speak();
   public abstract String action();

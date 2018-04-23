@@ -21,19 +21,23 @@ public class BoardingHouse{
   
   void remove(String name){
     //Removes a pet
-    if(cage.contains()){
-      cage.remove();
+    full = false;
+    for(int i = 0; i < cage.size(); i++){
+      if(cage.get(i).getName().equals(name)){
+        cage.remove(i);
+        full = true;
+      }
     }
-    else{
+    if(!full){
       System.out.println("Pet does not exist!");
     }
   }
   
-  void speak(String n){
+  void speak(String name){
     full = false;
-    for(int i = 0; i < 10; i++){
-      if(cage[i] != null && cage[i].name().equals(n) && !full){
-        System.out.println(cage[i].speak());
+    for(int i = 0; i < cage.size(); i++){
+      if(cage.get(i).getName().equals(name) && !full){
+        System.out.println(cage.get(i).speak());
         full = true;
       }
     }
@@ -44,9 +48,9 @@ public class BoardingHouse{
   
   void action(String name){
     full = false;
-    for(int i = 0; i < 10; i++){
-      if(cage[i] != null && cage[i].name().equals(name) && !full){
-        System.out.println(cage[i].action());
+    for(int i = 0; i < cage.size(); i++){
+      if(cage.get(i).getName().equals(name) && !full){
+        System.out.println(cage.get(i).action());
         full = true;
       }
     }

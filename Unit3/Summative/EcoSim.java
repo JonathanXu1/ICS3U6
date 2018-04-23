@@ -1,0 +1,23 @@
+/**
+ * EcoSim
+ * A program that simulates a basic environment comprising of sheep, grass, and wolves
+ * Jonathan Xu
+ * April 23, 2018
+*/
+
+import java.util.Scanner;
+
+public class EcoSim{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    
+    String[][] map = new String[25][25];
+    initialMap(map);
+    
+    System.out.println("Program start");
+    System.out.println("cust");
+    
+    input.close();
+  }
+  
+}
