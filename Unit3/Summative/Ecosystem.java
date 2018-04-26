@@ -40,23 +40,40 @@ public class Ecosystem {
   public void moveAnimals(){
     for(int i = 0; i < map.length; i++){ //y
       for(int j = 0; j < map[0].length; j++){
-        if(map[i][j] instanceof Sheep){
-          ((Sheep)map[i][j]).age();
-          
-          int x, y;
-          do{
-            do{
-              x = rand.nextInt(3) -1;
-              y = rand.nextInt(3) -1;
-            }while(i+y < 0 || i+y >= map.length || j+x < 0 || j+x >= map[0].length);
-          }while(map[i+y][j+x] instanceof Wolf || (map[i+y][j+x] instanceof Sheep && x != 0 && y != 0));
-          
-          if(map[i+y][j+x] instanceof Plant){
-            ((Sheep)map[i][j]).eat(map[i+y][j+x].getHealth());;
+        if(map[i][j] instanceof Plant){
+          ((Plant)map[i][j]).grow();
+        }
+        else if (map[i][j] instanceof Sheep && !((Animal)map[i][j]).moved()){
+          ((Animal)map[i][j]).age();
+          if(map[i][j].getHealth() <= 0){
+            map[i][j] = null;
+            sheepNum --;
           }
-          
-          map[i+y][j+x] = map[i][j];
-          map[i][j] = null;
+          else{
+            int x, y;
+            do{
+              do{
+                x = rand.nextInt(3) -1;
+                y = rand.nextInt(3) -1;
+              }while(i+y < 0 || i+y >= map.length || j+x < 0 || j+x >= map[0].length);
+            }while(map[i+y][j+x] instanceof Wolf || (map[i+y][j+x] instanceof Sheep && x == 0 && y == 0));
+            
+            if(map[i+y][j+x] instanceof Plant){
+              ((Sheep)map[i][j]).eat(map[i+y][j+x].getHealth());
+              plantNum --;
+            }
+            
+            map[i+y][j+x] = map[i][j];
+            map[i][j] = null;
+            ((Animal)map[i+y][j+x]).move(true);
+          }
+        }
+      }
+    }
+    for(int i = 0; i < map.length; i++){ //y
+      for(int j = 0; j < map[0].length; j++){
+        if(map[i][j] instanceof Animal){
+          ((Animal)map[i][j]).move(false); 
         }
       }
     }

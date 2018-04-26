@@ -28,7 +28,7 @@ public class EcosystemTest{
       grid.refresh();
       System.out.println("refreshed!");
       try{ Thread.sleep(1000); }catch(Exception e) {};
-    } while(true);//while(!ecosystem.checkOver());
+    } while(!ecosystem.checkOver());
     
   }
 }

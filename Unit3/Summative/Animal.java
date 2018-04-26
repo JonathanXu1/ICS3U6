@@ -1,15 +1,23 @@
 abstract class Animal extends Organism{
   private boolean gender;
-  private int age = 0;
+  private boolean moved;
   
-  //abstract String move();
-  
-  void age(){
-    super.changeHealth(-1);
-    this.age ++;
-  }
+  abstract int move();
   
   void eat(int health){
-    super.changeHealth(health/10);
+    changeHealth(health);
+  }
+  
+  void age(){
+    changeHealth(-1);
+    setAge(getAge()+1);
+  }
+  
+  void changeMoved(boolean m){
+    this.moved = m;
+  }
+  
+  boolean moved(){
+    return this.moved;
   }
 }
