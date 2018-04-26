@@ -23,12 +23,10 @@ public class Ecosystem {
   
   public void emptyBlock(Organism[][] map){
     int x, y;
-    x = rand.nextInt(24);
-    y = rand.nextInt(24);
-    while(map[x][y] != null){
+    do{
       x = rand.nextInt(24);
       y = rand.nextInt(24);
-    }
+    }while(map[x][y] != null);
     xy[0] = x;
     xy[1] = y;
   }
@@ -43,8 +41,20 @@ public class Ecosystem {
     for(int i = 0; i < map.length; i++){ //y
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Sheep){
-        }
-        if(map[i][j] instanceof Wolf){
+          int x, y;
+          do{
+            x = rand.nextInt(2) -1;
+            y = rand.nextInt(2) -1;
+          }while(map[i+y][j+x] instanceof Wolf || (map[i+y][j+x] instanceof Sheep && x != 0 && y!= 0));
+          
+          ((Sheep)map[i][j]).age();
+          
+          if(map[i+y][j+x] instanceof Plant){
+            map[i][j].changeHealth(map[i+y][j+x].getHealth());
+          }
+          
+          map[i+y][j+x] = map[i][j];
+          map[i][j] = null;
         }
       }
     }
