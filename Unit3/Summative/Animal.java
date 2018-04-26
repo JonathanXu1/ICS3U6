@@ -8,4 +8,8 @@ abstract class Animal extends Organism{
     super.changeHealth(-1);
     this.age ++;
   }
+  
+  void eat(int health){
+    super.changeHealth(health/10);
+  }
 }

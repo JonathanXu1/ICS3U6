@@ -64,6 +64,9 @@ class DisplayGrid {
           g.fillRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
           g.setColor(Color.BLACK);
           g.drawRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
+          if(world[i][j] != null){
+            g.drawString(Integer.toString(world[i][j].getHealth()), j*GridToScreenRatio, i*GridToScreenRatio);
+          }
         }
       }
     }

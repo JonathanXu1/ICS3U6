@@ -41,16 +41,18 @@ public class Ecosystem {
     for(int i = 0; i < map.length; i++){ //y
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Sheep){
-          int x, y;
-          do{
-            x = rand.nextInt(2) -1;
-            y = rand.nextInt(2) -1;
-          }while(map[i+y][j+x] instanceof Wolf || (map[i+y][j+x] instanceof Sheep && x != 0 && y!= 0));
-          
           ((Sheep)map[i][j]).age();
           
+          int x, y;
+          do{
+            do{
+              x = rand.nextInt(3) -1;
+              y = rand.nextInt(3) -1;
+            }while(i+y < 0 || i+y >= map.length || j+x < 0 || j+x >= map[0].length);
+          }while(map[i+y][j+x] instanceof Wolf || (map[i+y][j+x] instanceof Sheep && x != 0 && y != 0));
+          
           if(map[i+y][j+x] instanceof Plant){
-            map[i][j].changeHealth(map[i+y][j+x].getHealth());
+            ((Sheep)map[i][j]).eat(map[i+y][j+x].getHealth());;
           }
           
           map[i+y][j+x] = map[i][j];

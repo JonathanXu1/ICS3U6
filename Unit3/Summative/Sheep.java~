@@ -1,4 +1,8 @@
 class Sheep extends Animal{
-  String move(String[][] map){
+  void move(){
+  }
+  
+  void eat(int plant){
+    super.super.changeHealth(plant/10);
   }
 }

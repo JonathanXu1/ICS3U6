@@ -12,10 +12,10 @@ class DisplayGrid {
 
   private JFrame frame;
   private int maxX,maxY, GridToScreenRatio;
-  private String[][] world;
+  private Organism[][] world;
   
-  DisplayGrid(String[][] w) { 
-    this.world = w;
+  DisplayGrid(Organism[][] map) { 
+    this.world = map;
     
     maxX = Toolkit.getDefaultToolkit().getScreenSize().width;
     maxY = Toolkit.getDefaultToolkit().getScreenSize().height;
@@ -41,6 +41,7 @@ class DisplayGrid {
   
   
   class GridAreaPanel extends JPanel {
+    
     public void paintComponent(Graphics g) {        
       //super.repaint();
       
@@ -51,12 +52,14 @@ class DisplayGrid {
       { 
         for(int j = 0; j<world.length;j=j+1) 
         { 
-          if (world[i][j].equals("1"))    //This block can be changed to match character-color pairs
-            g.setColor(Color.RED);
-          else if (world[i][j].equals("2"))
-            g.setColor(Color.BLUE);
-          else 
+          if (world[i][j] instanceof Sheep)    //This block can be changed to match character-color pairs
+            g.setColor(Color.WHITE);
+          else if (world[i][j]instanceof Plant)
             g.setColor(Color.GREEN);
+          else if (world[i][j]instanceof Wolf)
+            g.setColor(Color.GRAY);
+          else 
+            g.setColor(new Color(156, 93, 82));
           
           g.fillRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
           g.setColor(Color.BLACK);
