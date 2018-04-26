@@ -1,4 +1,4 @@
 class Sheep extends Animal{
-  String move(String[][] map){
+  void move(String[][] map){
   }
 }

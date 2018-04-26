@@ -3644,3 +3644,871 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorp
 20 Apr 2018 2:47:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4200d9
 20 Apr 2018 2:47:29 GMT:  Kind = ERROR
 20 Apr 2018 2:47:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Polymorphism\BoardingHouseTest.java LineNo = 16 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+26 Apr 2018 1:04:27 GMT: Log 'EclipseCompiler.txt' opened: 26 Apr 2018 1:04:27 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+26 Apr 2018 1:26:43 GMT: diagnostics = javax.tools.DiagnosticCollector@551421
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@746279
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 1:26:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f256aa' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:26:44 GMT: Compiler call returned
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1262f
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@30d0ff
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c1bf88
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 4 ColNo = 19 Msg = 'Abstract methods do not specify a body'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c61d6d
+26 Apr 2018 1:26:44 GMT:  Kind = WARNING
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9b3fae
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java LineNo = 15 ColNo = 5 Msg = 'The method initialMap(java.lang.String[][]) is undefined for the type EcoSim'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a2afaa
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5b73c9
+26 Apr 2018 1:26:44 GMT:  Kind = WARNING
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8a2d5a
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14b1daa
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@713016
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15bdfaa
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22cea6
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b33ac5
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@415225
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15c6208
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e1c53b
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d6a1d0
+26 Apr 2018 1:26:44 GMT:  Kind = WARNING
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:26:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c412f5
+26 Apr 2018 1:26:44 GMT:  Kind = ERROR
+26 Apr 2018 1:26:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 55 ColNo = 30 Msg = 'GREY cannot be resolved or is not a field'
+26 Apr 2018 1:26:56 GMT: diagnostics = javax.tools.DiagnosticCollector@1c00489
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10c85bf
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java]
+26 Apr 2018 1:26:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18df0a6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:26:56 GMT: Compiler call returned
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d4998f
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19754e4
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6722ce
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java LineNo = 15 ColNo = 5 Msg = 'The method initialMap(java.lang.String[][]) is undefined for the type EcoSim'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b82b3
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@180719e
+26 Apr 2018 1:26:56 GMT:  Kind = WARNING
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@412f3e
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18b08aa
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10b0f72
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d580cc
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c47fd7
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c9f4fd
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f41ea9
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14c219b
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bbdde2
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b7b7d4
+26 Apr 2018 1:26:56 GMT:  Kind = WARNING
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@76f4bd
+26 Apr 2018 1:26:56 GMT:  Kind = ERROR
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 55 ColNo = 30 Msg = 'GREY cannot be resolved or is not a field'
+26 Apr 2018 1:26:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5c4151
+26 Apr 2018 1:26:56 GMT:  Kind = WARNING
+26 Apr 2018 1:26:56 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:27:06 GMT: diagnostics = javax.tools.DiagnosticCollector@86db42
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a6015c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java]
+26 Apr 2018 1:27:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@15cbfd8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:27:06 GMT: Compiler call returned
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@199cb4c
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f751cd
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ae265b
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java LineNo = 15 ColNo = 5 Msg = 'The method initialMap(java.lang.String[][]) is undefined for the type EcoSim'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b950
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17fc835
+26 Apr 2018 1:27:06 GMT:  Kind = WARNING
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f3842e
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7f4d5
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ab0ffc
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c40dc
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d06447
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b49a54
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b3ba71
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c9115b
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a4b019
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bff0c3
+26 Apr 2018 1:27:06 GMT:  Kind = WARNING
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@148b197
+26 Apr 2018 1:27:06 GMT:  Kind = ERROR
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 55 ColNo = 30 Msg = 'GREY cannot be resolved or is not a field'
+26 Apr 2018 1:27:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1393aec
+26 Apr 2018 1:27:06 GMT:  Kind = WARNING
+26 Apr 2018 1:27:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:27:17 GMT: diagnostics = javax.tools.DiagnosticCollector@1f1dc0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@189ac37
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 1:27:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@13c0f7c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:27:17 GMT: Compiler call returned
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8ec55e
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10a8c51
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@583774
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java LineNo = 15 ColNo = 5 Msg = 'The method initialMap(java.lang.String[][]) is undefined for the type EcoSim'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1860108
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1868353
+26 Apr 2018 1:27:17 GMT:  Kind = WARNING
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fe8b6
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14185d6
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6644b7
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f3d8f3
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9ac023
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1888693
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1212a29
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5a503e
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f5148e
+26 Apr 2018 1:27:17 GMT:  Kind = ERROR
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@192b7dd
+26 Apr 2018 1:27:17 GMT:  Kind = WARNING
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:27:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19ebf24
+26 Apr 2018 1:27:17 GMT:  Kind = WARNING
+26 Apr 2018 1:27:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:27:29 GMT: diagnostics = javax.tools.DiagnosticCollector@1dedef3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1cfe4e7
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 1:27:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f41b43' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:27:29 GMT: Compiler call returned
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4cc809
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1049a23
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13e5f4a
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcoSim.java LineNo = 15 ColNo = 5 Msg = 'The method initialMap(java.lang.String[][]) is undefined for the type EcoSim'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1293243
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11ba96f
+26 Apr 2018 1:27:29 GMT:  Kind = WARNING
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7beead
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d62327
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@199b9b4
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1972d79
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@70bbe0
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@516c52
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@633fb5
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d334a5
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e53be4
+26 Apr 2018 1:27:29 GMT:  Kind = ERROR
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@affc76
+26 Apr 2018 1:27:29 GMT:  Kind = WARNING
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:27:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bcf241
+26 Apr 2018 1:27:29 GMT:  Kind = WARNING
+26 Apr 2018 1:27:29 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:27:59 GMT: diagnostics = javax.tools.DiagnosticCollector@1ffd6f4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4e997d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 1:27:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b9b907' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:27:59 GMT: Compiler call returned
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@202c97
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3673a2
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7b2642
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@131d03e
+26 Apr 2018 1:27:59 GMT:  Kind = WARNING
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e2179b
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@112da06
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7aab50
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f93141
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19dac6a
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b88fb5
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11d9319
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c4de02
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18eceac
+26 Apr 2018 1:27:59 GMT:  Kind = ERROR
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@131288f
+26 Apr 2018 1:27:59 GMT:  Kind = WARNING
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:27:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@63fd2b
+26 Apr 2018 1:27:59 GMT:  Kind = WARNING
+26 Apr 2018 1:27:59 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:28:30 GMT: diagnostics = javax.tools.DiagnosticCollector@13cb4c4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ed21e9
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 1:28:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14809f1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:28:31 GMT: Compiler call returned
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19c758c
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1eb92
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16297f
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@aa9f6c
+26 Apr 2018 1:28:31 GMT:  Kind = WARNING
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16a4a0
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1168d8b
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9a0547
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6db587
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 11 ColNo = 3 Msg = 'Return type for the method is missing'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@195280e
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7894a2
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ea18d7
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosytem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosytem is not applicable for the arguments ()'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1125180
+26 Apr 2018 1:28:31 GMT:  Kind = WARNING
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f1deb4
+26 Apr 2018 1:28:31 GMT:  Kind = WARNING
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e0832c
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 5 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:28:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b61267
+26 Apr 2018 1:28:31 GMT:  Kind = ERROR
+26 Apr 2018 1:28:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 21 ColNo = 31 Msg = 'Ecosystem cannot be resolved to a type'
+26 Apr 2018 1:40:00 GMT: diagnostics = javax.tools.DiagnosticCollector@13f4fc8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17dc95
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java]
+26 Apr 2018 1:40:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@129e7c3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:40:00 GMT: Compiler call returned
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ea6d21
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@166e5af
+26 Apr 2018 1:40:00 GMT:  Kind = WARNING
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c107e6
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b6e0f5
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cd06c7
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@194cf8c
+26 Apr 2018 1:40:00 GMT:  Kind = WARNING
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1061b6f
+26 Apr 2018 1:40:00 GMT:  Kind = WARNING
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@103f272
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 31 ColNo = 5 Msg = 'Unreachable code'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6b31ab
+26 Apr 2018 1:40:00 GMT:  Kind = WARNING
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 14 ColNo = 13 Msg = 'Resource leak: 'input' is never closed'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cc62c5
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 15 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosystem is not applicable for the arguments ()'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a4c170
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosystem is not applicable for the arguments ()'
+26 Apr 2018 1:40:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a3874
+26 Apr 2018 1:40:00 GMT:  Kind = ERROR
+26 Apr 2018 1:40:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosystem is not applicable for the arguments ()'
+26 Apr 2018 1:40:21 GMT: diagnostics = javax.tools.DiagnosticCollector@1501e79
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ac2bb3
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java]
+26 Apr 2018 1:40:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@4487cf' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:40:21 GMT: Compiler call returned
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d4b976
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6efad9
+26 Apr 2018 1:40:21 GMT:  Kind = WARNING
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@187cb99
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10da26e
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d8b4f0
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dd27a0
+26 Apr 2018 1:40:21 GMT:  Kind = WARNING
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11df121
+26 Apr 2018 1:40:21 GMT:  Kind = WARNING
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16930fe
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 31 ColNo = 5 Msg = 'Unreachable code'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11e7b17
+26 Apr 2018 1:40:21 GMT:  Kind = WARNING
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 14 ColNo = 13 Msg = 'Resource leak: 'input' is never closed'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@67bdb3
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 19 ColNo = 7 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosystem is not applicable for the arguments ()'
+26 Apr 2018 1:40:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@77c267
+26 Apr 2018 1:40:21 GMT:  Kind = ERROR
+26 Apr 2018 1:40:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 37 ColNo = 5 Msg = 'The method emptyBlock(Organism[][]) in the type Ecosystem is not applicable for the arguments ()'
+26 Apr 2018 1:40:34 GMT: diagnostics = javax.tools.DiagnosticCollector@1511253
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@2944bc
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java]
+26 Apr 2018 1:40:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fa3741' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:40:34 GMT: Compiler call returned
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@113b288
+26 Apr 2018 1:40:34 GMT:  Kind = ERROR
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@54005a
+26 Apr 2018 1:40:34 GMT:  Kind = WARNING
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17fb33b
+26 Apr 2018 1:40:34 GMT:  Kind = ERROR
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3031e0
+26 Apr 2018 1:40:34 GMT:  Kind = ERROR
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@934e5c
+26 Apr 2018 1:40:34 GMT:  Kind = ERROR
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@79c684
+26 Apr 2018 1:40:34 GMT:  Kind = WARNING
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a7521b
+26 Apr 2018 1:40:34 GMT:  Kind = WARNING
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cfc21e
+26 Apr 2018 1:40:34 GMT:  Kind = ERROR
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 31 ColNo = 5 Msg = 'Unreachable code'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c689d5
+26 Apr 2018 1:40:34 GMT:  Kind = WARNING
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 14 ColNo = 13 Msg = 'Resource leak: 'input' is never closed'
+26 Apr 2018 1:40:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18b3b8f
+26 Apr 2018 1:40:34 GMT:  Kind = WARNING
+26 Apr 2018 1:40:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 7 ColNo = 15 Msg = 'The value of the field Ecosystem.plantNum is not used'
+26 Apr 2018 1:49:01 GMT: diagnostics = javax.tools.DiagnosticCollector@66989b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1beb806
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java]
+26 Apr 2018 1:49:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@10e3076' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:49:01 GMT: Compiler call returned
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f1004e
+26 Apr 2018 1:49:01 GMT:  Kind = ERROR
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13de73f
+26 Apr 2018 1:49:01 GMT:  Kind = WARNING
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@27c74
+26 Apr 2018 1:49:01 GMT:  Kind = ERROR
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1685248
+26 Apr 2018 1:49:01 GMT:  Kind = ERROR
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3ecb9b
+26 Apr 2018 1:49:01 GMT:  Kind = ERROR
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ccdefc
+26 Apr 2018 1:49:01 GMT:  Kind = WARNING
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@152f3cd
+26 Apr 2018 1:49:01 GMT:  Kind = WARNING
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3d04fd
+26 Apr 2018 1:49:01 GMT:  Kind = ERROR
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 31 ColNo = 5 Msg = 'Unreachable code'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@db78b2
+26 Apr 2018 1:49:01 GMT:  Kind = WARNING
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 14 ColNo = 13 Msg = 'Resource leak: 'input' is never closed'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2602b
+26 Apr 2018 1:49:01 GMT:  Kind = ERROR
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 51 ColNo = 16 Msg = 'This method must return a result of type int[]'
+26 Apr 2018 1:49:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a2367d
+26 Apr 2018 1:49:01 GMT:  Kind = WARNING
+26 Apr 2018 1:49:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 7 ColNo = 15 Msg = 'The value of the field Ecosystem.plantNum is not used'
+26 Apr 2018 1:49:19 GMT: diagnostics = javax.tools.DiagnosticCollector@bf809
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1aac6c4
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java]
+26 Apr 2018 1:49:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@203627' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:49:19 GMT: Compiler call returned
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17a9d71
+26 Apr 2018 1:49:19 GMT:  Kind = ERROR
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9841a0
+26 Apr 2018 1:49:19 GMT:  Kind = WARNING
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a9ca43
+26 Apr 2018 1:49:19 GMT:  Kind = ERROR
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ea6d75
+26 Apr 2018 1:49:19 GMT:  Kind = ERROR
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@56f8ac
+26 Apr 2018 1:49:19 GMT:  Kind = ERROR
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fb3847
+26 Apr 2018 1:49:19 GMT:  Kind = WARNING
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11102c9
+26 Apr 2018 1:49:19 GMT:  Kind = WARNING
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14e575b
+26 Apr 2018 1:49:19 GMT:  Kind = ERROR
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 31 ColNo = 5 Msg = 'Unreachable code'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ca5686
+26 Apr 2018 1:49:19 GMT:  Kind = WARNING
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 14 ColNo = 13 Msg = 'Resource leak: 'input' is never closed'
+26 Apr 2018 1:49:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b267d8
+26 Apr 2018 1:49:19 GMT:  Kind = WARNING
+26 Apr 2018 1:49:19 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java LineNo = 7 ColNo = 15 Msg = 'The value of the field Ecosystem.plantNum is not used'
+26 Apr 2018 1:51:25 GMT: diagnostics = javax.tools.DiagnosticCollector@f7fec2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@154635f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 1:51:25 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@137b661' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:51:26 GMT: Compiler call returned
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dde5a8
+26 Apr 2018 1:51:26 GMT:  Kind = ERROR
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\GridTest.java LineNo = 20 ColNo = 24 Msg = 'The constructor DisplayGrid(java.lang.String[][]) is undefined'
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cb8e64
+26 Apr 2018 1:51:26 GMT:  Kind = WARNING
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@124f76d
+26 Apr 2018 1:51:26 GMT:  Kind = ERROR
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@137ee10
+26 Apr 2018 1:51:26 GMT:  Kind = ERROR
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@74b4fb
+26 Apr 2018 1:51:26 GMT:  Kind = ERROR
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@187bbbf
+26 Apr 2018 1:51:26 GMT:  Kind = WARNING
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fcabbd
+26 Apr 2018 1:51:26 GMT:  Kind = WARNING
+26 Apr 2018 1:51:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:51:39 GMT: diagnostics = javax.tools.DiagnosticCollector@6f2e02
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10e500c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 1:51:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14721a3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:51:39 GMT: Compiler call returned
+26 Apr 2018 1:51:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12fb13e
+26 Apr 2018 1:51:39 GMT:  Kind = WARNING
+26 Apr 2018 1:51:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:51:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bb404e
+26 Apr 2018 1:51:39 GMT:  Kind = ERROR
+26 Apr 2018 1:51:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 1 ColNo = 7 Msg = 'The type Sheep must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:51:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11301d8
+26 Apr 2018 1:51:39 GMT:  Kind = ERROR
+26 Apr 2018 1:51:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:51:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@686b0f
+26 Apr 2018 1:51:39 GMT:  Kind = ERROR
+26 Apr 2018 1:51:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java LineNo = 1 ColNo = 7 Msg = 'The type Wolf must implement the inherited abstract method Animal.move()'
+26 Apr 2018 1:51:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12803d
+26 Apr 2018 1:51:39 GMT:  Kind = WARNING
+26 Apr 2018 1:51:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:51:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@311e81
+26 Apr 2018 1:51:39 GMT:  Kind = WARNING
+26 Apr 2018 1:51:39 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:52:00 GMT: diagnostics = javax.tools.DiagnosticCollector@85adc7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@264641
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java]
+26 Apr 2018 1:52:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1449a3e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:52:00 GMT: Compiler call returned
+26 Apr 2018 1:52:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@167536c
+26 Apr 2018 1:52:00 GMT:  Kind = WARNING
+26 Apr 2018 1:52:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:52:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b8db18
+26 Apr 2018 1:52:00 GMT:  Kind = ERROR
+26 Apr 2018 1:52:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java LineNo = 2 ColNo = 10 Msg = 'This method must return a result of type java.lang.String'
+26 Apr 2018 1:52:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fa3db3
+26 Apr 2018 1:52:00 GMT:  Kind = WARNING
+26 Apr 2018 1:52:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:52:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14729ff
+26 Apr 2018 1:52:00 GMT:  Kind = WARNING
+26 Apr 2018 1:52:00 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:52:10 GMT: diagnostics = javax.tools.DiagnosticCollector@c5bae7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13694b5
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java]
+26 Apr 2018 1:52:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1410534' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:52:11 GMT: Compiler call returned
+26 Apr 2018 1:52:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f5e78
+26 Apr 2018 1:52:11 GMT:  Kind = WARNING
+26 Apr 2018 1:52:11 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:52:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@acbe96
+26 Apr 2018 1:52:11 GMT:  Kind = WARNING
+26 Apr 2018 1:52:11 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:52:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12d1eb6
+26 Apr 2018 1:52:11 GMT:  Kind = WARNING
+26 Apr 2018 1:52:11 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:52:18 GMT: diagnostics = javax.tools.DiagnosticCollector@1ba0212
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@dc6b3a
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java]
+26 Apr 2018 1:52:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e81f9a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:52:18 GMT: Compiler call returned
+26 Apr 2018 1:52:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@197b1e3
+26 Apr 2018 1:52:18 GMT:  Kind = WARNING
+26 Apr 2018 1:52:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:52:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18a0660
+26 Apr 2018 1:52:18 GMT:  Kind = WARNING
+26 Apr 2018 1:52:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:52:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b7d038
+26 Apr 2018 1:52:18 GMT:  Kind = WARNING
+26 Apr 2018 1:52:18 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:56:24 GMT: diagnostics = javax.tools.DiagnosticCollector@13a6315
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bc7347
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java]
+26 Apr 2018 1:56:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@15e8cf3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:56:24 GMT: Compiler call returned
+26 Apr 2018 1:56:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d6dde1
+26 Apr 2018 1:56:24 GMT:  Kind = WARNING
+26 Apr 2018 1:56:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:56:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2cea88
+26 Apr 2018 1:56:24 GMT:  Kind = WARNING
+26 Apr 2018 1:56:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:56:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@41b20f
+26 Apr 2018 1:56:24 GMT:  Kind = WARNING
+26 Apr 2018 1:56:24 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:57:10 GMT: diagnostics = javax.tools.DiagnosticCollector@149d4a2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1eeeca8
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 1:57:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1c111cf' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:57:10 GMT: Compiler call returned
+26 Apr 2018 1:57:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f0cc6e
+26 Apr 2018 1:57:10 GMT:  Kind = WARNING
+26 Apr 2018 1:57:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:57:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@655796
+26 Apr 2018 1:57:10 GMT:  Kind = WARNING
+26 Apr 2018 1:57:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:57:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18994f2
+26 Apr 2018 1:57:10 GMT:  Kind = WARNING
+26 Apr 2018 1:57:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:58:26 GMT: diagnostics = javax.tools.DiagnosticCollector@143be62
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e739de
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 1:58:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@85e96e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:58:26 GMT: Compiler call returned
+26 Apr 2018 1:58:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ac4fb8
+26 Apr 2018 1:58:26 GMT:  Kind = WARNING
+26 Apr 2018 1:58:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:58:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@af72b9
+26 Apr 2018 1:58:26 GMT:  Kind = WARNING
+26 Apr 2018 1:58:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:58:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f6860e
+26 Apr 2018 1:58:26 GMT:  Kind = WARNING
+26 Apr 2018 1:58:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:58:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bb927a
+26 Apr 2018 1:58:26 GMT:  Kind = ERROR
+26 Apr 2018 1:58:26 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 59 ColNo = 30 Msg = 'GREY cannot be resolved or is not a field'
+26 Apr 2018 1:58:32 GMT: diagnostics = javax.tools.DiagnosticCollector@166c3d6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6b0b09
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 1:58:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@90d49b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:58:32 GMT: Compiler call returned
+26 Apr 2018 1:58:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e00e
+26 Apr 2018 1:58:32 GMT:  Kind = WARNING
+26 Apr 2018 1:58:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:58:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@151a0df
+26 Apr 2018 1:58:32 GMT:  Kind = WARNING
+26 Apr 2018 1:58:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:58:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a40b46
+26 Apr 2018 1:58:32 GMT:  Kind = WARNING
+26 Apr 2018 1:58:32 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 1:59:08 GMT: diagnostics = javax.tools.DiagnosticCollector@1942fcf
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@138fc7d
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 1:59:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1862bf6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 1:59:08 GMT: Compiler call returned
+26 Apr 2018 1:59:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15d459f
+26 Apr 2018 1:59:08 GMT:  Kind = WARNING
+26 Apr 2018 1:59:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 1:59:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4cf433
+26 Apr 2018 1:59:08 GMT:  Kind = WARNING
+26 Apr 2018 1:59:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 1:59:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c68aac
+26 Apr 2018 1:59:08 GMT:  Kind = WARNING
+26 Apr 2018 1:59:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:01:58 GMT: diagnostics = javax.tools.DiagnosticCollector@155a057
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@710b9e
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 2:01:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1131f19' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:01:58 GMT: Compiler call returned
+26 Apr 2018 2:01:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@129d736
+26 Apr 2018 2:01:58 GMT:  Kind = WARNING
+26 Apr 2018 2:01:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:01:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@536614
+26 Apr 2018 2:01:58 GMT:  Kind = WARNING
+26 Apr 2018 2:01:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:01:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13b1c91
+26 Apr 2018 2:01:58 GMT:  Kind = WARNING
+26 Apr 2018 2:01:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:01:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a0b137
+26 Apr 2018 2:01:58 GMT:  Kind = ERROR
+26 Apr 2018 2:01:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 61 ColNo = 30 Msg = 'BROWN cannot be resolved or is not a field'
+26 Apr 2018 2:01:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ef55d2
+26 Apr 2018 2:01:58 GMT:  Kind = ERROR
+26 Apr 2018 2:01:58 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 31 ColNo = 35 Msg = 'Syntax error on token ")", ; expected after this token'
+26 Apr 2018 2:03:45 GMT: diagnostics = javax.tools.DiagnosticCollector@b67e80
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d4d012
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java]
+26 Apr 2018 2:03:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a36658' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:03:45 GMT: Compiler call returned
+26 Apr 2018 2:03:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c50e40
+26 Apr 2018 2:03:45 GMT:  Kind = WARNING
+26 Apr 2018 2:03:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:03:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d9723e
+26 Apr 2018 2:03:45 GMT:  Kind = WARNING
+26 Apr 2018 2:03:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:03:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10b4f6b
+26 Apr 2018 2:03:45 GMT:  Kind = WARNING
+26 Apr 2018 2:03:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:03:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@58d39d
+26 Apr 2018 2:03:45 GMT:  Kind = ERROR
+26 Apr 2018 2:03:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 62 ColNo = 30 Msg = 'BROWN cannot be resolved or is not a field'
+26 Apr 2018 2:03:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1087158
+26 Apr 2018 2:03:45 GMT:  Kind = ERROR
+26 Apr 2018 2:03:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 44 ColNo = 31 Msg = 'The field BROWN cannot be declared static in a non-static inner type, unless initialized with a constant expression'
+26 Apr 2018 2:04:05 GMT: diagnostics = javax.tools.DiagnosticCollector@14ac31d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e0f9e8
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 2:04:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@5dc8e5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:04:05 GMT: Compiler call returned
+26 Apr 2018 2:04:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@388219
+26 Apr 2018 2:04:05 GMT:  Kind = WARNING
+26 Apr 2018 2:04:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:04:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@868d84
+26 Apr 2018 2:04:05 GMT:  Kind = WARNING
+26 Apr 2018 2:04:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:04:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@141b1da
+26 Apr 2018 2:04:05 GMT:  Kind = WARNING
+26 Apr 2018 2:04:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:04:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1366e8e
+26 Apr 2018 2:04:05 GMT:  Kind = ERROR
+26 Apr 2018 2:04:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 62 ColNo = 30 Msg = 'BROWN cannot be resolved or is not a field'
+26 Apr 2018 2:04:21 GMT: diagnostics = javax.tools.DiagnosticCollector@1f40393
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@18e15b3
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 2:04:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@5b0f65' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:04:21 GMT: Compiler call returned
+26 Apr 2018 2:04:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@32dc03
+26 Apr 2018 2:04:21 GMT:  Kind = WARNING
+26 Apr 2018 2:04:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:04:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b62353
+26 Apr 2018 2:04:21 GMT:  Kind = WARNING
+26 Apr 2018 2:04:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:04:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@68829
+26 Apr 2018 2:04:21 GMT:  Kind = WARNING
+26 Apr 2018 2:04:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 44 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:04:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f73a62
+26 Apr 2018 2:04:21 GMT:  Kind = ERROR
+26 Apr 2018 2:04:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 63 ColNo = 30 Msg = 'BROWN cannot be resolved or is not a field'
+26 Apr 2018 2:04:57 GMT: diagnostics = javax.tools.DiagnosticCollector@201da7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f64e5e
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 2:04:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@be41e3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:04:57 GMT: Compiler call returned
+26 Apr 2018 2:04:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b27d9a
+26 Apr 2018 2:04:57 GMT:  Kind = WARNING
+26 Apr 2018 2:04:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:04:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@684d7d
+26 Apr 2018 2:04:57 GMT:  Kind = WARNING
+26 Apr 2018 2:04:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:04:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1999712
+26 Apr 2018 2:04:57 GMT:  Kind = ERROR
+26 Apr 2018 2:04:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 62 ColNo = 38 Msg = 'Syntax error, insert ")" to complete Expression'
+26 Apr 2018 2:04:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c5c13e
+26 Apr 2018 2:04:57 GMT:  Kind = WARNING
+26 Apr 2018 2:04:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:05:04 GMT: diagnostics = javax.tools.DiagnosticCollector@1c766d3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@2c4483
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 2:05:04 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9cc201' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:05:05 GMT: Compiler call returned
+26 Apr 2018 2:05:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8da9f4
+26 Apr 2018 2:05:05 GMT:  Kind = WARNING
+26 Apr 2018 2:05:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:05:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3ef6a5
+26 Apr 2018 2:05:05 GMT:  Kind = WARNING
+26 Apr 2018 2:05:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:05:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b49b1e
+26 Apr 2018 2:05:05 GMT:  Kind = WARNING
+26 Apr 2018 2:05:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:05:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d4db0d
+26 Apr 2018 2:05:05 GMT:  Kind = ERROR
+26 Apr 2018 2:05:05 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 62 ColNo = 24 Msg = 'The method Color(int, int, int) is undefined for the type DisplayGrid.GridAreaPanel'
+26 Apr 2018 2:05:55 GMT: diagnostics = javax.tools.DiagnosticCollector@1d39103
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@185b13c
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 2:05:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@15b709' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:05:55 GMT: Compiler call returned
+26 Apr 2018 2:05:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@27bff8
+26 Apr 2018 2:05:55 GMT:  Kind = WARNING
+26 Apr 2018 2:05:55 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:05:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@336f9
+26 Apr 2018 2:05:55 GMT:  Kind = WARNING
+26 Apr 2018 2:05:55 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:05:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bcda67
+26 Apr 2018 2:05:55 GMT:  Kind = WARNING
+26 Apr 2018 2:05:55 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+26 Apr 2018 2:08:31 GMT: diagnostics = javax.tools.DiagnosticCollector@7acf40
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@24ed61
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+26 Apr 2018 2:08:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c619c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+26 Apr 2018 2:08:31 GMT: Compiler call returned
+26 Apr 2018 2:08:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bd90e7
+26 Apr 2018 2:08:31 GMT:  Kind = WARNING
+26 Apr 2018 2:08:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java LineNo = 2 ColNo = 15 Msg = 'The value of the field Organism.health is not used'
+26 Apr 2018 2:08:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14fe014
+26 Apr 2018 2:08:31 GMT:  Kind = WARNING
+26 Apr 2018 2:08:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java LineNo = 2 ColNo = 19 Msg = 'The value of the field Animal.gender is not used'
+26 Apr 2018 2:08:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1345f47
+26 Apr 2018 2:08:31 GMT:  Kind = WARNING
+26 Apr 2018 2:08:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 43 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'

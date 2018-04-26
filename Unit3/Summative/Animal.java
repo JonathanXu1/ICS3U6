@@ -1,5 +1,5 @@
 abstract class Animal extends Organism{
   private boolean gender;
   
-  abstract String move(){}
+  abstract String move();
 }

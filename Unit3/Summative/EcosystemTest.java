@@ -13,24 +13,22 @@ public class EcosystemTest{
     
     Scanner input = new Scanner(System.in);
     
-    String[][] map = new String[25][25];
-    updateMap(map);
-    DisplayGrid grid = new DisplayGrid(map);//Set up Grid Panel
-    
     System.out.println("Enter initial sheep num:");
     s = input.nextInt();
     System.out.println("Enter initial wolf num:");
-    s = input.nextInt();
+    w = input.nextInt();
+    input.close();
 
     Ecosystem ecosystem = new Ecosystem(s, w);
+    DisplayGrid grid = new DisplayGrid(ecosystem.getMap());//Set up Grid Panel
     
-    while(true){
-      Ecosystem.growGrass();
-      Ecosystem.moveSheep();
+    do{
+      ecosystem.growGrass();
+      ecosystem.moveAnimals();
       grid.refresh();
+      System.out.println("refreshed!");
       try{ Thread.sleep(1000); }catch(Exception e) {};
-    }
+    } while(!ecosystem.checkOver());
     
-    input.close();
   }
 }

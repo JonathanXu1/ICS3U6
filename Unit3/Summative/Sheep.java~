@@ -1,2 +1,4 @@
-public class Sheep{
+class Sheep extends Animal{
+  String move(String[][] map){
+  }
 }

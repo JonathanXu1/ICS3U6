@@ -51,7 +51,6 @@ class DisplayGrid {
       { 
         for(int j = 0; j<world.length;j=j+1) 
         { 
-          
           if (world[i][j].equals("1"))    //This block can be changed to match character-color pairs
             g.setColor(Color.RED);
           else if (world[i][j].equals("2"))
