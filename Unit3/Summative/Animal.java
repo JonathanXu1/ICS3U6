@@ -2,7 +2,7 @@ abstract class Animal extends Organism{
   private boolean gender;
   private boolean moved;
   
-  abstract int move();
+  //abstract int move();
   
   void eat(int health){
     changeHealth(health);

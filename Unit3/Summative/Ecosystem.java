@@ -40,40 +40,37 @@ public class Ecosystem {
   public void moveAnimals(){
     for(int i = 0; i < map.length; i++){ //y
       for(int j = 0; j < map[0].length; j++){
-        if(map[i][j] instanceof Plant){
-          ((Plant)map[i][j]).grow();
-        }
-        else if (map[i][j] instanceof Sheep && !((Animal)map[i][j]).moved()){
-          ((Animal)map[i][j]).age();
-          if(map[i][j].getHealth() <= 0){
-            map[i][j] = null;
-            sheepNum --;
-          }
-          else{
-            int x, y;
-            do{
-              do{
-                x = rand.nextInt(3) -1;
-                y = rand.nextInt(3) -1;
-              }while(i+y < 0 || i+y >= map.length || j+x < 0 || j+x >= map[0].length);
-            }while(map[i+y][j+x] instanceof Wolf || (map[i+y][j+x] instanceof Sheep && x == 0 && y == 0));
-            
-            if(map[i+y][j+x] instanceof Plant){
-              ((Sheep)map[i][j]).eat(map[i+y][j+x].getHealth());
-              plantNum --;
-            }
-            
-            map[i+y][j+x] = map[i][j];
-            map[i][j] = null;
-            ((Animal)map[i+y][j+x]).move(true);
-          }
+        if(map[i][j] instanceof Animal){
+          ((Animal)map[i][j]).changeMoved(false); 
         }
       }
     }
     for(int i = 0; i < map.length; i++){ //y
       for(int j = 0; j < map[0].length; j++){
-        if(map[i][j] instanceof Animal){
-          ((Animal)map[i][j]).move(false); 
+        if(map[i][j] instanceof Sheep){
+          System.out.println("moved" + ((Animal)map[i][j]).moved());
+        }
+        if(map[i][j] instanceof Plant){
+          ((Plant)map[i][j]).grow();
+        }
+        else if (map[i][j] instanceof Sheep && !((Animal)map[i][j]).moved()){
+          int option = ((Sheep)map[i][j]).move(j, i, map);
+          
+          if(map[i][j].getHealth() <= 0){
+            map[i][j] = null;
+            sheepNum --;
+          }
+          else{
+            int y = (option-1) / 3;
+            int x = (option-1) % 3;
+            
+            if(map[y+i-1][x+j-1] instanceof Plant){
+              plantNum --;
+            }
+            
+            map[y+i-1][x+j-1] = map[i][j];
+            map[i][j] = null;
+          }
         }
       }
     }

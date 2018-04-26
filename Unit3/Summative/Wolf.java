@@ -3,6 +3,7 @@ class Wolf extends Animal{
     setHealth(20);
   }
   
-  int move(){
+  void move(){
+    age();
   }
 }
