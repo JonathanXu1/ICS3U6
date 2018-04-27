@@ -1,8 +1,11 @@
+import java.util.Random;
+
 abstract class Animal extends Organism{
   private boolean gender;
   private boolean moved;
   
-  //abstract int move();
+  abstract int move();
+  abstract boolean tryMate();
   
   void eat(int health){
     changeHealth(health);
@@ -19,5 +22,19 @@ abstract class Animal extends Organism{
   
   boolean moved(){
     return this.moved;
+  }
+  
+  void setGender(){
+    int num = rand.nextInt(2);
+    if(num == 0){ //male
+      gender = true;
+    }
+    else{ //female
+      gender = false;
+    }
+  }
+  
+  boolean getGender(){
+    return gender;
   }
 }

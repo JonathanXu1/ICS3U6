@@ -27,7 +27,7 @@ public class EcosystemTest{
       ecosystem.moveAnimals();
       grid.refresh();
       System.out.println("refreshed!");
-      try{ Thread.sleep(1000); }catch(Exception e) {};
+      try{ Thread.sleep(500); }catch(Exception e) {};
     } while(!ecosystem.checkOver());
     
   }

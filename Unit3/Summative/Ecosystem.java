@@ -24,11 +24,19 @@ public class Ecosystem {
   public void emptyBlock(Organism[][] map){
     int x, y;
     do{
-      x = rand.nextInt(24);
-      y = rand.nextInt(24);
+      x = rand.nextInt(map[0].length);
+      y = rand.nextInt(map.length);
     }while(map[x][y] != null);
     xy[0] = x;
     xy[1] = y;
+  }
+  
+  public void emptyBlock(Organism[][] map; int radius){
+    int x, y;
+    do{
+      x = rand.nextInt(map[2*radius+1].length-radius);
+      y = rand.nextInt(map.length);
+    }while(map[x][y] != null);
   }
   
   public void growGrass(){
@@ -47,9 +55,6 @@ public class Ecosystem {
     }
     for(int i = 0; i < map.length; i++){ //y
       for(int j = 0; j < map[0].length; j++){
-        if(map[i][j] instanceof Sheep){
-          System.out.println("moved" + ((Animal)map[i][j]).moved());
-        }
         if(map[i][j] instanceof Plant){
           ((Plant)map[i][j]).grow();
         }
@@ -61,15 +66,20 @@ public class Ecosystem {
             sheepNum --;
           }
           else{
-            int y = (option-1) / 3;
-            int x = (option-1) % 3;
+            int y = (option-1) / 3 -1;
+            int x = (option-1) % 3 -1;
             
-            if(map[y+i-1][x+j-1] instanceof Plant){
-              plantNum --;
-            }
-            
-            map[y+i-1][x+j-1] = map[i][j];
-            map[i][j] = null;
+            if(x != 0 || y!= 0){ //If wants to move
+              if(map[y+i][x+j] instanceof Plant){ //Moves and eats grass
+                plantNum --;
+                map[y+i][x+j] = map[i][j];
+                map[i][j] = null;
+              }
+              else if(map[y+i][x+j] instanceof Sheep){
+                sheepNum ++;
+                //emptyBlock();
+              }
+            } 
           }
         }
       }
