@@ -8,6 +8,7 @@ public class Ecosystem {
   Organism[][] map = new Organism[25][25];
   int[][] growProbability = new int[25][25];
   Random rand = new Random();
+  static int [] animals = new int[3];
   
   //Don't use single-letter variable names except as for loop counters
   Ecosystem(int s, int w){
@@ -24,12 +25,12 @@ public class Ecosystem {
   }
   
   //Randomly finds an empty block on the map
-  public void emptyBlock(Organism[][] map){
+  public void emptyBlock(Organism[][] world){
     int x, y;
     do{
-      x = rand.nextInt(map[0].length);
-      y = rand.nextInt(map.length);
-    }while(map[x][y] != null);
+      x = rand.nextInt(world[0].length);
+      y = rand.nextInt(world.length);
+    }while(world[x][y] != null);
     xy[0] = x;
     xy[1] = y;
   }
@@ -57,10 +58,9 @@ public class Ecosystem {
   }
   
   public void growGrass(){
-    //New plant nodes are grown randomly
-    for(int i = 0; i < 3; i ++){
+    for(int i = 0; i <= map.length/10; i++){
       emptyBlock(map);
-      map[xy[0]][xy[1]] = new Plant();
+      map[xy[1]][xy[0]] = new Plant();
       plantNum ++;
     }
     //Each plant alive gains 1 health
@@ -71,13 +71,34 @@ public class Ecosystem {
         }
       }
     }
-    //New plants are grown to probability map
+    //Ambient probability is set up
     for(int i = 0; i < growProbability.length; i++){
       for(int j = 0; j < growProbability[0].length; j++){
-        growProbability[i][j] = 5;
+        growProbability[i][j] = 1;
       }
     }
-    for(){
+    //If the map contains a plant, increase the growprobability of surrounding boxes by 100
+    for(int i = 0; i < growProbability.length; i++){
+      for(int j = 0; j < growProbability[0].length; j++){
+        if((map[i][j] instanceof Plant) && (map[i][j].getHealth() == 20)){
+          for(int k = -1; k < 2; k++){
+            for(int l = -1; l < 2; l++){
+              if((i+k >= 0) && (i+k < map.length) && (j+l >= 0) && (j+l < map[0].length)){ //If not off edge of map
+                growProbability[i+k][j+l] += 150;
+              }
+            }
+          }
+        }
+      }
+    }
+    for(int i = 0; i < growProbability.length; i++){
+      for(int j = 0; j < growProbability[0].length; j++){
+        int chance = rand.nextInt(1000);
+        if((chance < growProbability[i][j]) && (map[i][j] == null)){
+          map[i][j] = new Plant();
+          plantNum ++;
+        }
+      }
     }
   }
   
@@ -161,6 +182,9 @@ public class Ecosystem {
         }
       }
     }
+    animals[0] = plantNum;
+    animals[1] = sheepNum;
+    animals[2] = wolfNum;
   }
   
   public boolean checkOver(){
