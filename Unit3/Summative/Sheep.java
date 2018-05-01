@@ -30,7 +30,7 @@ class Sheep extends Animal{
     }
     
     //Walks to plants
-    if(option == 0){
+    if(option == 0 && getHealth() < 25){
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
@@ -57,16 +57,5 @@ class Sheep extends Animal{
 
     changeMoved(true);
     return option;
-  }
-  
-  boolean tryMate(Sheep other){
-    if(other.getAge() >= 10 && other.getHealth() > 20 && (other.getGender() != getGender()) ){
-      changeHealth(-10);
-      other.changeHealth(-10);
-      return true;
-    }
-    else{
-      return false;
-    }
   }
 }

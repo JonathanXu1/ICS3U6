@@ -1,9 +1,20 @@
 class Wolf extends Animal{
   Wolf(){
     setHealth(20);
+    setGender();
   }
   
-  void move(){
+  int move(int x, int y, Organism[][] map){
     age();
+    return 1;
+  }
+  
+  boolean tryMate(Animal other){
+    if(other.getAge() >= 10 && other.getHealth() > 20 && (other.getGender() != getGender()) ){
+      return true;
+    }
+    else{
+      return false;
+    }
   }
 }
