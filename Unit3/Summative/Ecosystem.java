@@ -173,6 +173,11 @@ public class Ecosystem {
                   map[y+i][x+j].changeHealth(-10);
                 }              
               }
+              else if(map[y+i][x+j] instanceof Plant){ //Tramples grass
+                plantNum --;
+                map[y+i][x+j] = map[i][j];
+                map[i][j] = null;
+              }
               else{
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
@@ -180,11 +185,12 @@ public class Ecosystem {
             } 
           }
         }
+        animals[0] = plantNum;
+        animals[1] = sheepNum;
+        animals[2] = wolfNum;
       }
     }
-    animals[0] = plantNum;
-    animals[1] = sheepNum;
-    animals[2] = wolfNum;
+    
   }
   
   public boolean checkOver(){
