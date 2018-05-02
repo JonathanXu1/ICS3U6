@@ -13,9 +13,11 @@ class DisplayGrid {
   private JFrame frame;
   private int maxX,maxY, GridToScreenRatio;
   private Organism[][] world;
+  private int[] animalNum;
   
-  DisplayGrid(Organism[][] map) { 
+  DisplayGrid(Organism[][] map, int[] num) { 
     this.world = map;
+    this.animalNum = num;
     
     maxX = Toolkit.getDefaultToolkit().getScreenSize().width;
     maxY = Toolkit.getDefaultToolkit().getScreenSize().height;
@@ -48,10 +50,8 @@ class DisplayGrid {
       setDoubleBuffered(true); 
       g.setColor(Color.BLACK);
       
-      for(int i = 0; i<world[0].length;i=i+1)
-      { 
-        for(int j = 0; j<world.length;j=j+1) 
-        { 
+      for(int i = 0; i<world[0].length;i=i+1){ 
+        for(int j = 0; j<world.length;j=j+1){ 
           if (world[i][j] instanceof Sheep)    //This block can be changed to match character-color pairs
             g.setColor(Color.WHITE);
           else if (world[i][j]instanceof Plant)
@@ -77,6 +77,10 @@ class DisplayGrid {
           }
         }
       }
+      
+      g.drawString("Plant Number: " + Integer.toString(animalNum[0]), maxX - 200, 20 );
+      g.drawString("Sheep Number: " + Integer.toString(animalNum[1]), maxX - 200, 40 );
+      g.drawString("Wolf Number: " + Integer.toString(animalNum[2]), maxX - 200, 60 );
     }
   }//end of GridAreaPanel
   

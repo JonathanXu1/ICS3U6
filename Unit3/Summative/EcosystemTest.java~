@@ -27,13 +27,11 @@ public class EcosystemTest{
     DisplayGrid grid = new DisplayGrid(ecosystem.getMap()); //Set up Grid Panel
     
     do{
-      //Good function names that are pretty readable but you still want to comment what they do
-      ecosystem.growGrass();
-      ecosystem.moveAnimals();
+      ecosystem.growGrass(); //Looks for grass and grows them over time
+      ecosystem.moveAnimals(); //Sheep and wolves move around
       grid.refresh(); //Might want to choose a variable name that reflects the display nature of the grid. 
-      System.out.println("refreshed!"); //Refreshed what? More descriptive debug output is useful
-      try{ Thread.sleep(500); }catch(Exception e) {}; //Split this into multiple lines
-    } while(!ecosystem.checkOver()); //Comment explaining what this does
+      try{ Thread.sleep(1000); }catch(Exception e) {}; //Split this into multiple lines
+    } while(!ecosystem.checkOver()); //Continues running until one species becomes extinct
     
   }
 }
