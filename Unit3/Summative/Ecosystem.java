@@ -54,10 +54,8 @@ public class Ecosystem {
   }
   
   public void growGrass(){
-    for(int i = 0; i <= map.length/10; i++){
-      emptyBlock(map);
-      map[xy[1]][xy[0]] = new Plant();
-    }
+    emptyBlock(map);
+    map[xy[1]][xy[0]] = new Plant();
     //Each plant alive gains 1 health
     for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
@@ -121,6 +119,7 @@ public class Ecosystem {
               if(map[y+i][x+j] instanceof Plant){ //Moves and eats grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
+                System.out.println("Sheep at " + (x+j) + "," + (y+i) + " ate a plant");
               }
               else if(map[y+i][x+j] instanceof Sheep){
                 emptyBlock(map, j, i, 1);
