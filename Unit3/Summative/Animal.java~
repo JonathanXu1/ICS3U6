@@ -6,7 +6,6 @@ abstract class Animal extends Organism{
   Random rand = new Random();
   
   abstract int move(int i, int j, Organism[][] o);
-  abstract boolean tryMate(Animal a);
   
   void eat(int health){
     changeHealth(health);
@@ -37,5 +36,14 @@ abstract class Animal extends Organism{
   
   boolean getGender(){
     return gender;
+  }
+  
+  boolean tryMate(Animal other){
+    if(other.getAge() >= 10 && other.getHealth() > 20 && (other.getGender() != getGender()) ){
+      return true;
+    }
+    else{
+      return false;
+    }
   }
 }

@@ -24,13 +24,13 @@ public class EcosystemTest{
      * For OOP - I like using capitalized variable names for top-level classes that actions happen to, like
      * Game or System (this is just personal preference though)
      */
-    DisplayGrid grid = new DisplayGrid(ecosystem.getMap()); //Set up Grid Panel
+    DisplayGrid grid = new DisplayGrid(ecosystem.getMap(), Ecosystem.animals); //Set up Grid Panel
     
     do{
       ecosystem.growGrass(); //Looks for grass and grows them over time
       ecosystem.moveAnimals(); //Sheep and wolves move around
       grid.refresh(); //Might want to choose a variable name that reflects the display nature of the grid. 
-      try{ Thread.sleep(1000); }catch(Exception e) {}; //Split this into multiple lines
+      try{ Thread.sleep(100); }catch(Exception e) {}; //Split this into multiple lines
     } while(!ecosystem.checkOver()); //Continues running until one species becomes extinct
     
   }

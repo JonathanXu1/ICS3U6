@@ -7,6 +7,17 @@ abstract class Animal extends Organism{
   
   abstract int move(int i, int j, Organism[][] o);
   
+  Animal (int h){
+    super(h);
+    int num = rand.nextInt(2);
+    if(num == 0){ //male
+      this.gender = true;
+    }
+    else{ //female
+      this.gender = false;
+    }
+  }
+  
   void eat(int health){
     changeHealth(health);
   }
@@ -23,17 +34,7 @@ abstract class Animal extends Organism{
   boolean moved(){
     return this.moved;
   }
-  
-  void setGender(){
-    int num = rand.nextInt(2);
-    if(num == 0){ //male
-      gender = true;
-    }
-    else{ //female
-      gender = false;
-    }
-  }
-  
+    
   boolean getGender(){
     return gender;
   }

@@ -2,7 +2,7 @@ import java.util.Random;
 
 class Sheep extends Animal{
   Sheep(){
-    setHealth(30);
+    setHealth(20);
     setGender();
   }
   
@@ -57,14 +57,5 @@ class Sheep extends Animal{
 
     changeMoved(true);
     return option;
-  }
-  
-  boolean tryMate(Animal other){
-    if(other.getAge() >= 10 && other.getHealth() > 20 && (other.getGender() != getGender()) ){
-      return true;
-    }
-    else{
-      return false;
-    }
   }
 }

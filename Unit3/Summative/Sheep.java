@@ -2,8 +2,7 @@ import java.util.Random;
 
 class Sheep extends Animal{
   Sheep(){
-    setHealth(20);
-    setGender();
+    super(20);
   }
   
   int move(int x, int y, Organism[][] map){
@@ -51,7 +50,7 @@ class Sheep extends Animal{
           nexti = rand.nextInt(3) -1;
           nextj = rand.nextInt(3) -1;
         }while(nexti+y < 0 || nexti+y >= map.length || nextj+x < 0 || nextj+x >= map[0].length);
-      }while(map[nexti+y][nextj+x] instanceof Wolf || (map[nexti+y][nextj+x] instanceof Sheep && x == 0 && y == 0));
+      }while(map[nexti+y][nextj+x] instanceof Animal && (x != 0 || y != 0) );
       option = (nexti+1)*3 + nextj + 2;
     }
 
