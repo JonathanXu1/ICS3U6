@@ -59,7 +59,7 @@ class DisplayGrid {
               g.setColor(new Color(255, 204, 102));
             }
             else if(world[i][j].getHealth() == 20){
-              g.setColor(new Color(0, 51, 0));
+              g.setColor(new Color(35, 142, 48));
             }
             else{
               g.setColor(Color.GREEN);
