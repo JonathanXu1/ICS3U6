@@ -7274,3 +7274,21 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summativ
 6 May 2018 3:56:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@82c9
 6 May 2018 3:56:06 GMT:  Kind = WARNING
 6 May 2018 3:56:06 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 12:37:47 GMT: Log 'EclipseCompiler.txt' opened: 6 May 2018 12:37:47 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+6 May 2018 12:38:09 GMT: diagnostics = javax.tools.DiagnosticCollector@1ad08e3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@42f260
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java]
+6 May 2018 12:38:09 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@181bb8f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 12:38:10 GMT: Compiler call returned
+6 May 2018 12:38:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c71a21
+6 May 2018 12:38:10 GMT:  Kind = WARNING
+6 May 2018 12:38:10 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 12:40:13 GMT: diagnostics = javax.tools.DiagnosticCollector@b834ed
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a42ab2
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java]
+6 May 2018 12:40:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1c64145' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 12:40:13 GMT: Compiler call returned
+6 May 2018 12:40:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a8681c
+6 May 2018 12:40:13 GMT:  Kind = WARNING
+6 May 2018 12:40:13 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 13:47:38 GMT: Log 'EclipseCompiler.txt' opened: 6 May 2018 13:47:38 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt

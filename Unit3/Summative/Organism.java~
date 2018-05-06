@@ -2,7 +2,7 @@ abstract class Organism{
   private int health;
   private int age = 0;
   
-  void setHealth(int init){
+  Organism(int init){
     this.health = init;
   }
   

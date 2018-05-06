@@ -1,4 +1,9 @@
-//working on generics
+/**
+ * Sheep
+ * Defines all the paramaters of a sheep
+ * Jonathan Xu
+ * April 24, 2018
+*/
 
 import java.util.Random;
 
@@ -7,6 +12,12 @@ class Sheep extends Animal{
     super(20);
   }
   
+  /**
+   * move
+   * This method covers the decision process of a sheep. It prioritizes mating over eating grass.
+   * @param Integers representing the coordinates of the animal, and an Organism array representing the map.
+   * @return An integer, a number that correlates to a 3 by 3 grid of move choices (similar to a numpad).
+  */
   int move(int x, int y, Organism[][] map){
     age();
     int option = 0;

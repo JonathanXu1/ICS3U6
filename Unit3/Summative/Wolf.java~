@@ -2,7 +2,7 @@ import java.util.Random;
 
 class Wolf extends Animal{
   Wolf(){
-    super(25);
+    super(30);
   }
   
   int move(int x, int y, Organism[][] map){
@@ -42,18 +42,19 @@ class Wolf extends Animal{
         }
       }
     }
+    
+    //give wolves fighting ability later, figure out comparables
     //Randomly moves to a spot
     if(option == 0){
-      int nexti, nextj;
+      int nextx, nexty;
       do{
         do{
-          nexti = rand.nextInt(3) -1;
-          nextj = rand.nextInt(3) -1;
-          System.out.print("wolf inner");
-        }while(nexti+y < 0 || nexti+y >= map.length || nextj+x < 0 || nextj+x >= map[0].length);
-        System.out.println("wolf outer");
-      }while((map[nexti+y][nextj+x] instanceof Wolf && (x != 0 && y != 0)));
-      option = (nexti+1)*3 + nextj + 2;
+          //The program randomly generates a random set of coordinates and determines if it's off the map or another aimal
+          nextx = rand.nextInt(3) -1;
+          nexty = rand.nextInt(3) -1;
+        } while(nexty+y < 0 || nexty+y >= map.length || nextx+x < 0 || nextx+x >= map[0].length);
+      } while( map[nexty+y][nextx+x] instanceof Animal && (nextx != 0 || nexty != 0) ); //Comparable interface somehow
+      option = (nexty+1)*3 + nextx + 2;
     }
 
     changeMoved(true);
