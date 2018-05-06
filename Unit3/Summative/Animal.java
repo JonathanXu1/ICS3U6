@@ -10,12 +10,7 @@ abstract class Animal extends Organism{
   Animal (int h){
     super(h);
     int num = rand.nextInt(2);
-    if(num == 0){ //male
-      this.gender = true;
-    }
-    else{ //female
-      this.gender = false;
-    }
+    this.gender = num == 0;
   }
   
   void eat(int health){

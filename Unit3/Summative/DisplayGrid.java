@@ -54,13 +54,25 @@ class DisplayGrid {
         for(int j = 0; j<world.length;j=j+1){ 
           if (world[i][j] instanceof Sheep)    //This block can be changed to match character-color pairs
             g.setColor(Color.WHITE);
-          else if (world[i][j]instanceof Plant)
-            g.setColor(Color.GREEN);
-          else if (world[i][j]instanceof Wolf)
-            g.setColor(Color.GRAY);
-          else 
-            g.setColor(new Color(156, 93, 82));
+          else if (world[i][j]instanceof Plant){
+            if(world[i][j].getAge() >= 20){
+              g.setColor(new Color(255, 204, 102));
+            }
+            else if(world[i][j].getHealth() == 20){
+              g.setColor(new Color(0, 51, 0));
+            }
+            else{
+              g.setColor(Color.GREEN);
+            }
+          }
           
+          else if (world[i][j]instanceof Wolf){
+            g.setColor(Color.GRAY);
+            
+          }
+          else {
+            g.setColor(new Color(156, 93, 82));
+          }
           g.fillRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
           g.setColor(Color.BLACK);
           g.drawRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);

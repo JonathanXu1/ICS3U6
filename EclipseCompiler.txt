@@ -6973,3 +6973,174 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summativ
 5 May 2018 22:29:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a05511
 5 May 2018 22:29:20 GMT:  Kind = WARNING
 5 May 2018 22:29:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:15:44 GMT: diagnostics = javax.tools.DiagnosticCollector@151c294
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@12c42ae
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java]
+6 May 2018 2:15:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6156c5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:15:44 GMT: Compiler call returned
+6 May 2018 2:15:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16c5ed1
+6 May 2018 2:15:44 GMT:  Kind = WARNING
+6 May 2018 2:15:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:15:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a670b9
+6 May 2018 2:15:44 GMT:  Kind = WARNING
+6 May 2018 2:15:44 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:27:34 GMT: diagnostics = javax.tools.DiagnosticCollector@17b9914
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@5e63dd
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java]
+6 May 2018 2:27:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@127a216' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:27:34 GMT: Compiler call returned
+6 May 2018 2:27:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12f2552
+6 May 2018 2:27:34 GMT:  Kind = WARNING
+6 May 2018 2:27:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:27:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@147e9a0
+6 May 2018 2:27:34 GMT:  Kind = WARNING
+6 May 2018 2:27:34 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:34:36 GMT: Log 'EclipseCompiler.txt' opened: 6 May 2018 2:34:36 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+6 May 2018 2:36:17 GMT: diagnostics = javax.tools.DiagnosticCollector@d17b3e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17768c2
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java]
+6 May 2018 2:36:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@850523' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:36:17 GMT: Compiler call returned
+6 May 2018 2:36:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@64c77a
+6 May 2018 2:36:17 GMT:  Kind = WARNING
+6 May 2018 2:36:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:36:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@126b9c1
+6 May 2018 2:36:17 GMT:  Kind = WARNING
+6 May 2018 2:36:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:37:15 GMT: diagnostics = javax.tools.DiagnosticCollector@10a33cf
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@186bc9e
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java]
+6 May 2018 2:37:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a51e58' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:37:15 GMT: Compiler call returned
+6 May 2018 2:37:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b70e89
+6 May 2018 2:37:15 GMT:  Kind = WARNING
+6 May 2018 2:37:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:37:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b37e03
+6 May 2018 2:37:15 GMT:  Kind = WARNING
+6 May 2018 2:37:15 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:50:02 GMT: diagnostics = javax.tools.DiagnosticCollector@4ccb47
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@57424
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+6 May 2018 2:50:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d2be52' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:50:02 GMT: Compiler call returned
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@341c24
+6 May 2018 2:50:02 GMT:  Kind = ERROR
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 97 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@eb9cc3
+6 May 2018 2:50:02 GMT:  Kind = WARNING
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1743a01
+6 May 2018 2:50:02 GMT:  Kind = ERROR
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 58 ColNo = 26 Msg = 'Syntax error on token "]", . expected after this token'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@139ef4d
+6 May 2018 2:50:02 GMT:  Kind = ERROR
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 66 ColNo = 13 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e01d72
+6 May 2018 2:50:02 GMT:  Kind = ERROR
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 69 ColNo = 37 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d78e89
+6 May 2018 2:50:02 GMT:  Kind = ERROR
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 89 ColNo = 7 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1010540
+6 May 2018 2:50:02 GMT:  Kind = ERROR
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 94 ColNo = 5 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@154d22a
+6 May 2018 2:50:02 GMT:  Kind = WARNING
+6 May 2018 2:50:02 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:50:17 GMT: diagnostics = javax.tools.DiagnosticCollector@1216625
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7f8b40
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+6 May 2018 2:50:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@57ff26' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:50:17 GMT: Compiler call returned
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@164aacd
+6 May 2018 2:50:17 GMT:  Kind = ERROR
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 97 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e6d938
+6 May 2018 2:50:17 GMT:  Kind = WARNING
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fd232c
+6 May 2018 2:50:17 GMT:  Kind = ERROR
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 58 ColNo = 26 Msg = 'Syntax error on token "]", . expected after this token'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@56c2eb
+6 May 2018 2:50:17 GMT:  Kind = ERROR
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 66 ColNo = 13 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@34372e
+6 May 2018 2:50:17 GMT:  Kind = ERROR
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 69 ColNo = 37 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19a0ec9
+6 May 2018 2:50:17 GMT:  Kind = ERROR
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 89 ColNo = 7 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b655
+6 May 2018 2:50:17 GMT:  Kind = ERROR
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 94 ColNo = 5 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ce7fe6
+6 May 2018 2:50:17 GMT:  Kind = WARNING
+6 May 2018 2:50:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:50:21 GMT: diagnostics = javax.tools.DiagnosticCollector@d20b66
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15811d1
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+6 May 2018 2:50:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@148475' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:50:21 GMT: Compiler call returned
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@171d481
+6 May 2018 2:50:21 GMT:  Kind = ERROR
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 97 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f3c095
+6 May 2018 2:50:21 GMT:  Kind = WARNING
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e1ceb3
+6 May 2018 2:50:21 GMT:  Kind = ERROR
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 66 ColNo = 13 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f653bd
+6 May 2018 2:50:21 GMT:  Kind = ERROR
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 69 ColNo = 37 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1485e7e
+6 May 2018 2:50:21 GMT:  Kind = ERROR
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 89 ColNo = 7 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b7c86a
+6 May 2018 2:50:21 GMT:  Kind = ERROR
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 94 ColNo = 5 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c50279
+6 May 2018 2:50:21 GMT:  Kind = WARNING
+6 May 2018 2:50:21 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:50:53 GMT: diagnostics = javax.tools.DiagnosticCollector@295850
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b73983
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+6 May 2018 2:50:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12d6c29' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:50:53 GMT: Compiler call returned
+6 May 2018 2:50:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1deef6c
+6 May 2018 2:50:53 GMT:  Kind = WARNING
+6 May 2018 2:50:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:50:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1868db3
+6 May 2018 2:50:53 GMT:  Kind = ERROR
+6 May 2018 2:50:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 70 ColNo = 35 Msg = 'Syntax error, insert "}" to complete Statement'
+6 May 2018 2:50:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e694e4
+6 May 2018 2:50:53 GMT:  Kind = ERROR
+6 May 2018 2:50:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 90 ColNo = 7 Msg = 'Syntax error on token "}", delete this token'
+6 May 2018 2:50:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1abdd71
+6 May 2018 2:50:53 GMT:  Kind = WARNING
+6 May 2018 2:50:53 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:51:14 GMT: diagnostics = javax.tools.DiagnosticCollector@1aa7837
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@35d890
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+6 May 2018 2:51:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cbddbd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:51:14 GMT: Compiler call returned
+6 May 2018 2:51:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f5dd62
+6 May 2018 2:51:14 GMT:  Kind = WARNING
+6 May 2018 2:51:14 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:51:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cd51c3
+6 May 2018 2:51:14 GMT:  Kind = WARNING
+6 May 2018 2:51:14 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+6 May 2018 2:51:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@167b74
+6 May 2018 2:51:14 GMT:  Kind = ERROR
+6 May 2018 2:51:14 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 61 ColNo = 33 Msg = 'getHealth cannot be resolved or is not a field'
+6 May 2018 2:51:19 GMT: diagnostics = javax.tools.DiagnosticCollector@8ab4c1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@126431f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java]
+6 May 2018 2:51:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@163a2a6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+6 May 2018 2:51:20 GMT: Compiler call returned
+6 May 2018 2:51:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dcce8c
+6 May 2018 2:51:20 GMT:  Kind = WARNING
+6 May 2018 2:51:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java LineNo = 29 ColNo = 13 Msg = 'The value of the local variable over is not used'
+6 May 2018 2:51:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a48e99
+6 May 2018 2:51:20 GMT:  Kind = WARNING
+6 May 2018 2:51:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 45 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'

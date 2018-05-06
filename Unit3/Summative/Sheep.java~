@@ -48,11 +48,11 @@ class Sheep extends Animal{
       int nexti, nextj;
       do{
         do{
+          //The program randomly generates a random set of coordinates and determines if it's off the map or another aimal
           nexti = rand.nextInt(3) -1;
           nextj = rand.nextInt(3) -1;
-          System.out.print("sheep inner");
         }while(nexti+y < 0 || nexti+y >= map.length || nextj+x < 0 || nextj+x >= map[0].length);
-        System.out.println("sheep outer");
+        System.out.println("x: " + x + " y: " +y);
       }while(map[nexti+y][nextj+x] instanceof Animal && (x != 0 || y != 0) ); //problem here
       option = (nexti+1)*3 + nextj + 2;
     }

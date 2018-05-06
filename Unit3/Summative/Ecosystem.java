@@ -56,7 +56,7 @@ public class Ecosystem {
   public void growGrass(){
     emptyBlock(map);
     map[xy[1]][xy[0]] = new Plant();
-    //Each plant alive gains 1 health
+    //Each plant alive gains 1 health, unless it's over 20 turs old
     for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
@@ -206,12 +206,7 @@ public class Ecosystem {
   }
   
   public boolean checkOver(){
-    if(animals[0] <= 0 || animals[1] <= 0 || animals[2] <= 0){
-      return true;
-    }
-    else{
-      return false;
-    }
+    return animals[0] <= 0 || animals[1] <= 0 || animals[2] <= 0;
   }
   
   public Organism[][] getMap(){
