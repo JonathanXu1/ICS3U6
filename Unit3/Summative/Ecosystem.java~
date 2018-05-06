@@ -31,20 +31,23 @@ public class Ecosystem {
   /** 
    * emptyBlock  
    * This method randomly finds an empty block on the map.
-   * @param An array of Organisms, representing the map.
    */
-  public void emptyBlock(Organism[][] world){
+  public void emptyBlock(){
     int x, y;
     do{
-      x = rand.nextInt(world[0].length);
-      y = rand.nextInt(world.length);
-    }while(world[y][x] != null);
+      x = rand.nextInt(map[0].length);
+      y = rand.nextInt(map.length);
+    }while(map[y][x] != null);
     xy[0] = x;
     xy[1] = y;
   }
   
-  //Finds a random empty block in the map, with set radius from center. Used for birthing animals.
-  public void emptyBlock(Organism[][] map, int originX, int originY, int radius){
+  /**
+   * emptyBlock
+   * Finds a random empty block in the map, with set radius from center. Used for birthing animals.
+   * @param Integers for the co-ordinates of the origin, and an int for setting the radius of search
+  */
+  public void emptyBlock(int originX, int originY, int radius){
     int x, y;
     boolean found = false;
     for(int i = - radius; i <= radius; i ++){
@@ -65,6 +68,11 @@ public class Ecosystem {
     }
   }
   
+  /**
+   * growGrass
+   * Iterates through the map and grows existing plants until mature. Also grows new plants according to the probability array,
+   * allowing for growth in patches.
+  */
   public void growGrass(){
     emptyBlock(map);
     map[xy[1]][xy[0]] = new Plant();
@@ -114,15 +122,23 @@ public class Ecosystem {
     }
   }
   
+  /**
+   * moveAnimals
+   * This method iterates through the entire map and moves animals accordingly if they haven't yet been moved.
+   * It calls the move method for sheep and plants, and updates object health and organism counts based on the choice of each animal.
+  */
+  
   public void moveAnimals(){
-    for(int i = 0; i < map.length; i++){ //y
+    //Resets move status for all animals at start
+    for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Animal){
           ((Animal)map[i][j]).changeMoved(false); 
         }
       }
     }
-    for(int i = 0; i < map.length; i++){ //y
+    //Iterates through entire map
+    for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if (map[i][j] instanceof Sheep && !((Animal)map[i][j]).moved()){
           int option = ((Sheep)map[i][j]).move(j, i, map);
@@ -186,6 +202,11 @@ public class Ecosystem {
     }
   }
   
+  /**
+   * updateCount
+   * Iterates through the entire map and updates the count of every type of organism.
+   * @return an intger array, with an animal count stored at each index.
+  */
   public int[] updateCount(){
     animals[0] = 0;
     animals[1] = 0;
@@ -206,10 +227,19 @@ public class Ecosystem {
     return animals;
   }
   
+  /**
+   * checkOver
+   * This method checks if any population has become extinct.
+   * @return A boolean, true if a species has died out, false otherwise
+  */
   public boolean checkOver(){
     return animals[0] <= 0 || animals[1] <= 0 || animals[2] <= 0;
   }
   
+  /**
+   * getMap
+   * @return An Organism array of the ecosystem. Used for display grid.
+  */
   public Organism[][] getMap(){
     return map;
   }

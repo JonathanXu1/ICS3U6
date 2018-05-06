@@ -20,7 +20,8 @@ public class EcosystemTest{
     w = input.nextInt();
     input.close();
 
-    Ecosystem ecosystem = new Ecosystem(s, w); //Bad variable names - Classname should be different from variable name
+    Ecosystem ecosystem = new Ecosystem(s, w);
+    
     /*
      * For OOP - I like using capitalized variable names for top-level classes that actions happen to, like
      * Game or System (this is just personal preference though)

@@ -18,11 +18,11 @@ public class Ecosystem {
   //Constructor for the ecosystem. Creates a map of set dimension and populates it with the respective sheep and wolf counts.
   Ecosystem(int sheepCt, int wolfCt){
     for(int i = 0; i < sheepCt; i++){
-      emptyBlock(map);
+      emptyBlock();
       map[xy[1]][xy[0]] = new Sheep();
     }
     for(int i = 0; i < wolfCt; i++){
-      emptyBlock(map);
+      emptyBlock();
       map[xy[1]][xy[0]] = new Wolf();
     }
   }
@@ -74,7 +74,7 @@ public class Ecosystem {
    * allowing for growth in patches.
   */
   public void growGrass(){
-    emptyBlock(map);
+    emptyBlock();
     map[xy[1]][xy[0]] = new Plant();
     //Each plant alive gains 1 health, unless it's over 20 turs old
     for(int i = 0; i < map.length; i++){
@@ -154,7 +154,7 @@ public class Ecosystem {
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
               } else if(map[y+i][x+j] instanceof Sheep){
-                emptyBlock(map, j, i, 1);
+                emptyBlock(j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Sheep();
                   ((Animal)map[xy[1]][xy[0]]).changeMoved(true);
@@ -181,7 +181,7 @@ public class Ecosystem {
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
               } else if(map[y+i][x+j] instanceof Wolf){
-                emptyBlock(map, j, i, 1);
+                emptyBlock(j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Wolf();
                   ((Animal)map[xy[1]][xy[0]]).changeMoved(true);
