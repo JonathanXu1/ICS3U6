@@ -1,3 +1,10 @@
+/** 
+* Ecosystem  
+* Simulates all movements and interactions of an array of organisms
+* Jonathan Xu
+* April 24, 2018
+*/ 
+
 import java.util.Random;
 
 public class Ecosystem {
