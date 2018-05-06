@@ -1,6 +1,6 @@
 class Plant extends Organism{
   Plant(){
-    setHealth(5);
+    super(5);
   }
   
   void grow(){

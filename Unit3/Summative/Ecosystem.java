@@ -60,7 +60,15 @@ public class Ecosystem {
     for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
-          ((Plant)map[i][j]).grow();
+          if(map[i][j].getAge() > 20){
+            map[i][j].changeHealth(-1);
+          }
+          else{
+            ((Plant)map[i][j]).grow();
+          }
+          if(map[i][j].getHealth() <= 0){
+            map[i][j] = null;
+          }
         }
       }
     }
@@ -119,7 +127,6 @@ public class Ecosystem {
               if(map[y+i][x+j] instanceof Plant){ //Moves and eats grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
-                System.out.println("Sheep at " + (x+j) + "," + (y+i) + " ate a plant");
               }
               else if(map[y+i][x+j] instanceof Sheep){
                 emptyBlock(map, j, i, 1);

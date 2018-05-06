@@ -13,7 +13,7 @@ class Sheep extends Animal{
     boolean foundPlant = false;
     
     //Seeks mate when mature
-    if(getAge() >= 10 && getHealth() > 20){ 
+    if(getAge() >= 5 && getHealth() > 20){ 
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
@@ -33,7 +33,7 @@ class Sheep extends Animal{
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
-            if(map[y+i][x+j] instanceof Plant && !foundPlant){
+            if(map[y+i][x+j] instanceof Plant && !foundPlant && map[y+i][x+j].getAge() > 1){
               foundPlant = true;
               eat(map[y+i][x+j].getHealth());
               option = (i+1)*3 + j + 2;
@@ -42,6 +42,7 @@ class Sheep extends Animal{
         }
       }
     }
+
     //Randomly moves to a spot
     if(option == 0){
       int nexti, nextj;
@@ -49,8 +50,10 @@ class Sheep extends Animal{
         do{
           nexti = rand.nextInt(3) -1;
           nextj = rand.nextInt(3) -1;
+          System.out.print("sheep inner");
         }while(nexti+y < 0 || nexti+y >= map.length || nextj+x < 0 || nextj+x >= map[0].length);
-      }while(map[nexti+y][nextj+x] instanceof Animal && (x != 0 || y != 0) );
+        System.out.println("sheep outer");
+      }while(map[nexti+y][nextj+x] instanceof Animal && (x != 0 || y != 0) ); //problem here
       option = (nexti+1)*3 + nextj + 2;
     }
 

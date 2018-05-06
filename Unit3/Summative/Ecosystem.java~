@@ -54,15 +54,21 @@ public class Ecosystem {
   }
   
   public void growGrass(){
-    for(int i = 0; i <= map.length/10; i++){
-      emptyBlock(map);
-      map[xy[1]][xy[0]] = new Plant();
-    }
+    emptyBlock(map);
+    map[xy[1]][xy[0]] = new Plant();
     //Each plant alive gains 1 health
     for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
-          ((Plant)map[i][j]).grow();
+          if(map[i][j].getAge() > 20){
+            map[i][j].changeHealth(-1);
+          }
+          else{
+            ((Plant)map[i][j]).grow();
+          }
+          if(map[i][j].getHealth() <= 0){
+            map[i][j] = null;
+          }
         }
       }
     }
