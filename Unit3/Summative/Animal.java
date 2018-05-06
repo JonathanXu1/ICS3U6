@@ -12,13 +12,22 @@ abstract class Animal extends Organism{
   private boolean moved;
   Random rand = new Random();
   
-  abstract int move(int i, int j, Organism[][] o);
-  
+  //Constructor sets the initial health and gender of the animal.
   Animal (int h){
     super(h);
     int num = rand.nextInt(2);
     this.gender = num == 0;
   }
+  
+  //give animals limited range later
+  
+  /** 
+   * move
+   * This method determines where an animal should move.
+   * @param An integer representing y, and integer represinting x, and an Organism array representing the map.
+   * @return An integer, numbered corresponding to a 3 by 3 grid, similar to a phone number pad.
+   */  
+  abstract int move(int i, int j, Organism[][] o);
   
   /** 
    * eat

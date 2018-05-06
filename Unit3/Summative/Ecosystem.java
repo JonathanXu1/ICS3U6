@@ -8,26 +8,31 @@
 import java.util.Random;
 
 public class Ecosystem {
-  //Comment describing these variables
-  private int[] xy = new int[2];
-  private Organism[][] map = new Organism[25][25];
-  private int[][] growProbability = new int[25][25];
+
+  private int[] xy = new int[2]; //An int array to store the co-ordinates of an empty location
+  private Organism[][] map = new Organism[25][25]; //An array of Organisms, representing the entire ecosystem and its locations
+  private int[][] growProbability = new int[25][25]; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
+  private static int [] animals = new int[3]; //An int array to keep track of animal counts
   Random rand = new Random();
-  private static int [] animals = new int[3];
   
-  //Don't use single-letter variable names except as for loop counters
-  Ecosystem(int s, int w){
-    for(int i = 0; i < s; i++){
+  //Constructor for the ecosystem. Creates a map of set dimension and populates it with the respective sheep and wolf counts.
+  Ecosystem(int sheepCt, int wolfCt){
+    for(int i = 0; i < sheepCt; i++){
       emptyBlock(map);
       map[xy[1]][xy[0]] = new Sheep();
     }
-    for(int i = 0; i < w; i++){
+    for(int i = 0; i < wolfCt; i++){
       emptyBlock(map);
       map[xy[1]][xy[0]] = new Wolf();
     }
   }
   
-  //Randomly finds an empty block on the map
+  //mb fix so it outputs the array instead?
+  /** 
+   * emptyBlock  
+   * This method randomly finds an empty block on the map.
+   * @param An array of Organisms, representing the map.
+   */
   public void emptyBlock(Organism[][] world){
     int x, y;
     do{
@@ -38,7 +43,7 @@ public class Ecosystem {
     xy[1] = y;
   }
   
-  //Finds a random empty block in the map, with set radius from center
+  //Finds a random empty block in the map, with set radius from center. Used for birthing animals.
   public void emptyBlock(Organism[][] map, int originX, int originY, int radius){
     int x, y;
     boolean found = false;

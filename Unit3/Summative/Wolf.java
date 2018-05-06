@@ -42,6 +42,8 @@ class Wolf extends Animal{
         }
       }
     }
+    
+    //give wolves fighting ability later, figure out comparables
     //Randomly moves to a spot
     if(option == 0){
       int nextx, nexty;
