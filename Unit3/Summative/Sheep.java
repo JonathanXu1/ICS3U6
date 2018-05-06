@@ -1,3 +1,5 @@
+//working on generics
+
 import java.util.Random;
 
 class Sheep extends Animal{
@@ -51,8 +53,8 @@ class Sheep extends Animal{
           //The program randomly generates a random set of coordinates and determines if it's off the map or another aimal
           nextx = rand.nextInt(3) -1;
           nexty = rand.nextInt(3) -1;
-        }while(nexty+y < 0 || nexty+y >= map.length || nextx+x < 0 || nextx+x >= map[0].length);
-      }while(map[nexty+y][nextx+x] instanceof Animal && (nextx != 0 || nexty != 0) ); //problem here
+        } while(nexty+y < 0 || nexty+y >= map.length || nextx+x < 0 || nextx+x >= map[0].length);
+      } while(map[nexty+y][nextx+x] instanceof Animal && (nextx != 0 || nexty != 0) );
       option = (nexty+1)*3 + nextx + 2;
     }
 

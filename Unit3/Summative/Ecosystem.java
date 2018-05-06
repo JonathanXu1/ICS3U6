@@ -62,8 +62,7 @@ public class Ecosystem {
         if(map[i][j] instanceof Plant){
           if(map[i][j].getAge() > 20){
             map[i][j].changeHealth(-1);
-          }
-          else{
+          } else{
             ((Plant)map[i][j]).grow();
           }
           if(map[i][j].getHealth() <= 0){
@@ -118,8 +117,7 @@ public class Ecosystem {
           
           if(map[i][j].getHealth() <= 0){
             map[i][j] = null;
-          }
-          else{
+          } else{
             int y = (option-1) / 3 -1;
             int x = (option-1) % 3 -1;   
             
@@ -127,8 +125,7 @@ public class Ecosystem {
               if(map[y+i][x+j] instanceof Plant){ //Moves and eats grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
-              }
-              else if(map[y+i][x+j] instanceof Sheep){
+              } else if(map[y+i][x+j] instanceof Sheep){
                 emptyBlock(map, j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Sheep();
@@ -136,21 +133,18 @@ public class Ecosystem {
                   map[i][j].changeHealth(-10);
                   map[y+i][x+j].changeHealth(-10);
                 }              
-              }
-              else{
+              } else{
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
               }
             } 
           }
-        }
-        else if (map[i][j] instanceof Wolf && !((Animal)map[i][j]).moved()){
+        } else if (map[i][j] instanceof Wolf && !((Animal)map[i][j]).moved()){
           int option = ((Wolf)map[i][j]).move(j, i, map);
           
           if(map[i][j].getHealth() <= 0){
             map[i][j] = null;
-          }
-          else{
+          } else{
             int y = (option-1) / 3 -1;
             int x = (option-1) % 3 -1;   
             
@@ -158,8 +152,7 @@ public class Ecosystem {
               if(map[y+i][x+j] instanceof Sheep){ //Moves and eats sheep
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
-              }
-              else if(map[y+i][x+j] instanceof Wolf){
+              } else if(map[y+i][x+j] instanceof Wolf){
                 emptyBlock(map, j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Wolf();
@@ -167,12 +160,10 @@ public class Ecosystem {
                   map[i][j].changeHealth(-10);
                   map[y+i][x+j].changeHealth(-10);
                 }              
-              }
-              else if(map[y+i][x+j] instanceof Plant){ //Tramples grass
+              } else if(map[y+i][x+j] instanceof Plant){ //Tramples grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
-              }
-              else{ //Moves on blank block
+              } else{ //Moves on blank block
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
               }
@@ -191,12 +182,10 @@ public class Ecosystem {
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
           animals[0] ++;
-        }
-        else if(map[i][j] instanceof Animal){
+        } else if(map[i][j] instanceof Animal){
           if( ((Animal)map[i][j]) instanceof Sheep ){
             animals[1] ++;
-          }
-          else if( ((Animal)map[i][j]) instanceof Wolf ){
+          } else if( ((Animal)map[i][j]) instanceof Wolf ){
             animals[2] ++;
           }
         }

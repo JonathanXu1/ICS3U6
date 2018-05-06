@@ -37,8 +37,7 @@ abstract class Animal extends Organism{
   boolean tryMate(Animal other){
     if(other.getAge() >= 10 && other.getHealth() > 20 && (other.getGender() != getGender()) ){
       return true;
-    }
-    else{
+    } else{
       return false;
     }
   }

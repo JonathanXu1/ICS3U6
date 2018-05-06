@@ -28,8 +28,8 @@ public class EcosystemTest{
     DisplayGrid grid = new DisplayGrid(ecosystem.getMap(), ecosystem.updateCount()); //Set up Grid Panel
     boolean over = false;
     
-  // try{ Thread.sleep(2000); 
-    //  }catch(Exception e) {};
+    try{ Thread.sleep(2000); 
+    }catch(Exception e) {};
     
     do{
       ecosystem.growGrass(); //Looks for grass and grows them over time
@@ -37,8 +37,8 @@ public class EcosystemTest{
       ecosystem.updateCount();
       grid.refresh();
       over = ecosystem.checkOver();
-    //  try{ Thread.sleep(100); 
-     // }catch(Exception e) {};
+    try{ Thread.sleep(100); 
+     }catch(Exception e) {};
     } while(true); //Continues running until one species becomes extinct
   }
 }

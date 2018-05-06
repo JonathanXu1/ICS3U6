@@ -57,20 +57,14 @@ class DisplayGrid {
           else if (world[i][j]instanceof Plant){
             if(world[i][j].getAge() >= 20){
               g.setColor(new Color(255, 204, 102));
-            }
-            else if(world[i][j].getHealth() == 20){
+            } else if(world[i][j].getHealth() == 20){
               g.setColor(new Color(35, 142, 48));
-            }
-            else{
+            } else{
               g.setColor(Color.GREEN);
             }
-          }
-          
-          else if (world[i][j]instanceof Wolf){
-            g.setColor(Color.GRAY);
-            
-          }
-          else {
+          } else if (world[i][j]instanceof Wolf){
+            g.setColor(Color.GRAY);  
+          } else {
             g.setColor(new Color(156, 93, 82));
           }
           g.fillRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
@@ -82,8 +76,7 @@ class DisplayGrid {
           if(world[i][j] instanceof Animal){
             if( ((Animal)world[i][j]).getGender() ){
               g.drawString("M", j*GridToScreenRatio + 15, i*GridToScreenRatio + 15);
-            }
-            else{
+            } else{
               g.drawString("F", j*GridToScreenRatio + 15, i*GridToScreenRatio + 15);
             }
           }
