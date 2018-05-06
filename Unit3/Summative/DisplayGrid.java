@@ -13,11 +13,11 @@ class DisplayGrid {
   private JFrame frame;
   private int maxX,maxY, GridToScreenRatio;
   private Organism[][] world;
-  private int[] animalNum;
+  private int[] counts;
   
   DisplayGrid(Organism[][] map, int[] num) { 
     this.world = map;
-    this.animalNum = num;
+    this.counts = num;
     
     maxX = Toolkit.getDefaultToolkit().getScreenSize().width;
     maxY = Toolkit.getDefaultToolkit().getScreenSize().height;
@@ -83,9 +83,11 @@ class DisplayGrid {
         }
       }
       
-      g.drawString("Plant Number: " + Integer.toString(animalNum[0]), maxX - 200, 20 );
-      g.drawString("Sheep Number: " + Integer.toString(animalNum[1]), maxX - 200, 40 );
-      g.drawString("Wolf Number: " + Integer.toString(animalNum[2]), maxX - 200, 60 );
+      //Outputs organism populations and turncounts on the side panel
+      g.drawString("Plant Number: " + Integer.toString(counts[0]), maxX - 200, 20 );
+      g.drawString("Sheep Number: " + Integer.toString(counts[1]), maxX - 200, 40 );
+      g.drawString("Wolf Number: " + Integer.toString(counts[2]), maxX - 200, 60 );
+      g.drawString("Turn: " + Integer.toString(counts[3]), maxX - 200, 80 );
     }
   }//end of GridAreaPanel
   

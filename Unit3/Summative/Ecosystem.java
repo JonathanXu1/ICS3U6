@@ -12,7 +12,8 @@ public class Ecosystem {
   private int[] xy = new int[2]; //An int array to store the co-ordinates of an empty location
   private Organism[][] map = new Organism[25][25]; //An array of Organisms, representing the entire ecosystem and its locations
   private int[][] growProbability = new int[25][25]; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
-  private static int [] animals = new int[3]; //An int array to keep track of animal counts
+  private static int [] count = new int[4]; //An int array to keep track of animal counts and turn numbers
+  
   Random rand = new Random();
   
   //Constructor for the ecosystem. Creates a map of set dimension and populates it with the respective sheep and wolf counts.
@@ -208,23 +209,24 @@ public class Ecosystem {
    * @return an intger array, with an animal count stored at each index.
   */
   public int[] updateCount(){
-    animals[0] = 0;
-    animals[1] = 0;
-    animals[2] = 0;
+    count[0] = 0; //Plant
+    count[1] = 0; //Sheep
+    count[2] = 0; //Wolf
     for(int i = 0; i < map.length; i ++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
-          animals[0] ++;
+          count[0] ++;
         } else if(map[i][j] instanceof Animal){
           if( ((Animal)map[i][j]) instanceof Sheep ){
-            animals[1] ++;
+            count[1] ++;
           } else if( ((Animal)map[i][j]) instanceof Wolf ){
-            animals[2] ++;
+            count[2] ++;
           }
         }
       }
     }
-    return animals;
+    count[3] ++;
+    return count;
   }
   
   /**
@@ -233,7 +235,7 @@ public class Ecosystem {
    * @return A boolean, true if a species has died out, false otherwise
   */
   public boolean checkOver(){
-    return animals[0] <= 0 || animals[1] <= 0 || animals[2] <= 0;
+    return count[0] <= 0 || count[1] <= 0 || count[2] <= 0;
   }
   
   /**

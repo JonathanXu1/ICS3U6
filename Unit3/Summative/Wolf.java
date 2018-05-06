@@ -7,7 +7,7 @@
 
 import java.util.Random;
 
-class Wolf extends Animal{
+class Wolf extends Animal implements Comparable<Wolf> {
   Wolf(){
     super(30);
   }
@@ -56,7 +56,6 @@ class Wolf extends Animal{
       }
     }
     
-    //give wolves fighting ability later, figure out comparables
     //Randomly moves to a spot
     if(option == 0){
       int nextx, nexty;
@@ -66,11 +65,38 @@ class Wolf extends Animal{
           nextx = rand.nextInt(3) -1;
           nexty = rand.nextInt(3) -1;
         } while(nexty+y < 0 || nexty+y >= map.length || nextx+x < 0 || nextx+x >= map[0].length);
-      } while( (map[nexty+y][nextx+x] instanceof Wolf) && (nextx != 0 || nexty != 0) ); //Comparable interface somehow
+      } while(map[nexty+y][nextx+x] instanceof Wolf && (nextx != 0 || nexty != 0) );
+      //If both wolves are male and the other wolf is weaker
+      /*
+      if(map[nexty+y][nextx+x] instanceof Wolf && map[nexty+y][nextx+x].getGender() && map[nexty+y][nextx+x].getGender() == getGender() ){ 
+        
+      }
+      else{
+      }
+      */
       option = (nexty+1)*3 + nextx + 2;
     }
 
     changeMoved(true);
     return option;
+  }
+  
+  /**
+   * compareTo
+   * This method compares the health values of the wolf to another wolf.
+   * @param A Wolf object reresenting another wolf.
+   * @return An integer, 1 if the current wolf is stronger than the other wolf,
+   * 0 if the current wolf is weaker than the other wolf, 0 otherwise
+  */
+  public int compareTo(Wolf other){
+    if(this.getHealth() > other.getHealth()){
+      return 1;
+    }
+    else if(this.getHealth() < other.getHealth()){
+      return -1;
+    }
+    else{
+      return 0;
+    }
   }
 }
