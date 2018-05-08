@@ -40,8 +40,8 @@ public class EcosystemTest{
       grid.refresh();
       over = ecosystem.checkOver();
     try{ 
-      Thread.sleep(500); 
+      Thread.sleep(1000); 
      } catch(Exception e) {};
-    } while(true); //Continues running until one species becomes extinct
+    } while(!over); //Continues running until one species becomes extinct
   }
 }

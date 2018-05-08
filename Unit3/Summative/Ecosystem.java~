@@ -77,7 +77,8 @@ public class Ecosystem {
   public void growGrass(){
     emptyBlock();
     map[xy[1]][xy[0]] = new Plant();
-    //Each plant alive gains 1 health, unless it's over 20 turs old
+    map[xy[1]][xy[0]].changeHealth(10);
+    //Each plant alive gains 1 health, unless it's old, in which it dies slowly
     for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
@@ -181,7 +182,13 @@ public class Ecosystem {
               if(map[y+i][x+j] instanceof Sheep){ //Moves and eats sheep
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
-              } else if(map[y+i][x+j] instanceof Wolf){
+              } else if(map[y+i][x+j] instanceof Wolf && ((Animal)map[y+i][x+j]).getGender() && ((Animal)map[i][j]).getGender()){ //Male wolves fight
+                map[y+i][x+j].changeHealth(-10);
+                if(map[y+i][x+j].getHealth() <= 0){ // The other wolf dies and the current wolf takes its place
+                  map[y+i][x+j] = map[i][j];
+                  map[i][j] = null;
+                }
+              } else if(map[y+i][x+j] instanceof Wolf){ //If target is female wolf, mate
                 emptyBlock(j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Wolf();
@@ -189,13 +196,6 @@ public class Ecosystem {
                   map[i][j].changeHealth(-10);
                   map[y+i][x+j].changeHealth(-10);
                 }
-              } else if(map[y+i][x+j] instanceof Wolf){ //The wolf fights another wolf
-                map[y+i][x+j].changeHealth(-10);
-                if(map[y+i][x+j].getHealth() <= 0){ // The other wolf dies and the current wolf takes its place
-                  map[y+i][x+j] = map[i][j];
-                  map[i][j] = null;
-                }
-                System.out.println("A fight occured at " + j + i);
               } else if(map[y+i][x+j] instanceof Plant){ //Tramples grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;

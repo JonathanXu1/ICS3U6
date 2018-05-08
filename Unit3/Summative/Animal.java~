@@ -11,7 +11,7 @@ abstract class Animal extends Organism{
   private boolean gender;
   private boolean moved;
   Random rand = new Random();
-  
+
   //Constructor sets the initial health and gender of the animal.
   Animal (int h){
     super(h);

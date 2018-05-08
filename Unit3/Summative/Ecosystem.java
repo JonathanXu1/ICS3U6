@@ -10,14 +10,17 @@ import java.util.Random;
 public class Ecosystem {
 
   private int[] xy = new int[2]; //An int array to store the co-ordinates of an empty location
-  private Organism[][] map = new Organism[5][5]; //An array of Organisms, representing the entire ecosystem and its locations
-  private int[][] growProbability = new int[5][5]; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
+  private Organism[][] map; //An array of Organisms, representing the entire ecosystem and its locations
+  private int[][] growProbability; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
   private static int [] count = new int[4]; //An int array to keep track of animal counts and turn numbers
+  private int spawnRate;
   
   Random rand = new Random();
   
   //Constructor for the ecosystem. Creates a map of set dimension and populates it with the respective sheep and wolf counts.
-  Ecosystem(int sheepCt, int wolfCt){
+  Ecosystem(int sheepCt, int wolfCt, int dimension, int rate){
+    map = new Organism[dimension][dimension];
+    growProbability = new int[dimension][dimension];
     for(int i = 0; i < sheepCt; i++){
       emptyBlock();
       map[xy[1]][xy[0]] = new Sheep();
@@ -26,6 +29,7 @@ public class Ecosystem {
       emptyBlock();
       map[xy[1]][xy[0]] = new Wolf();
     }
+    this.spawnRate = rate;
   }
   
   //mb fix so it outputs the array instead?
@@ -75,9 +79,13 @@ public class Ecosystem {
    * allowing for growth in patches.
   */
   public void growGrass(){
-    emptyBlock();
-    map[xy[1]][xy[0]] = new Plant();
-    //Each plant alive gains 1 health, unless it's over 20 turs old
+    //New plant nodes are grown
+    for(int i = 0; i < spawnRate; i++){
+      emptyBlock();
+      map[xy[1]][xy[0]] = new Plant();
+      map[xy[1]][xy[0]].changeHealth(10);
+    }
+    //Each plant alive gains 1 health, unless it's old, in which it dies slowly
     for(int i = 0; i < map.length; i++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){

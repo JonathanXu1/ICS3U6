@@ -7,26 +7,26 @@
 */
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class EcosystemTest{
   public static void main(String[] args){
-    int s, w;
+    int s, w, d, r;
+    String info;
     
     Scanner input = new Scanner(System.in);
     
-    System.out.println("Enter initial sheep num:");
-    s = input.nextInt();
-    System.out.println("Enter initial wolf num:");
-    w = input.nextInt();
+    System.out.println("Welcome to the ecosystem simulator!");
+    d = Integer.parseInt(JOptionPane.showInputDialog("Enter grid dimsension (recommended 40): "));
+    s = Integer.parseInt(JOptionPane.showInputDialog("Enter initial sheep num (recommended 200):"));
+    w = Integer.parseInt(JOptionPane.showInputDialog("Enter initial wolf num (recommended 10):"));
+    r = Integer.parseInt(JOptionPane.showInputDialog("Enter plant spawning rate of new plant nodes disregarding growth probabilities (recommended 3):"));
+    info = JOptionPane.showInputDialog("Would you like to see organism info? [y/n]").toLowerCase();
     input.close();
 
-    Ecosystem ecosystem = new Ecosystem(s, w);
+    Ecosystem ecosystem = new Ecosystem(s, w, d, r);
     
-    /*
-     * For OOP - I like using capitalized variable names for top-level classes that actions happen to, like
-     * Game or System (this is just personal preference though)
-     */
-    DisplayGrid grid = new DisplayGrid(ecosystem.getMap(), ecosystem.updateCount()); //Set up Grid Panel
+    DisplayGrid grid = new DisplayGrid(ecosystem.getMap(), ecosystem.updateCount(), info); //Set up Grid Panel
     boolean over = false;
     
     try{ 
@@ -42,6 +42,6 @@ public class EcosystemTest{
     try{ 
       Thread.sleep(100); 
      } catch(Exception e) {};
-    } while(true); //Continues running until one species becomes extinct
+    } while(!over); //Continues running until one species becomes extinct
   }
 }

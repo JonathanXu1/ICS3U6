@@ -9,7 +9,7 @@ import java.util.Random;
 
 class Wolf extends Animal implements Comparable<Wolf> {
   Wolf(){
-    super(30);
+    super(20);
   }
   
   /**
@@ -27,7 +27,7 @@ class Wolf extends Animal implements Comparable<Wolf> {
     boolean foughtWolf = false;
     
     //Seeks mate when mature
-    if(getAge() >= 10 && getHealth() > 30){ 
+    if(getAge() >= 10 && getHealth() > 20){ 
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
@@ -43,7 +43,7 @@ class Wolf extends Animal implements Comparable<Wolf> {
     }
     
     //Walks to sheep
-    if(option == 0 && getHealth() < 30){
+    if(option == 0 && getHealth() < 80){
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge

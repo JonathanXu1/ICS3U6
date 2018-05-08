@@ -41,10 +41,15 @@ abstract class Animal extends Organism{
   /** 
    * age  
    * This method increases the age of all animals by once while reducing their health by 1
+   * Older animals lose more health; eliminates super sheep/wolve
    */ 
   void age(){
-    changeHealth(-1);
     upAge();
+    if(getAge() > 200){
+      changeHealth(-getAge() / 100);
+    }else{
+      changeHealth(-1);
+    }
   }
   
   /** 
