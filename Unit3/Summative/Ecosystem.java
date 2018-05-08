@@ -10,8 +10,8 @@ import java.util.Random;
 public class Ecosystem {
 
   private int[] xy = new int[2]; //An int array to store the co-ordinates of an empty location
-  private Organism[][] map = new Organism[25][25]; //An array of Organisms, representing the entire ecosystem and its locations
-  private int[][] growProbability = new int[25][25]; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
+  private Organism[][] map = new Organism[5][5]; //An array of Organisms, representing the entire ecosystem and its locations
+  private int[][] growProbability = new int[5][5]; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
   private static int [] count = new int[4]; //An int array to keep track of animal counts and turn numbers
   
   Random rand = new Random();
@@ -181,14 +181,20 @@ public class Ecosystem {
               if(map[y+i][x+j] instanceof Sheep){ //Moves and eats sheep
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
-              } else if(map[y+i][x+j] instanceof Wolf){
+              } else if(map[y+i][x+j] instanceof Wolf && ((Animal)map[y+i][x+j]).getGender() && ((Animal)map[i][j]).getGender()){ //Male wolves fight
+                map[y+i][x+j].changeHealth(-10);
+                if(map[y+i][x+j].getHealth() <= 0){ // The other wolf dies and the current wolf takes its place
+                  map[y+i][x+j] = map[i][j];
+                  map[i][j] = null;
+                }
+              } else if(map[y+i][x+j] instanceof Wolf){ //If target is female wolf, mate
                 emptyBlock(j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Wolf();
                   ((Animal)map[xy[1]][xy[0]]).changeMoved(true);
                   map[i][j].changeHealth(-10);
                   map[y+i][x+j].changeHealth(-10);
-                }              
+                }
               } else if(map[y+i][x+j] instanceof Plant){ //Tramples grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;

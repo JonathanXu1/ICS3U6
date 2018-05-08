@@ -44,7 +44,7 @@ abstract class Animal extends Organism{
    */ 
   void age(){
     changeHealth(-1);
-    setAge(getAge()+1);
+    upAge();
   }
   
   /** 

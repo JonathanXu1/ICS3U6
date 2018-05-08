@@ -42,6 +42,6 @@ public class EcosystemTest{
     try{ 
       Thread.sleep(100); 
      } catch(Exception e) {};
-    } while(!over); //Continues running until one species becomes extinct
+    } while(true); //Continues running until one species becomes extinct
   }
 }

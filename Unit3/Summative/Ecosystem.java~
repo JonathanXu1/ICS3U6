@@ -12,17 +12,18 @@ public class Ecosystem {
   private int[] xy = new int[2]; //An int array to store the co-ordinates of an empty location
   private Organism[][] map = new Organism[25][25]; //An array of Organisms, representing the entire ecosystem and its locations
   private int[][] growProbability = new int[25][25]; //An array of integers, which keeps track of the probabilities of a plant growing at a corresponding location
-  private static int [] animals = new int[3]; //An int array to keep track of animal counts
+  private static int [] count = new int[4]; //An int array to keep track of animal counts and turn numbers
+  
   Random rand = new Random();
   
   //Constructor for the ecosystem. Creates a map of set dimension and populates it with the respective sheep and wolf counts.
   Ecosystem(int sheepCt, int wolfCt){
     for(int i = 0; i < sheepCt; i++){
-      emptyBlock(map);
+      emptyBlock();
       map[xy[1]][xy[0]] = new Sheep();
     }
     for(int i = 0; i < wolfCt; i++){
-      emptyBlock(map);
+      emptyBlock();
       map[xy[1]][xy[0]] = new Wolf();
     }
   }
@@ -74,7 +75,7 @@ public class Ecosystem {
    * allowing for growth in patches.
   */
   public void growGrass(){
-    emptyBlock(map);
+    emptyBlock();
     map[xy[1]][xy[0]] = new Plant();
     //Each plant alive gains 1 health, unless it's over 20 turs old
     for(int i = 0; i < map.length; i++){
@@ -154,7 +155,7 @@ public class Ecosystem {
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
               } else if(map[y+i][x+j] instanceof Sheep){
-                emptyBlock(map, j, i, 1);
+                emptyBlock(j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Sheep();
                   ((Animal)map[xy[1]][xy[0]]).changeMoved(true);
@@ -181,13 +182,20 @@ public class Ecosystem {
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
               } else if(map[y+i][x+j] instanceof Wolf){
-                emptyBlock(map, j, i, 1);
+                emptyBlock(j, i, 1);
                 if(xy[0] > -1){
                   map[xy[1]][xy[0]] = new Wolf();
                   ((Animal)map[xy[1]][xy[0]]).changeMoved(true);
                   map[i][j].changeHealth(-10);
                   map[y+i][x+j].changeHealth(-10);
-                }              
+                }
+              } else if(map[y+i][x+j] instanceof Wolf){ //The wolf fights another wolf
+                map[y+i][x+j].changeHealth(-10);
+                if(map[y+i][x+j].getHealth() <= 0){ // The other wolf dies and the current wolf takes its place
+                  map[y+i][x+j] = map[i][j];
+                  map[i][j] = null;
+                }
+                System.out.println("A fight occured at " + j + i);
               } else if(map[y+i][x+j] instanceof Plant){ //Tramples grass
                 map[y+i][x+j] = map[i][j];
                 map[i][j] = null;
@@ -208,23 +216,24 @@ public class Ecosystem {
    * @return an intger array, with an animal count stored at each index.
   */
   public int[] updateCount(){
-    animals[0] = 0;
-    animals[1] = 0;
-    animals[2] = 0;
+    count[0] = 0; //Plant
+    count[1] = 0; //Sheep
+    count[2] = 0; //Wolf
     for(int i = 0; i < map.length; i ++){
       for(int j = 0; j < map[0].length; j++){
         if(map[i][j] instanceof Plant){
-          animals[0] ++;
+          count[0] ++;
         } else if(map[i][j] instanceof Animal){
           if( ((Animal)map[i][j]) instanceof Sheep ){
-            animals[1] ++;
+            count[1] ++;
           } else if( ((Animal)map[i][j]) instanceof Wolf ){
-            animals[2] ++;
+            count[2] ++;
           }
         }
       }
     }
-    return animals;
+    count[3] ++;
+    return count;
   }
   
   /**
@@ -233,7 +242,7 @@ public class Ecosystem {
    * @return A boolean, true if a species has died out, false otherwise
   */
   public boolean checkOver(){
-    return animals[0] <= 0 || animals[1] <= 0 || animals[2] <= 0;
+    return count[0] <= 0 || count[1] <= 0 || count[2] <= 0;
   }
   
   /**

@@ -24,9 +24,10 @@ class Wolf extends Animal implements Comparable<Wolf> {
     Random rand = new Random();
     boolean foundMate = false;
     boolean foundSheep = false;
+    boolean foughtWolf = false;
     
     //Seeks mate when mature
-    if(getAge() >= 10 && getHealth() > 20){ 
+    if(getAge() >= 10 && getHealth() > 30){ 
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
@@ -42,7 +43,7 @@ class Wolf extends Animal implements Comparable<Wolf> {
     }
     
     //Walks to sheep
-    if(option == 0 && getHealth() < 25){
+    if(option == 0 && getHealth() < 30){
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
@@ -65,15 +66,14 @@ class Wolf extends Animal implements Comparable<Wolf> {
           nextx = rand.nextInt(3) -1;
           nexty = rand.nextInt(3) -1;
         } while(nexty+y < 0 || nexty+y >= map.length || nextx+x < 0 || nextx+x >= map[0].length);
-      } while(map[nexty+y][nextx+x] instanceof Wolf && (nextx != 0 || nexty != 0) );
-      //If both wolves are male and the other wolf is weaker
-      /*
-      if(map[nexty+y][nextx+x] instanceof Wolf && map[nexty+y][nextx+x].getGender() && map[nexty+y][nextx+x].getGender() == getGender() ){ 
-        
-      }
-      else{
-      }
-      */
+        //Checks if the random spot contains a male wolf and if it's weaker than the current wolf
+        if( (map[nexty+y][nextx+x] instanceof Wolf)){
+          if( (((Animal)map[nexty+y][nextx+x]).getGender())  && (getGender()) && (compareTo((Wolf)map[nexty+y][nextx+x]) == 1) ){
+            foughtWolf = true;
+          }
+        }
+        //Loop continues if there is a non-self wolf object in the target area or if both wolves are male and the other is weaker
+      } while((map[nexty+y][nextx+x] instanceof Wolf) && (nextx != 0 || nexty != 0) && (!foughtWolf));
       option = (nexty+1)*3 + nextx + 2;
     }
 
