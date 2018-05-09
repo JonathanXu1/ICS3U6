@@ -1,0 +1,6 @@
+class Gold{
+  private worth;
+  Gold(){
+    worth = 20;
+  }
+}

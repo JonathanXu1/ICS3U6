@@ -1,0 +1,6 @@
+class Key{
+  private worth;
+  Key(){
+    worth = 5;
+  }
+}
