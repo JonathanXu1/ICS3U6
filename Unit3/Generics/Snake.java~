@@ -1,0 +1,6 @@
+class Snake{
+  private worth;
+  Snake(){
+    worth = 2;
+  }
+}

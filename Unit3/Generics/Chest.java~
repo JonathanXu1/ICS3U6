@@ -1,0 +1,8 @@
+class Chest<T>{
+  Chest(){
+    T item = (T) new Object();
+  }
+  T interact(){
+    return item.getValue();
+  }
+}

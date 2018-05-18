@@ -1,8 +1,9 @@
 abstract class Organism{
   private int health;
+  private int age = 0;
   
-  Organism(){
-    this.health = 20;
+  Organism(int init){
+    this.health = init;
   }
   
   void changeHealth(int h){
@@ -11,5 +12,13 @@ abstract class Organism{
   
   int getHealth(){
     return this.health;
+  }
+  
+  int getAge(){
+    return age;
+  }
+  
+  void setAge(int a){
+    this.age = a;
   }
 }

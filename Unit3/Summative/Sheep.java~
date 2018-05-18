@@ -1,11 +1,23 @@
+/**
+ * Sheep
+ * Defines all the paramaters of a sheep
+ * Jonathan Xu
+ * April 24, 2018
+*/
+
 import java.util.Random;
 
 class Sheep extends Animal{
   Sheep(){
-    setHealth(30);
-    setGender();
+    super(20);
   }
   
+  /**
+   * move
+   * This method covers the decision process of a sheep. It prioritizes mating over eating grass.
+   * @param Integers representing the coordinates of the animal, and an Organism array representing the map.
+   * @return An integer, a number that correlates to a 3 by 3 grid of move choices (similar to a numpad).
+  */
   int move(int x, int y, Organism[][] map){
     age();
     int option = 0;
@@ -14,7 +26,7 @@ class Sheep extends Animal{
     boolean foundPlant = false;
     
     //Seeks mate when mature
-    if(getAge() >= 10 && getHealth() > 20){ 
+    if(getAge() >= 5 && getHealth() > 20){ 
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
@@ -34,7 +46,7 @@ class Sheep extends Animal{
       for(int i = -1; i < 2; i++){
         for(int j = -1; j < 2; j++){
           if(y+i >= 0 && y+i < map.length && x+j >= 0 && x+j < map[0].length){ //Not edge
-            if(map[y+i][x+j] instanceof Plant && !foundPlant){
+            if(map[y+i][x+j] instanceof Plant && !foundPlant && map[y+i][x+j].getAge() > 1){
               foundPlant = true;
               eat(map[y+i][x+j].getHealth());
               option = (i+1)*3 + j + 2;
@@ -43,28 +55,21 @@ class Sheep extends Animal{
         }
       }
     }
+
     //Randomly moves to a spot
     if(option == 0){
-      int nexti, nextj;
+      int nextx, nexty;
       do{
         do{
-          nexti = rand.nextInt(3) -1;
-          nextj = rand.nextInt(3) -1;
-        }while(nexti+y < 0 || nexti+y >= map.length || nextj+x < 0 || nextj+x >= map[0].length);
-      }while(map[nexti+y][nextj+x] instanceof Wolf || (map[nexti+y][nextj+x] instanceof Sheep && x == 0 && y == 0));
-      option = (nexti+1)*3 + nextj + 2;
+          //The program randomly generates a random set of coordinates and determines if it's off the map or another aimal
+          nextx = rand.nextInt(3) -1;
+          nexty = rand.nextInt(3) -1;
+        } while(nexty+y < 0 || nexty+y >= map.length || nextx+x < 0 || nextx+x >= map[0].length);
+      } while(map[nexty+y][nextx+x] instanceof Animal && (nextx != 0 || nexty != 0) );
+      option = (nexty+1)*3 + nextx + 2;
     }
 
     changeMoved(true);
     return option;
-  }
-  
-  boolean tryMate(Animal other){
-    if(other.getAge() >= 10 && other.getHealth() > 20 && (other.getGender() != getGender()) ){
-      return true;
-    }
-    else{
-      return false;
-    }
   }
 }

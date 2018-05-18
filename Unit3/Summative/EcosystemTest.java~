@@ -3,6 +3,7 @@
  * A program that simulates a basic environment comprising of sheep, grass, and wolves
  * Jonathan Xu
  * April 23, 2018
+ * 40 / 5
 */
 
 import java.util.Scanner;
@@ -19,21 +20,28 @@ public class EcosystemTest{
     w = input.nextInt();
     input.close();
 
-    Ecosystem ecosystem = new Ecosystem(s, w); //Bad variable names - Classname should be different from variable name
+    Ecosystem ecosystem = new Ecosystem(s, w);
+    
     /*
      * For OOP - I like using capitalized variable names for top-level classes that actions happen to, like
      * Game or System (this is just personal preference though)
      */
-    DisplayGrid grid = new DisplayGrid(ecosystem.getMap()); //Set up Grid Panel
+    DisplayGrid grid = new DisplayGrid(ecosystem.getMap(), ecosystem.updateCount()); //Set up Grid Panel
+    boolean over = false;
+    
+    try{ 
+      Thread.sleep(2000); 
+    } catch(Exception e) {};
     
     do{
-      //Good function names that are pretty readable but you still want to comment what they do
-      ecosystem.growGrass();
-      ecosystem.moveAnimals();
-      grid.refresh(); //Might want to choose a variable name that reflects the display nature of the grid. 
-      System.out.println("refreshed!"); //Refreshed what? More descriptive debug output is useful
-      try{ Thread.sleep(500); }catch(Exception e) {}; //Split this into multiple lines
-    } while(!ecosystem.checkOver()); //Comment explaining what this does
-    
+      ecosystem.growGrass(); //Looks for grass and grows them over time
+      ecosystem.moveAnimals(); //Sheep and wolves move around
+      ecosystem.updateCount();
+      grid.refresh();
+      over = ecosystem.checkOver();
+    try{ 
+      Thread.sleep(1000); 
+     } catch(Exception e) {};
+    } while(!over); //Continues running until one species becomes extinct
   }
 }

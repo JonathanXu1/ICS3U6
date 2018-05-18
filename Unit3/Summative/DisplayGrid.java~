@@ -13,9 +13,11 @@ class DisplayGrid {
   private JFrame frame;
   private int maxX,maxY, GridToScreenRatio;
   private Organism[][] world;
+  private int[] counts;
   
-  DisplayGrid(Organism[][] map) { 
+  DisplayGrid(Organism[][] map, int[] num) { 
     this.world = map;
+    this.counts = num;
     
     maxX = Toolkit.getDefaultToolkit().getScreenSize().width;
     maxY = Toolkit.getDefaultToolkit().getScreenSize().height;
@@ -48,35 +50,44 @@ class DisplayGrid {
       setDoubleBuffered(true); 
       g.setColor(Color.BLACK);
       
-      for(int i = 0; i<world[0].length;i=i+1)
-      { 
-        for(int j = 0; j<world.length;j=j+1) 
-        { 
+      for(int i = 0; i<world[0].length;i=i+1){ 
+        for(int j = 0; j<world.length;j=j+1){ 
           if (world[i][j] instanceof Sheep)    //This block can be changed to match character-color pairs
             g.setColor(Color.WHITE);
-          else if (world[i][j]instanceof Plant)
-            g.setColor(Color.GREEN);
-          else if (world[i][j]instanceof Wolf)
-            g.setColor(Color.GRAY);
-          else 
+          else if (world[i][j]instanceof Plant){
+            if(world[i][j].getAge() >= 20){
+              g.setColor(new Color(255, 204, 102));
+            } else if(world[i][j].getHealth() == 20){
+              g.setColor(new Color(35, 142, 48));
+            } else{
+              g.setColor(Color.GREEN);
+            }
+          } else if (world[i][j]instanceof Wolf){
+            g.setColor(Color.GRAY);  
+          } else {
             g.setColor(new Color(156, 93, 82));
-          
+          }
           g.fillRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
           g.setColor(Color.BLACK);
           g.drawRect(j*GridToScreenRatio, i*GridToScreenRatio, GridToScreenRatio, GridToScreenRatio);
           if(world[i][j] != null){
-            g.drawString(Integer.toString(world[i][j].getHealth()), j*GridToScreenRatio, i*GridToScreenRatio);
+            g.drawString(Integer.toString(world[i][j].getHealth()), j*GridToScreenRatio, i*GridToScreenRatio + 15);
           }
           if(world[i][j] instanceof Animal){
             if( ((Animal)world[i][j]).getGender() ){
-              g.drawString("M", j*GridToScreenRatio + 15, i*GridToScreenRatio);
-            }
-            else{
-              g.drawString("F", j*GridToScreenRatio + 15, i*GridToScreenRatio);
+              g.drawString("M", j*GridToScreenRatio + 15, i*GridToScreenRatio + 15);
+            } else{
+              g.drawString("F", j*GridToScreenRatio + 15, i*GridToScreenRatio + 15);
             }
           }
         }
       }
+      
+      //Outputs organism populations and turncounts on the side panel
+      g.drawString("Plant Number: " + Integer.toString(counts[0]), maxX - 200, 20 );
+      g.drawString("Sheep Number: " + Integer.toString(counts[1]), maxX - 200, 40 );
+      g.drawString("Wolf Number: " + Integer.toString(counts[2]), maxX - 200, 60 );
+      g.drawString("Turn: " + Integer.toString(counts[3]), maxX - 200, 80 );
     }
   }//end of GridAreaPanel
   

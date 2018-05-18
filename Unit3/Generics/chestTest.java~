@@ -1,0 +1,11 @@
+class ChestTest{
+  public static void main(Strign[] args){
+    Chest good = new Chest<Gold>();
+    Chest okay = new Chest<Key>();
+    Chest bad = new Chest<Snake>();
+    
+    System.out.println(good.interact());
+    System.out.println(okay.interact());
+    System.out.println(bad.interact());
+  }
+}
