@@ -9061,3 +9061,107 @@ fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summativ
 8 May 2018 18:02:01 GMT:  Kind = WARNING
 8 May 2018 18:02:01 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 48 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
 8 May 2018 18:20:06 GMT: Log 'EclipseCompiler.txt' opened: 8 May 2018 18:20:06 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+13 May 2018 22:46:30 GMT: Log 'EclipseCompiler.txt' opened: 13 May 2018 22:46:30 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+13 May 2018 22:46:45 GMT: diagnostics = javax.tools.DiagnosticCollector@5b70d7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1881ba8
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java]
+13 May 2018 22:46:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ebfe18' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 May 2018 22:46:45 GMT: Compiler call returned
+13 May 2018 22:46:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c0e460
+13 May 2018 22:46:45 GMT:  Kind = WARNING
+13 May 2018 22:46:45 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 48 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+13 May 2018 22:46:51 GMT: diagnostics = javax.tools.DiagnosticCollector@1204421
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10ce91f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Animal.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Ecosystem.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\EcosystemTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Organism.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Plant.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Sheep.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\Wolf.java]
+13 May 2018 22:46:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@200508' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+13 May 2018 22:46:51 GMT: Compiler call returned
+13 May 2018 22:46:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ab916d
+13 May 2018 22:46:51 GMT:  Kind = WARNING
+13 May 2018 22:46:51 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\Unit3\Summative\DisplayGrid.java LineNo = 48 ColNo = 9 Msg = 'The serializable class GridAreaPanel does not declare a static final serialVersionUID field of type long'
+20 May 2018 2:42:31 GMT: Log 'EclipseCompiler.txt' opened: 20 May 2018 2:42:31 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+20 May 2018 15:33:30 GMT: Log 'EclipseCompiler.txt' opened: 20 May 2018 15:33:30 GMT with name C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\EclipseCompiler.txt
+20 May 2018 16:17:07 GMT: diagnostics = javax.tools.DiagnosticCollector@234199
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@658301
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayTest.java]
+20 May 2018 16:17:07 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1572ed' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 May 2018 16:17:08 GMT: Compiler call returned
+20 May 2018 16:17:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f779fc
+20 May 2018 16:17:08 GMT:  Kind = WARNING
+20 May 2018 16:17:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 4 ColNo = 7 Msg = 'The serializable class Display does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:17:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@edd4e6
+20 May 2018 16:17:08 GMT:  Kind = WARNING
+20 May 2018 16:17:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 5 ColNo = 24 Msg = 'The value of the field Display.mediumPanel is not used'
+20 May 2018 16:17:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bd675e
+20 May 2018 16:17:08 GMT:  Kind = WARNING
+20 May 2018 16:17:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 12 ColNo = 24 Msg = 'The value of the field Display.accessoryPanel is not used'
+20 May 2018 16:17:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f9f699
+20 May 2018 16:17:08 GMT:  Kind = WARNING
+20 May 2018 16:17:08 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java LineNo = 4 ColNo = 7 Msg = 'The serializable class DisplayPanel does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:29:17 GMT: diagnostics = javax.tools.DiagnosticCollector@b777c0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7da7f
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java]
+20 May 2018 16:29:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b17474' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 May 2018 16:29:17 GMT: Compiler call returned
+20 May 2018 16:29:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a80ff5
+20 May 2018 16:29:17 GMT:  Kind = WARNING
+20 May 2018 16:29:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java LineNo = 4 ColNo = 7 Msg = 'The serializable class DisplayPanel does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:29:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f03385
+20 May 2018 16:29:17 GMT:  Kind = WARNING
+20 May 2018 16:29:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 4 ColNo = 7 Msg = 'The serializable class Display does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:29:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1156c1d
+20 May 2018 16:29:17 GMT:  Kind = WARNING
+20 May 2018 16:29:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 5 ColNo = 24 Msg = 'The value of the field Display.mediumPanel is not used'
+20 May 2018 16:29:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@851c18
+20 May 2018 16:29:17 GMT:  Kind = WARNING
+20 May 2018 16:29:17 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 12 ColNo = 24 Msg = 'The value of the field Display.accessoryPanel is not used'
+20 May 2018 16:32:20 GMT: diagnostics = javax.tools.DiagnosticCollector@847d3a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c01e51
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java]
+20 May 2018 16:32:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b983b0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 May 2018 16:32:20 GMT: Compiler call returned
+20 May 2018 16:32:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b3bc8a
+20 May 2018 16:32:20 GMT:  Kind = WARNING
+20 May 2018 16:32:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java LineNo = 4 ColNo = 7 Msg = 'The serializable class DisplayPanel does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:32:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@eb2556
+20 May 2018 16:32:20 GMT:  Kind = WARNING
+20 May 2018 16:32:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 4 ColNo = 7 Msg = 'The serializable class Display does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:32:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@274a3f
+20 May 2018 16:32:20 GMT:  Kind = WARNING
+20 May 2018 16:32:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 5 ColNo = 24 Msg = 'The value of the field Display.mediumPanel is not used'
+20 May 2018 16:32:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7330cc
+20 May 2018 16:32:20 GMT:  Kind = WARNING
+20 May 2018 16:32:20 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 12 ColNo = 24 Msg = 'The value of the field Display.accessoryPanel is not used'
+20 May 2018 16:36:31 GMT: diagnostics = javax.tools.DiagnosticCollector@2b1a1f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@431491
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java]
+20 May 2018 16:36:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12c7dfb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 May 2018 16:36:31 GMT: Compiler call returned
+20 May 2018 16:36:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@85b05
+20 May 2018 16:36:31 GMT:  Kind = WARNING
+20 May 2018 16:36:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java LineNo = 4 ColNo = 7 Msg = 'The serializable class DisplayPanel does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:36:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3efbef
+20 May 2018 16:36:31 GMT:  Kind = WARNING
+20 May 2018 16:36:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 4 ColNo = 7 Msg = 'The serializable class Display does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:36:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b39068
+20 May 2018 16:36:31 GMT:  Kind = WARNING
+20 May 2018 16:36:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 5 ColNo = 24 Msg = 'The value of the field Display.mediumPanel is not used'
+20 May 2018 16:36:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@facc9
+20 May 2018 16:36:31 GMT:  Kind = WARNING
+20 May 2018 16:36:31 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 12 ColNo = 24 Msg = 'The value of the field Display.accessoryPanel is not used'
+20 May 2018 16:36:57 GMT: diagnostics = javax.tools.DiagnosticCollector@557ed4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@360422
+fileObjects = [C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayTest.java, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java]
+20 May 2018 16:36:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d29f76' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src;C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\drjava-beta-20160913-225446.jar]
+20 May 2018 16:36:57 GMT: Compiler call returned
+20 May 2018 16:36:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1396181
+20 May 2018 16:36:57 GMT:  Kind = WARNING
+20 May 2018 16:36:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\DisplayPanel.java LineNo = 4 ColNo = 7 Msg = 'The serializable class DisplayPanel does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:36:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17592ac
+20 May 2018 16:36:57 GMT:  Kind = WARNING
+20 May 2018 16:36:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 4 ColNo = 7 Msg = 'The serializable class Display does not declare a static final serialVersionUID field of type long'
+20 May 2018 16:36:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@329724
+20 May 2018 16:36:57 GMT:  Kind = WARNING
+20 May 2018 16:36:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 5 ColNo = 24 Msg = 'The value of the field Display.mediumPanel is not used'
+20 May 2018 16:36:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@80d518
+20 May 2018 16:36:57 GMT:  Kind = WARNING
+20 May 2018 16:36:57 GMT: Name = C:\Users\Jonathan\Documents\Coding\Grade11-CompSci\11-CompSci-Game\src\Display.java LineNo = 12 ColNo = 24 Msg = 'The value of the field Display.accessoryPanel is not used'
